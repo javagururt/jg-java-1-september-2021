@@ -1,7 +1,7 @@
 package com.javaguru.student_vadim_babchenok;
 
-public class HellowWord {
+public class HelloWord {
     public static void main(String[] args) {
-        System.out.println("Hi");
+        System.out.println("Hello World");
     }
 }
