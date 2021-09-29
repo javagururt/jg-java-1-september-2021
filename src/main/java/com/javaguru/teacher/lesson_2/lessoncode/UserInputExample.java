@@ -1,7 +1,12 @@
 package com.javaguru.teacher.lesson_2.lessoncode;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReviewComment(teacher = "test")
+@CodeReview(approved = true)
 public class UserInputExample {
 
     public static void main(String[] args) {

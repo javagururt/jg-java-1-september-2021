@@ -1,6 +1,6 @@
 package com.javaguru.student_vladislav_savickis.lesson_1.task_11;
 
-public class sum_divide {
+public class sumDivide {
     public static void main(String[] args) {
         int a=74;
         int b=36;

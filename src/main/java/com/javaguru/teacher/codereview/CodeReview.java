@@ -6,6 +6,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface CodeReview {
 
-	boolean approved();
+    boolean approved();
 
 }
