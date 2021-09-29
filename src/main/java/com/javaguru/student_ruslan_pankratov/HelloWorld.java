@@ -1,4 +1,4 @@
-package com.javaguru.student_dmitrii_faierberg;
+package com.javaguru.student_ruslan_pankratov;
 
 public class HelloWorld {
     public static void main(String[] args) {

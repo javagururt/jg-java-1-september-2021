@@ -1,6 +1,6 @@
-package com.javaguru.student_dmitrii_faierberg;
+package com.javaguru.student_vadim_babchenok;
 
-public class HelloWorld {
+public class HelloWord {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
