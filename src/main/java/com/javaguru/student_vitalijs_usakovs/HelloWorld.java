@@ -1,4 +1,4 @@
-package com.javaguru.student_ruslans_tufetulovs;
+package com.javaguru.student_vitalijs_usakovs
 
 public class HelloWorld {
 
