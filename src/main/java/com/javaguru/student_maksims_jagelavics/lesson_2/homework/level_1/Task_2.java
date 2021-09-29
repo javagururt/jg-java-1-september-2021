@@ -1,4 +1,12 @@
-package com.javaguru.student_maksims_jagelavics.lesson_2.homework;
+package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_1;
+
+//Написать консольную программу, которая запрашивает у пользователя два вещественных числа
+//(числа с запятой) и выводит на консоль результаты: сложения, вычитания, умножения и деления.
+//Вещественные числа можно запрашивать с консоли используя объект Scanner
+//следующим образом:
+//
+//    Scanner scanner = new Scanner(System.in);
+//    double firstDoubleNumber = scanner.nextDouble();
 
 import java.util.Locale;
 import java.util.Scanner;

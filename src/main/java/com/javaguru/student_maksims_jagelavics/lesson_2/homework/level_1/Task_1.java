@@ -1,4 +1,7 @@
-package com.javaguru.student_maksims_jagelavics.lesson_2.homework;
+package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_1;
+
+//Написать консольную программу, которая запрашивает у пользователя два целых числа и
+//выводит на консоль результаты: сложения, вычитания, умножения и деления.
 
 import java.util.Scanner;
 
