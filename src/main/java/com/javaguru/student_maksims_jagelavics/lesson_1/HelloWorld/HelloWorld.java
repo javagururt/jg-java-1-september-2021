@@ -1,4 +1,4 @@
-package com.javaguru.student_maksims_jagelavics;
+package com.javaguru.student_maksims_jagelavics.lesson_1.HelloWorld;
 
 public class HelloWorld {
 
@@ -6,4 +6,3 @@ public class HelloWorld {
         System.out.println("Hello World");
     }
 }
-
