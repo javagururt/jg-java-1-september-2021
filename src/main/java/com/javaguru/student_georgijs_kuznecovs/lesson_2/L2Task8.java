@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_2;
 
-import                                                    java.util.Scanner;
+import java.util.Scanner;
 
 public class L2Task8 {
     public static void main(String[] args) {
