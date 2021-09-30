@@ -3,9 +3,8 @@ package com.javaguru.student_dmitrii_faierberg.lesson_1.homework.level_4;
 import java.util.Scanner;
 
 public class Task_11 {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.println("Enter first number:");
         int firstOperand = input.nextInt();
 
@@ -15,6 +14,6 @@ public class Task_11 {
         int resultSum = firstOperand + secondOperand;
         System.out.println("The sum result of " + firstOperand + " and " + secondOperand + " is:\n" +
                 resultSum);
-    }
+    }*/
 }
 
