@@ -1,4 +1,4 @@
-package com.javaguru.student_Vladislav_Pipirin.lesson_2.level_2;
+package com.javaguru.student_Vladislav_Pipirin.lesson_2.homework.level_1;
 
 import java.util.Scanner;
 
