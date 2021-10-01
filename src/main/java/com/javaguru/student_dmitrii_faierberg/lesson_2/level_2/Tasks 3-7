@@ -1,0 +1,28 @@
+
+Task 3
+class Book {
+}
+
+Task 4
+class Phone{
+
+}
+
+Task 5
+class BankAccount {
+	public static void main(String[] args) {
+    }
+}
+
+Task 6
+class Turtle {
+	public static void main(String[] args){
+	}
+}
+
+Task 7
+class LoginService {
+	public static void main(String[] args) {
+		System.out.println("You can login!");
+	}
+}
