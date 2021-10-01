@@ -1,19 +1,18 @@
-package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_2;
-
 //Написать консольную программу, которая запрашивает
 //имя пользователя и выводит на консоль текст:
 //Hello имя пользователя!
 
+
+package com.javaguru.student_rodions_sokolovs.lesson_2;
+
+
 import java.util.Scanner;
 
-public class Task_8 {
-
+public class Level_2_8 {
     public static void main(String[] args) {
+        System.out.println("Enter your name: ");
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter user name:");
-        String userName = input.next();
-        System.out.println();
-        System.out.println("Hello, " + userName + "!");
+        String firstname = input.nextLine();
+        System.out.println("Hello! " + firstname);
     }
-
 }

@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_2;
+package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_2;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class L2Task8 {
         String theName = sc.nextLine();
 
         System.out.println("Hello " + theName + "!");
- /*       if (theName.equalsIgnoreCase("+")) {              НЕ ПОНИМАЮ, ДЛЯ ЧЕГО ЭТА СТРОКА
+ /*       if (theName.equalsIgnoreCase("+")) {              НЕ ПОНИМАЮ, ДЛЯ ЧЕГО ЭТА СТРОКА ???
             System.out.println(" WOW ");
         }  */
     }

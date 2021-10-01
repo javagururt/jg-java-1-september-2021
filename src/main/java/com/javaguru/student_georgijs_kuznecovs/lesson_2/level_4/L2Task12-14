@@ -1,0 +1,27 @@
+Task 12
+
+Start > search > CMD > java -version
+
+Task 13
+
+CMD
+находим путь к файлу :
+cd C:\Users\...\student_georgijs_kuznecovs\lesson_1>
+компилируем :
+javac L1Task10.java
+(если ничего не выдает, то все прошло хорошо и в папке создается файл с темже названием и расширением .class)
+
+Task 14
+
+запускаем :
+java L1Task10
+
+тут должен запуститься файл, НО !!! У МЕНЯ ВЫДАЕТ ОШИБКУ :
+Error: Could not find or load main class L1Task10
+Caused by: java.lang.NoClassDefFoundError: com/javaguru/student_georgijs_kuznecovs/lesson_1/L1Task10 (wrong name: L1Task10)
+
+ВОЗМОЖНО СВЯЗАНО С ТЕМ, ЧТО У МЕНЯ 11 ВЕРСИЯ JAVA???
+ПРОГРАММУ УДАЕТСЯ ЗАПУСТИТЬ БЕЗ КОМПИЛЯЦИИ, ПРОСТО ВПИСЫВАЮ :
+java L1Task10.java
+
+И ВЫДАЕТ НУЖНЫЙ ОТВЕТ!!!!

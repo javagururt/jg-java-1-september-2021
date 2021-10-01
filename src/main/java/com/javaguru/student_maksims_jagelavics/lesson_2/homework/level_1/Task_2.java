@@ -29,4 +29,4 @@ public class Task_2 {
             System.out.println("Divide result: " + divideResult);
         }
 
-    }
+}
