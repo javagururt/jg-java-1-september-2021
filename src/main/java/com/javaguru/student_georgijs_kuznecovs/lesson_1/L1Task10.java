@@ -4,6 +4,6 @@ public class L1Task10 {
 
     public static void main (String[] args) {
         System.out.println("Hello");
-    //    System.out.println("Georgijs Kuznecovs");
+        System.out.println("Georgijs Kuznecovs");
     }
 }

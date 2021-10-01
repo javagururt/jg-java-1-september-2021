@@ -3,3 +3,15 @@ Task 12
 Start > search > CMD > java -version
 
 Task 13
+
+CMD
+находим путь к файлу :
+cd C:\Users\...\student_georgijs_kuznecovs\lesson_1>
+компилируем :
+javac L1Task10.java
+(если ничего не выдает, то все прошло хорошо и в папке создается файл с темже названием и расширением .class)
+
+Task 14
+
+запускаем :
+java L1Task10
