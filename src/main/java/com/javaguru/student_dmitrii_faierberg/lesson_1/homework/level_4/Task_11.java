@@ -22,7 +22,7 @@ public class Task_11 {
             result = firstOperand + secondOperand;
             System.out.println("The result of: " + firstOperand + " + " + secondOperand + " is:\n" +
                     result);
-        } else {
+        } else if (sign == '/'){
             result = firstOperand / secondOperand;
             System.out.println("The result of: " + firstOperand + " / " + secondOperand + " is:\n" +
                     result);
