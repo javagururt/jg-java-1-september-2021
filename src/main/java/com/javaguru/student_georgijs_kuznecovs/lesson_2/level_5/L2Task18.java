@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_2;
+package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_5;
 
 public class L2Task18 {     //SizeMatters
     public static void main(String[] args) {
