@@ -16,4 +16,5 @@ class NoSleepNoFocus {
         System.out.println("I wanna coffee");
         System.out.println("So bad");
     }
+
 }

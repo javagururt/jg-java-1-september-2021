@@ -42,4 +42,5 @@ public class Task_9 {
         System.out.println(number + " x 9 = " + nine);
         System.out.println(number + " x 10 = " + ten);
     }
+
 }

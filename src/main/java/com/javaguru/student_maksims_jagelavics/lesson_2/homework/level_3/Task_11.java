@@ -18,6 +18,6 @@ public class Task_11 {
         int thirdNumber = input.nextInt();
         double average = (double)(firstNumber + secondNumber + thirdNumber)/3;
         System.out.println("Average result: " + average);
-        }
+    }
 
 }
