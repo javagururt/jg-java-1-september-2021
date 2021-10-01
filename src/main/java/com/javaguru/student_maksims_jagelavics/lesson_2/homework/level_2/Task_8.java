@@ -11,9 +11,9 @@ public class Task_8 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter user name:");
-        String username = input.next();
+        String userName = input.next();
         System.out.println();
-        System.out.println("Hello, " + username + "!");
+        System.out.println("Hello, " + userName + "!");
     }
 
 }
