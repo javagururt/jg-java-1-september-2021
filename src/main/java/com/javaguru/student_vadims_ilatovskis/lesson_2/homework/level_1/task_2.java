@@ -11,12 +11,12 @@ public class task_2 {
         double secondDoubleNumber = input.nextDouble();
 
         double sumResult = firstDoubleNumber + secondDoubleNumber;
-        double subtrackResult = firstDoubleNumber - secondDoubleNumber;
+        double subtractResult = firstDoubleNumber - secondDoubleNumber;
         double multiplyResult = firstDoubleNumber * secondDoubleNumber;
         double divideResult = firstDoubleNumber / secondDoubleNumber;
 
         System.out.println("Sum result:" + sumResult);
-        System.out.println("Subtrack result:" + subtrackResult);
+        System.out.println("Subtrack result:" + subtractResult);
         System.out.println("Multiply result:" + multiplyResult);
         System.out.println("Divide result:" + divideResult);
 
