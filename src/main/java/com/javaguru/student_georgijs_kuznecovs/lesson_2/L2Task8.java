@@ -9,7 +9,7 @@ public class L2Task8 {
         String theName = sc.nextLine();
 
         System.out.println("Hello " + theName + "!");
- /*       if (theName.equalsIgnoreCase("+")) {              НЕ ПОНИМАЮ, ДЛЯ ЧЕГО ЭТА СТРОКА
+ /*       if (theName.equalsIgnoreCase("+")) {              НЕ ПОНИМАЮ, ДЛЯ ЧЕГО ЭТА СТРОКА ???
             System.out.println(" WOW ");
         }  */
     }
