@@ -19,7 +19,7 @@ public class Task_9 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter number:");
+        System.out.println("Input a number:");
         int number = input.nextInt();
         int two = number * 2;
         int three = number * 3;
