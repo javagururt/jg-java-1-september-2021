@@ -20,7 +20,7 @@ class LoginService {
 
 }
 
-class BanktTansaction {
+class BankTransaction {
 
 }
 
