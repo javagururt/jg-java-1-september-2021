@@ -1,0 +1,2 @@
+cd C:\Users\extes\OneDrive\Dators\Java_Course\git\src\main\java\com\javaguru\student_vladislav_savickis\lesson_1\task_10
+javac helloworld.java
