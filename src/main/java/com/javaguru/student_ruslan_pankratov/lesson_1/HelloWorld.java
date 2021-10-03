@@ -5,6 +5,6 @@ public class HelloWorld {
         System.out.println("Hello World");
         System.out.println("Ruslan Pankratov");
         System.out.println(74 + 36);
-        System.out.println(50/3);
+        System.out.println(50 / 3);
     }
 }
