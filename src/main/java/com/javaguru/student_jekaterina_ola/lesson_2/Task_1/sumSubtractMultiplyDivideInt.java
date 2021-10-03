@@ -3,13 +3,12 @@ package com.javaguru.student_jekaterina_ola.lesson_2.Task_1;
 import java.util.Scanner;
 
 public class sumSubtractMultiplyDivideInt {
-
-    public static main(String[] args){
+    public static void main(String[] args){
         System.out.println("Please enter first number");
         Scanner input = new Scanner(System.in);
         int firstNumber = input.nextInt();
         System.out.println("Please enter second number");
-        int secondNumber = intput.nextInt();
+        int secondNumber = input.nextInt();
 
         int sumResult = firstNumber + secondNumber;
         int subtractResult = firstNumber - secondNumber;
