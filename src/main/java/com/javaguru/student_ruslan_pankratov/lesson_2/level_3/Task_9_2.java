@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_3;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_9_2 {
 
     int j = 1;

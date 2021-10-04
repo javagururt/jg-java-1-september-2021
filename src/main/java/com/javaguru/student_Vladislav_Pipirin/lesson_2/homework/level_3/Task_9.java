@@ -1,5 +1,7 @@
 package com.javaguru.student_Vladislav_Pipirin.lesson_2.homework.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 //Напишите программу, которая запрашивает у пользователя целое число
@@ -14,6 +16,7 @@ import java.util.Scanner;
 //8 x 3 = 24
 //...
 //8 x 10 = 80
+@CodeReview(approved = true)
 public class Task_9 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

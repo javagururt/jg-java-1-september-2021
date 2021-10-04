@@ -3,7 +3,11 @@
 //        (складывает все числа и делит на их количество).
 
 package com.javaguru.student_rodions_sokolovs.lesson_2;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
+
+@CodeReview(approved = true)
 public class Level_3_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,9 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_3;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class task_9 {
     public static void main(String[] args) {
         System.out.println("Please enter integer number and press 'Enter'");

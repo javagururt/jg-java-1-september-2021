@@ -1,7 +1,13 @@
-package com.javaguru.student_deniss_lohins.lesson_2.level_1;
+package com.javaguru.student_Deniss_Lohins.lesson_2.level_1;
+
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Необходимо исправить package на 'com.javaguru.student_Deniss_Lohins.lesson_2'." +
+        "Нет необходимости сокращать название secNumber - можно написать secondNumber.")
 public class task1 {
     public static void main(String[] args) {
         System.out.print("Hello! Enter first number: ");

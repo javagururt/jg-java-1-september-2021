@@ -1,17 +1,16 @@
 package com.javaguru.student_Deniss_Lohins.lesson_2.level_1;
-
 import java.util.Scanner;
+public class Task2 {
 
-public class task2 {
     public static void main(String[] args) {
-        System.out.print("Hello! Enter first number: ");
-        Scanner input = new Scanner(System.in);
-        double firstNumber = input.nextDouble();
-        System.out.print("Please enter second number: ");
-        double secNumber = input.nextDouble();
-        System.out.println("Summ result = " + (firstNumber + secNumber));
-        System.out.println("Substract result = " + (firstNumber - secNumber));
-        System.out.println("Divide result = " + (firstNumber / secNumber));
-        System.out.println("Multriply result = " + (firstNumber * secNumber));
+            System.out.print("Hello! Enter first number: ");
+            Scanner input = new Scanner(System.in);
+            double firstNumber = input.nextDouble();
+            System.out.print("Please enter second number: ");
+            double secNumber = input.nextDouble();
+            System.out.println("Summ result = " + (firstNumber + secNumber));
+            System.out.println("Substract result = " + (firstNumber - secNumber));
+            System.out.println("Divide result = " + (firstNumber / secNumber));
+            System.out.println("Multriply result = " + (firstNumber * secNumber));
+        }
     }
-}

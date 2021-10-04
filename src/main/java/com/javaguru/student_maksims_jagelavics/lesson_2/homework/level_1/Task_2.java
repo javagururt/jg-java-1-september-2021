@@ -8,9 +8,11 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_1;
 //    Scanner scanner = new Scanner(System.in);
 //    double firstDoubleNumber = scanner.nextDouble();
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Locale;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class Task_2 {
 
         public static void main(String[] args) {

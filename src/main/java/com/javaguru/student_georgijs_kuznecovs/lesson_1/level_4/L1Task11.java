@@ -1,7 +1,10 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_1.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class L1Task11 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int num1 = 74;
         int num2 = 36;

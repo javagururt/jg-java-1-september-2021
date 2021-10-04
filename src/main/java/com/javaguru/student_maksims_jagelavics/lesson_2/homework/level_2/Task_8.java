@@ -4,8 +4,10 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_2;
 //имя пользователя и выводит на консоль текст:
 //Hello имя пользователя!
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_8 {
 
     public static void main(String[] args) {

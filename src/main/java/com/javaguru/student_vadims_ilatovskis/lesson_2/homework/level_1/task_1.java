@@ -1,8 +1,10 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_1;
 
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class task_1 {
     public static void main(String[] args) {
 System.out.println("Please enter first number and press 'Enter'");
