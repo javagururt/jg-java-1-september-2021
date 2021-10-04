@@ -3,6 +3,7 @@ package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_3;
 import com.javaguru.teacher.codereview.CodeReview;
 import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
@@ -28,6 +29,7 @@ public class L2Task11 {
         double[] nums = new double[3];                // НЕ ПОНЯЛ, ПОЧЕМУ МЕСТ В МАССИВЕ ИЗНАЧАЛЬНО СОЗДАЕТСЯ
         double result = 0;                            // НА ОДНО БОЛЬШЕ, ЕСЛИ НАЧИНАЮТ СЧИТАТЬ С НУЛЯ ???
 
+
         System.out.println("Введите первое число: ");
         Scanner input = new Scanner(System.in);
         nums[0] = input.nextDouble();
@@ -40,6 +42,12 @@ public class L2Task11 {
             result += d;
         }
 
-        System.out.println("среднее арифметическое введенных чисел = " + result / nums.length);
+        double endResult = result / nums.length;
+        var decimalF = new DecimalFormat("###.##");
+        var formattedText = decimalF.format(endResult);
+
+        System.out.println("среднее арифметическое введенных чисел = " + formattedText);
+
+
     }
 }
