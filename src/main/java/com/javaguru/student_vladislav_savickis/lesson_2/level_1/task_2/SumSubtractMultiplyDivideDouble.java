@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_2.level_1.task_2;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class SumSubtractMultiplyDivideDouble {
     public static void main(String[] args) {
         System.out.println("Good day, sir! Now you will solve double equations. Please enter first number: ");

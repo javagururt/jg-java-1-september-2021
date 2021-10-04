@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_2.level_3.task_10;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class PSCircle {
     public static void main(String[] args) {
         double Pi = 3.14;

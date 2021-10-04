@@ -1,10 +1,13 @@
 package com.javaguru.student_Vladislav_Pipirin.lesson_2.homework.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 //Напишите программу, которая запрашивает у пользователя
 //три целых числа и выводит их среднее арифметическое
 //(складывает все числа и делит на их количество).
+@CodeReview(approved = true)
 public class Task_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

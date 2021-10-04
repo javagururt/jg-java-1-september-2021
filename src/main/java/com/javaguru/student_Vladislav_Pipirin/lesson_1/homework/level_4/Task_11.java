@@ -1,4 +1,7 @@
 package com.javaguru.student_Vladislav_Pipirin.lesson_1.homework.level_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Write a Java program to print the sum of two numbers.
 //
 //Test Data:
@@ -13,7 +16,7 @@ package com.javaguru.student_Vladislav_Pipirin.lesson_1.homework.level_4;
 //50/3
 //Expected Output :
 //16
-
+@CodeReview(approved = true)
 public class Task_11 {
     public static void main(String[] args) {
         int firstNumber = 74;

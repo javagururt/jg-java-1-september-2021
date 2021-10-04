@@ -1,7 +1,9 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_2;
 
-//Дан код, нужно сделать этот код запускаемым.
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Дан код, нужно сделать этот код запускаемым.
+@CodeReview(approved = true)
 class LoginService {
 
     public static void main(String[] args) {

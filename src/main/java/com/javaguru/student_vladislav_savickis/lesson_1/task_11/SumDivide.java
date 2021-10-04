@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_1.task_11;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class SumDivide {
     public static void main(String[] args) {
         System.out.println("Hello! Please enter first number: ");

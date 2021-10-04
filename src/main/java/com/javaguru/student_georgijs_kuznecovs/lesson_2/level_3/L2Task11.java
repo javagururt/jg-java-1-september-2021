@@ -1,7 +1,15 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Не понял вопроса по поводу массива." +
+        "Самый простой способ использовать класс BigDecimal." +
+        "А так же можно использовать класс DecimalFormat для форматирования." +
+        "Рекомендую ознакомится с классом BigDecimal - с ним мы будет работать в будущем.")
 public class L2Task11 {
 /*    public static void main(String[] args) {
         System.out.println("Введите первое число: ");
