@@ -15,7 +15,7 @@ public class hw_task_2 {
     public static void main (String[] args) {
         System.out.println("Hello!");
         System.out.println("Please enter two number.");
-        System.out.println("First number: ");
+        System.out.println("first number: ");
         Scanner input = new Scanner (System.in);
         double firstDoubleNumber = input.nextDouble();
         System.out.println("second number: ");
@@ -26,13 +26,10 @@ public class hw_task_2 {
         double divideResult = firstDoubleNumber / secondDoubleNumber;
         double multiplyResult = firstDoubleNumber * secondDoubleNumber;
 
-        System.out.printf("%.2f", sumResult);
-        System.out.println(" - Sum");
-        System.out.printf("%.2f", subtractResult);
-        System.out.println(" - Subtract");
-        System.out.printf("%.2f", divideResult);
-        System.out.println(" - Divide");
-        System.out.printf("%.2f", multiplyResult);
-        System.out.println(" - Multiply");
-    };
+        System.out.printf("Sum: " + "%.2f\n", sumResult);
+        System.out.printf("Subtract: " + "%.2f\n", subtractResult);
+        System.out.printf("Divide: " + "%.2f\n", divideResult);
+        System.out.printf("Multiply: " + "%.2f\n", sumResult);
+
+    }
  }
