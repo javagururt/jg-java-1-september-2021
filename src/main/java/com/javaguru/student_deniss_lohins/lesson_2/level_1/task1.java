@@ -1,4 +1,4 @@
-package com.javaguru.student_Deniss_Lohins.lesson_2.level_1;
+package com.javaguru.student_deniss_lohins.lesson_2.level_1;
 
 import com.javaguru.teacher.codereview.CodeReview;
 import com.javaguru.teacher.codereview.CodeReviewComment;
