@@ -1,5 +1,7 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Исправьте ошибки компиляции в данной программе.
 //
 //public class SumTwoNumbers {
@@ -21,7 +23,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_x;
 //	}
 //
 //}
-
+@CodeReview(approved = true)
 public class Super_task_2 {
 
     public static void main(String[] args) {

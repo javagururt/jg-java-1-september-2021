@@ -1,8 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_2;
 
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

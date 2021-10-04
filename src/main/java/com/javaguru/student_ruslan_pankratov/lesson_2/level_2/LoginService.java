@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_2;
 
-//Task_7
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Task_7
+@CodeReview(approved = true)
 class LoginService {
 
     public static void main(String[] args) {

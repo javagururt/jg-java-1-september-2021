@@ -4,8 +4,10 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_3;
 //три целых числа и выводит их среднее арифметическое
 //(складывает все числа и делит на их количество).
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_11 {
 
     public static void main(String[] args) {
