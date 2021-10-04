@@ -1,12 +1,9 @@
-package com.javaguru.student_deniss_lohins.lesson_2;
-
-import com.javaguru.teacher.codereview.CodeReview;
-import com.javaguru.teacher.codereview.CodeReviewComment;
+package com.javaguru.student_Deniss_Lohins.lesson_2.level_1;
 
 import java.util.Scanner;
-@CodeReview(approved = true)
-@CodeReviewComment(teacher = "Необходимо исправить package на 'com.javaguru.student_Deniss_Lohins.lesson_2'.")
-public class task2 {
+
+public class Task2 {
+
     public static void main(String[] args) {
         System.out.print("Hello! Enter first number: ");
         Scanner input = new Scanner(System.in);

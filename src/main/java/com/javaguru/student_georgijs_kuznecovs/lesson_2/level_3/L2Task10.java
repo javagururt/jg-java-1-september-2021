@@ -15,9 +15,9 @@ public class L2Task10 {
         double num = input.nextDouble();
 
         //название все равно должно быть с маленькой буквы, если это не константа. Константы создаются подругому.
-        double Pi = 3.1415926536;
-        double perimeter = 2 * Pi * num;
-        double area = Pi * num * num;
+        //double Pi = 3.1415926536;
+        double perimeter = 2 * PI * num;
+        double area = PI * num * num;
 
         System.out.println("Длина окружности = " + perimeter);
         System.out.println("Площадь круга = " + area);
