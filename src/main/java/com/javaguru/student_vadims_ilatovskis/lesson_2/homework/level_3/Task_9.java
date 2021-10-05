@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
-public class task_9 {
+public class Task_9 {
     public static void main(String[] args) {
         System.out.println("Please enter integer number and press 'Enter'");
         Scanner input = new Scanner(System.in);
