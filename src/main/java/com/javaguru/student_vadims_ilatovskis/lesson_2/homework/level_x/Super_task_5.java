@@ -1,10 +1,14 @@
-package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_3;
-
-import com.javaguru.teacher.codereview.CodeReview;
+package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_x;
 
 import java.util.Scanner;
-@CodeReview(approved = true)
-public class task_9 {
+
+public class Super_task_5 {
+    /* Этот код из Task_9 явно можно было написать на много короче.
+    Но, я этого не сделал, так как ещё не умею. В интернете нашёл пару решений,
+    с использованием for ()
+    но не смог до конца в них разобраться.
+     */
+    // Но я надеюсь что потом этому научусь и много чему ещё!
     public static void main(String[] args) {
         System.out.println("Please enter integer number and press 'Enter'");
         Scanner input = new Scanner(System.in);
