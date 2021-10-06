@@ -7,7 +7,7 @@
 //double firstDoubleNumber = scanner.nextDouble();
 
 
-package com.javaguru.student_rodions_sokolovs.lesson_2;
+package com.javaguru.student_rodions_sokolovs.lesson_2.level_1;
 
 import com.javaguru.teacher.codereview.CodeReview;
 

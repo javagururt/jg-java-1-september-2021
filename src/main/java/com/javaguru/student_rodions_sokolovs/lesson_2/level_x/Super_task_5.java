@@ -1,17 +1,18 @@
-//Написать консольную программу, которая запрашивает у пользователя два целых числа
-//и выводит на консоль результаты: сложения, вычитания, умножения и деления.
+//Напишите программу и продемонстрируйте в ней использование
+//        однострочного и многострочного коментариев.
 
-package com.javaguru.student_rodions_sokolovs.lesson_2;
-
-import com.javaguru.teacher.codereview.CodeReview;
+package com.javaguru.student_rodions_sokolovs.lesson_2.level_x;
 
 import java.util.Scanner;
-@CodeReview(approved = true)
-public class Level_1_1 {
+
+public class Super_task_5 {
     public static void main(String[] args) {
+        // Ниже вводим 1 число
         System.out.println("Please enter first number: ");
         Scanner input = new Scanner(System.in);
         int firstnum = input.nextInt();
+        /* Ниже вводим 2 число
+        После чего программа решает все сама */
         System.out.println("Please enter second number: ");
         int secondnum = input.nextInt();
 
@@ -27,3 +28,4 @@ public class Level_1_1 {
 
     }
 }
+

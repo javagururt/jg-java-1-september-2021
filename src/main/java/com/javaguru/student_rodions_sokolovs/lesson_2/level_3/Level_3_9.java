@@ -12,7 +12,7 @@
 //        8 x 10 = 80
 
 
-package com.javaguru.student_rodions_sokolovs.lesson_2;
+package com.javaguru.student_rodions_sokolovs.lesson_2.level_3;
 
 import com.javaguru.teacher.codereview.CodeReview;
 

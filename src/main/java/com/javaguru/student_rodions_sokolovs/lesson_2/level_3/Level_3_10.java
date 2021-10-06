@@ -9,7 +9,7 @@
 //Perimeter is = 47.12388980384689
 //Area is = 176.71458676442586
 
-package com.javaguru.student_rodions_sokolovs.lesson_2;
+package com.javaguru.student_rodions_sokolovs.lesson_2.level_3;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
