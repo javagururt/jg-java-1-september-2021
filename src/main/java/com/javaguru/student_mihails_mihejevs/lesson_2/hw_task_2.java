@@ -31,5 +31,6 @@ public class hw_task_2 {
         System.out.printf("Divide: " + "%.2f\n", divideResult);
         System.out.printf("Multiply: " + "%.2f\n", sumResult);
 
+
     }
  }
