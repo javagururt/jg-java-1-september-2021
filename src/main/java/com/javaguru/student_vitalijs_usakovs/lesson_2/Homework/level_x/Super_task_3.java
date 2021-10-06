@@ -20,5 +20,21 @@ public class CorrectDataTypes {
 
  */
 
+import java.util.Scanner;
+
 public class Super_task_3 {
+    public static void main(String[] args) {
+        System.out.println("Please enter first number (0) : ");
+        Scanner input = new Scanner(System.in);
+        int number1 = input.nextInt();
+
+        System.out.println("Please enter second number (0.00): ");
+        double number2 = input.nextDouble();
+
+        double sum = number1 + number2;
+        System.out.println("Sum = " + sum);
+
+        System.out.print("First number was :" + number1);
+        System.out.println("; Second number was :" + number2);
+    }
 }
