@@ -1,6 +1,6 @@
 package com.javaguru.student_jekaterina_ola.lesson_2;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 

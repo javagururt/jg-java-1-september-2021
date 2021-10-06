@@ -1,7 +1,7 @@
 package com.javaguru.student_jekaterina_ola.lesson_2.Task_1;
 
-import com.javaguru.teacher.review.CodeReview;
-import com.javaguru.teacher.review.CodeReviewComment;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

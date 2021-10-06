@@ -1,6 +1,6 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_6;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 class NoSleepNoFocus {

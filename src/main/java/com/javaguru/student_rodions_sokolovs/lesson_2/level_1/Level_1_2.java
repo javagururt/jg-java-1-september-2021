@@ -9,7 +9,7 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_2.level_1;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

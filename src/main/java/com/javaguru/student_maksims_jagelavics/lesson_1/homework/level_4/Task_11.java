@@ -1,6 +1,6 @@
 package com.javaguru.student_maksims_jagelavics.lesson_1.homework.level_4;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 //Write a Java program to print the sum of two numbers.
 //

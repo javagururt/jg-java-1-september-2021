@@ -1,6 +1,6 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_x;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 //Исправьте ошибки компиляции в данной программе.
 //

@@ -1,4 +1,4 @@
-package com.javaguru.teacher.review;
+package com.javaguru.teacher.codereview;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

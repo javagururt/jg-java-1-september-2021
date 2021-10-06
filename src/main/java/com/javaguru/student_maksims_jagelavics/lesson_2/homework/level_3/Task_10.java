@@ -11,7 +11,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_3;
 //Perimeter is = 47.12388980384689
 //Area is = 176.71458676442586
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Locale;
 import java.util.Scanner;

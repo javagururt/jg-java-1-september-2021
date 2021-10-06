@@ -1,6 +1,6 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_7;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 //Task_31
 @CodeReview(approved = true)

@@ -1,6 +1,6 @@
 package com.javaguru.student_vladislav_savickis.lesson_2.level_3.task_11;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

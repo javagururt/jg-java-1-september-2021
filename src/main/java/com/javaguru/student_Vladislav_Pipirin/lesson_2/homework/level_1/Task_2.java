@@ -1,6 +1,6 @@
 package com.javaguru.student_Vladislav_Pipirin.lesson_2.homework.level_1;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 

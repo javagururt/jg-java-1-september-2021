@@ -1,7 +1,7 @@
 package com.javaguru.student_ruslan_pankratov.lesson_2.level_2;
 
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

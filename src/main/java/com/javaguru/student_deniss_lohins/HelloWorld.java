@@ -1,6 +1,6 @@
 package com.javaguru.student_deniss_lohins;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 public class HelloWorld {

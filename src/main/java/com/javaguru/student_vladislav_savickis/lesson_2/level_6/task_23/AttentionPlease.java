@@ -1,6 +1,6 @@
 package com.javaguru.student_vladislav_savickis.lesson_2.level_6.task_23;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 public class AttentionPlease {

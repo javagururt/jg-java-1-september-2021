@@ -1,6 +1,6 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_1.homework.level_4;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 public class task_10 {

@@ -3,7 +3,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_1;
 //Написать консольную программу, которая запрашивает у пользователя два целых числа и
 //выводит на консоль результаты: сложения, вычитания, умножения и деления.
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

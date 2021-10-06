@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_3;
 
-import com.javaguru.teacher.review.CodeReview;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 
