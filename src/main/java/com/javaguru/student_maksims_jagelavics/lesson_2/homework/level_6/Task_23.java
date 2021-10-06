@@ -1,6 +1,6 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_6;
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 //Заставьте эту программу работать!
 //

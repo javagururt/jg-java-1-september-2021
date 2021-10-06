@@ -1,6 +1,6 @@
 package com.javaguru.student_maksims_jagelavics.lesson_1.homework.level_4;
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 //Write a Java program to print 'Hello'
 //on screen and then print your name on a separate line.

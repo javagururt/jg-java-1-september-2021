@@ -4,7 +4,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_3;
 //три целых числа и выводит их среднее арифметическое
 //(складывает все числа и делит на их количество).
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

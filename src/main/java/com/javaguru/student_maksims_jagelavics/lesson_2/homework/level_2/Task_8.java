@@ -4,7 +4,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_2;
 //имя пользователя и выводит на консоль текст:
 //Hello имя пользователя!
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

@@ -13,7 +13,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_3;
 //...
 //8 x 10 = 80
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

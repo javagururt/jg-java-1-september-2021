@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_2.level_x;
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 @CodeReview(approved = true)
 public class SumTwoNumbers {

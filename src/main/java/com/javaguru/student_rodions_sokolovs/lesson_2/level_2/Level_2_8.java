@@ -6,7 +6,7 @@
 package com.javaguru.student_rodions_sokolovs.lesson_2.level_2;
 
 
-import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.review.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
