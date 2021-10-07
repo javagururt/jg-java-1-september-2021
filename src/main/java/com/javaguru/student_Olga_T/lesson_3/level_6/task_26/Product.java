@@ -1,20 +1,22 @@
 package com.javaguru.student_Olga_T.lesson_3.level_6.task_26;
 
 class Product {
-    String tomatoes;
+    String nameOfProduct;
     double regularPrice;
-    double discount = 10;
+    double discount;
 
-    Product(double regularPrice) {
+    Product(String nameOfProduct, double regularPrice, double discount) {
+        this.nameOfProduct = nameOfProduct;
         this.regularPrice = regularPrice;
+        this.discount = discount;
     }
 
     double actualPrice() {
-        this.regularPrice = regularPrice - regularPrice / 10;
-        return regularPrice;
+        return this.regularPrice - this.regularPrice * this.discount / 100;
     }
 
     void printInformation() {
-        System.out.println("The product 'tomatoes' today has a discount 10% and it costs " + actualPrice() + " EUR.");
+        String result = String.format("%.2f", this.actualPrice());
+        System.out.println("The product '" + this.nameOfProduct + "' today has a discount " + this.discount + " % and it costs " + result + " EUR.");
     }
 }
