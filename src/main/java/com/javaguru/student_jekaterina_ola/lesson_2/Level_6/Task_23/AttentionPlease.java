@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_2.Level_6;
+package com.javaguru.student_jekaterina_ola.lesson_2.Level_6.Task_23;
 
 //   System.out.println("Code outside the method will not compile!");
 //
