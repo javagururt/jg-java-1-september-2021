@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_2;
+package com.javaguru.student_jekaterina_ola.level_1.Task_2;
 
 import java.util.Scanner;
 
