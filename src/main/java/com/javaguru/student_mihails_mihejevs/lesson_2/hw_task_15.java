@@ -1,4 +1,5 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2;
+
 /*
 Команда System.out.println("text"); выводит указанный "text"
 на консоль, и переводит курсор на новую строку.
@@ -12,4 +13,11 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
     System.out.print("text");
  */
 public class hw_task_15 {
+
+    public static void main (String[] args) {
+        System.out.print("Hello! My date of birth is ");
+        System.out.print("16.");
+        System.out.print("06.");
+        System.out.print("1979.");
+    }
 }
