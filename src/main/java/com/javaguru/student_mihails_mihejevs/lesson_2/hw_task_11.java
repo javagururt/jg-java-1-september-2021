@@ -21,7 +21,7 @@ public class hw_task_11 {
         System.out.println("third number: ");
         int thirdNumber = input.nextInt();
 
-        int arithmeticalMeanResult = (firstNumber + secondNumber + thirdNumber) / 3;
+        double arithmeticalMeanResult = (firstNumber + secondNumber + thirdNumber) / 3;
         System.out.println("Arithmetical mean: " + arithmeticalMeanResult);
     }
 }
