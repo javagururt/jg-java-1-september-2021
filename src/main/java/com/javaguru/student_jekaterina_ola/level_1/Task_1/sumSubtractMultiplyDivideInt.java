@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_2.Task_1;
+package com.javaguru.student_jekaterina_ola.level_1.Task_1;
 
 import com.javaguru.teacher.codereview.CodeReview;
 import com.javaguru.teacher.codereview.CodeReviewComment;
