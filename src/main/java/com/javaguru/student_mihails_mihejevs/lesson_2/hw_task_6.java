@@ -10,5 +10,10 @@ class Turtle {
 
 }
  */
-public class hw_task_6 {
+class Turtle {
+
+    public static void main(String[] args) {
+
+    }
+
 }
