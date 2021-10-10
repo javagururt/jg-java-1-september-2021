@@ -1,7 +1,9 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_2;
 
-//Дан код, нужно исправить ошибку компиляции.
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Дан код, нужно исправить ошибку компиляции.
+@CodeReview(approved = true)
 class BankAccount {
 
     public static void main(String[] args) {

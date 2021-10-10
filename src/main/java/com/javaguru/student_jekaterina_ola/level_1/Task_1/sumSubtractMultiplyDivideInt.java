@@ -1,7 +1,11 @@
 package com.javaguru.student_jekaterina_ola.level_1.Task_1;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Название класса должно начинаться с заглавной буквы.")
 public class sumSubtractMultiplyDivideInt {
     public static void main(String[] args){
         System.out.println("Please enter first number");

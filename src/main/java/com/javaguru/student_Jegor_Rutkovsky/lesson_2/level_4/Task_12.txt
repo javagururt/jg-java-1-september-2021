@@ -1,0 +1,3 @@
+В консоле IntelliJ IDEA можно увидеть версию JDK -->
+--> C:\...\.jdks\openjdk-16.0.2\bin\java.exe
+Данная версия 16.0.2

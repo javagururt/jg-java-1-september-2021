@@ -1,5 +1,7 @@
 package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Заставьте эту программу работать!
 //
 //class AttentionPlease {
@@ -10,7 +12,7 @@ package com.javaguru.student_maksims_jagelavics.lesson_2.homework.level_6;
 //
 //    }
 //}
-
+@CodeReview(approved = true)
 class AttentionPlease {
 
     public static void main(String[] args) {

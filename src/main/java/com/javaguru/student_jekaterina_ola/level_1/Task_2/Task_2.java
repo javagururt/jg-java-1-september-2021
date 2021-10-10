@@ -1,15 +1,18 @@
 package com.javaguru.student_jekaterina_ola.level_1.Task_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_2 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Please enter first number");
-        Scanner input = new Scanner (System.in);
-        double firstNumber=input.nextDouble();
+        Scanner input = new Scanner(System.in);
+        double firstNumber = input.nextDouble();
         System.out.println("Please enter second number");
-        double secondNumber=input.nextDouble();
+        double secondNumber = input.nextDouble();
 
         double sumResult = firstNumber + secondNumber;
         double subtractResult = firstNumber - secondNumber;
