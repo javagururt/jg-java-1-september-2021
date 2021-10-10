@@ -21,7 +21,6 @@ public class hw_task_9 {
         System.out.println("Hello, enter the number: ");
         Scanner input = new Scanner (System.in);
         int number = input.nextInt();
-
         int multiply1 = number * 1;
         int multiply2 = number * 2;
         int multiply3 = number * 3;
