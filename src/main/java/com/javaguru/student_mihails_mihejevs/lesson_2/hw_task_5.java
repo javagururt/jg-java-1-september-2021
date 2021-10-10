@@ -8,5 +8,11 @@ class BankAccount {
 
 }
  */
-public class hw_task_5 {
+// речь идёт о парных фигурных скобках?
+
+class BankAccount {
+
+    public static void main(String[] args) {
+
+    }
 }
