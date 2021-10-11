@@ -8,7 +8,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
 
 import java.util.Scanner;
 
-public class hw_task_11 {
+public class HwTask11 {
 
     public static void main (String[] args) {
         System.out.println("Hello!");
@@ -20,8 +20,7 @@ public class hw_task_11 {
         int secondNumber = input.nextInt();
         System.out.println("third number: ");
         int thirdNumber = input.nextInt();
-
-        double arithmeticalMeanResult = (firstNumber + secondNumber + thirdNumber) / 3;
+        int arithmeticalMeanResult = (firstNumber + secondNumber + thirdNumber) / 3;
         System.out.println("Arithmetical mean: " + arithmeticalMeanResult);
     }
 }

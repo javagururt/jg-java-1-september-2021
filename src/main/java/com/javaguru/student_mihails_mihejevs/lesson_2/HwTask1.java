@@ -8,7 +8,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
 
 import java.util.Scanner;
 
-public class hw_task_1 {
+public class HwTask1 {
     public static void main (String[] args) {
         System.out.println("Hello!");
         System.out.println("Please enter two number. ");

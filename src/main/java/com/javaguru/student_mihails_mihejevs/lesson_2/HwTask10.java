@@ -14,7 +14,7 @@ Expected Output
 Perimeter is = 47.12388980384689
 Area is = 176.71458676442586
  */
-public class hw_task_10 {
+public class HwTask10 {
         public static void main(String[] args) {
             System.out.println("Radius is = ");
             Scanner input = new Scanner (System.in);

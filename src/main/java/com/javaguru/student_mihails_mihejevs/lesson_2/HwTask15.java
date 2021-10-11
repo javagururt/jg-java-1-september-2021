@@ -12,7 +12,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
 Напишите программу, которая демонстрирует использование команды
     System.out.print("text");
  */
-public class hw_task_15 {
+public class HwTask15 {
 
     public static void main (String[] args) {
         System.out.print("Hello! My date of birth is ");

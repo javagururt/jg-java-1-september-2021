@@ -13,7 +13,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
 
 import java.util.Scanner;
 
-public class hw_task_2 {
+public class HwTask2 {
     public static void main (String[] args) {
         System.out.println("Hello!");
         System.out.println("Please enter two number.");
@@ -22,20 +22,19 @@ public class hw_task_2 {
         double firstDoubleNumber = input.nextDouble();
         System.out.println("second number: ");
         double secondDoubleNumber = input.nextDouble();
-
         double sumResult = firstDoubleNumber + secondDoubleNumber;
         double subtractResult = firstDoubleNumber - secondDoubleNumber;
         double divideResult = firstDoubleNumber / secondDoubleNumber;
         double multiplyResult = firstDoubleNumber * secondDoubleNumber;
+        System.out.println();
 
-        System.out.println("");
         System.out.println("first version: ");
         System.out.println("Sum: " + sumResult);
         System.out.println("Subtract: " + subtractResult);
         System.out.println("Divide: " + divideResult);
         System.out.println("Multiply: " + multiplyResult);
+        System.out.println();
 
-        System.out.println("");
         System.out.println("second version: ");
         System.out.printf("Sum: " + "%.2f\n", sumResult);
         System.out.printf("Subtract: " + "%.2f\n", subtractResult);

@@ -7,5 +7,5 @@ package com.javaguru.student_mihails_mihejevs.lesson_2;
 
 // не понимаю о чём речь. Какую статью прочитать?
 
-public class hw_task_13 {
+public class HwTask13 {
 }

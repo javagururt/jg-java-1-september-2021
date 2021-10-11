@@ -16,12 +16,11 @@ Expected Output :
 
 import java.util.Scanner;
 
-public class hw_task_9 {
+public class HwTask9 {
     public static void main(String[] args) {
         System.out.println("Hello, enter the number: ");
         Scanner input = new Scanner (System.in);
         int number = input.nextInt();
-        int multiply1 = number * 1;
         int multiply2 = number * 2;
         int multiply3 = number * 3;
         int multiply4 = number * 4;
@@ -32,7 +31,7 @@ public class hw_task_9 {
         int multiply9 = number * 9;
         int multiply10 = number * 10;
 
-        System.out.println(number + " x 1 = " + multiply1);
+        System.out.println(number + " x 1 = " + number);
         System.out.println(number + " x 2 = " + multiply2);
         System.out.println(number + " x 3 = " + multiply3);
         System.out.println(number + " x 4 = " + multiply4);

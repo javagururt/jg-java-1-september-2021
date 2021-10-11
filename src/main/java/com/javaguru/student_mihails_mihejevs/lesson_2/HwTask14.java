@@ -11,5 +11,5 @@ java - java Main  - запускаем компиляцию
 
 // не понимаю о чём речь. Какую статью прочитать?
  */
-public class hw_task_14 {
+public class HwTask14 {
 }

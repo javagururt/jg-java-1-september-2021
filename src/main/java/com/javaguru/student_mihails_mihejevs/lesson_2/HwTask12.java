@@ -10,7 +10,7 @@ https://qna.habr.com/q/248892
  */
 
 // не понимаю о чём речь. Какую статью прочитать?
-public class hw_task_12 {
+public class HwTask12 {
 }
 
 

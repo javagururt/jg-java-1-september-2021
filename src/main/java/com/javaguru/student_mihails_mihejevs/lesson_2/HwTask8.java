@@ -8,7 +8,7 @@ Hello имя пользователя!
 
 import java.util.Scanner;
 
-public class hw_task_8 {
+public class HwTask8 {
     public static void main(String[] args) {
         System.out.println("Hello, Your name is: ");
         Scanner input = new Scanner (System.in);
