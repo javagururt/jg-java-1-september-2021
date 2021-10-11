@@ -9,8 +9,6 @@ class Book {
 // почему в класе появилось .java?
 // почему в класе появились подклассы, которые я не создавал?
 
-public class hw_task_3 {
-}
-class Book {
 
+class Book {
 }
