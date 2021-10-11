@@ -1,4 +1,4 @@
-package com.javaguru.student_mihails_mihejevs.lesson_2;
+package com.javaguru.student_mihails_mihejevs.lesson_2.level_1;
 /*
 Написать консольную программу, которая запрашивает у пользователя два вещественных числа
         (числа с запятой) и выводит на консоль результаты: сложения, вычитания, умножения и деления.

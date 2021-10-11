@@ -1,4 +1,4 @@
-package com.javaguru.student_mihails_mihejevs.lesson_2;
+package com.javaguru.student_mihails_mihejevs.lesson_2.level_3;
 /*
 Напишите программу, которая запрашивает у пользователя целое число
 и печатает на консоль таблицу умножения для этого числа до 10.

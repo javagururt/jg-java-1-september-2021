@@ -1,4 +1,4 @@
-package com.javaguru.student_mihails_mihejevs.lesson_2;
+package com.javaguru.student_mihails_mihejevs.lesson_2.level_2;
 /*
 Написать консольную программу, которая запрашивает
 имя пользователя и выводит на консоль текст:

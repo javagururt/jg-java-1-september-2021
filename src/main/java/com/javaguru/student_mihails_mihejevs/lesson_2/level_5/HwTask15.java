@@ -1,4 +1,4 @@
-package com.javaguru.student_mihails_mihejevs.lesson_2;
+package com.javaguru.student_mihails_mihejevs.lesson_2.level_5;
 
 /*
 Команда System.out.println("text"); выводит указанный "text"
