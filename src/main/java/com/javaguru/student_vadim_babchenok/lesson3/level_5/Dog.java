@@ -2,10 +2,11 @@ package com.javaguru.student_vadim_babchenok.lesson3.level_5;
 
 public class Dog {
     String name;
-
+    int age;
     //konstruktor
-    public Dog(String dogname){
+    public Dog(String dogname,int dogage){
      this.name=dogname;
+     this.age=dogage;
     }
 
     public String getName() {
@@ -13,8 +14,7 @@ public class Dog {
     }
 
     public void voice() {
-        for (int i = 0; i < 3; i++) {
-            System.out.println(this.getName());
-        }
+        System.out.println("Собаке по кличке "+ this.name + " целых " + this.age+ " лет!");
+
     }
 }
