@@ -1,6 +1,6 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_6;
 
-public class Baloon {
+class Baloon {
     private double volume;
     private double mass;
     private String colour;
