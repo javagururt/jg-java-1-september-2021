@@ -14,8 +14,9 @@ class Robot {
 
 public class RobotOne {
     private String name;
-    public RobotOne(String robotOneName){
-        name= robotOneName;
+
+    public RobotOne(String robotOneName) {
+        name = robotOneName;
     }
 
     public void sayHello() {
@@ -23,6 +24,6 @@ public class RobotOne {
     }
 
     public void sayYourName() {
-    System.out.println("My name is + name");
+        System.out.println("My name is + name");
     }
 }
