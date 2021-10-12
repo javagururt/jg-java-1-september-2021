@@ -4,13 +4,14 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 class Robot {
+    private String name;
     public void sayHallo() {
         System.out.println("Hello!");
     }
-    public void sayYourName() {
-        System.out.println("My name is ROBO");
+    public Robot(String robotName) {
+        this.name = robotName;
     }
-    public Robot() {
-
+    public void sayYourName() {
+        System.out.println("My name is " + this.name);
     }
 }
