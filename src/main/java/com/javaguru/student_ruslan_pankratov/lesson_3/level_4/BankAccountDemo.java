@@ -2,7 +2,9 @@ package com.javaguru.student_ruslan_pankratov.lesson_3.level_4;
 
 // Task_17
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class BankAccountDemo {
 
     public static void main(String[] args) {

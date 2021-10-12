@@ -8,8 +8,10 @@ class Phone
 }
  */
 
-// речь идёт о первой фигурной скобке?
+import com.javaguru.teacher.codereview.CodeReview;
 
+// речь идёт о первой фигурной скобке?
+@CodeReview(approved = true)
 class Phone {
 
 }

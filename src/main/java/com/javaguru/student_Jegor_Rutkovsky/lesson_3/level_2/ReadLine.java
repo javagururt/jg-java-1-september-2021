@@ -1,7 +1,9 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_3.level_2;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class ReadLine {
     public static void main(String[] args) {
         System.out.println("What is your name?");

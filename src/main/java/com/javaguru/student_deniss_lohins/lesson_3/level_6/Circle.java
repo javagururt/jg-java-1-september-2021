@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_6;
 
-import static java.lang.Math.PI;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import static java.lang.Math.PI;
+@CodeReview(approved = true)
 public class Circle {
 
     private double radius;

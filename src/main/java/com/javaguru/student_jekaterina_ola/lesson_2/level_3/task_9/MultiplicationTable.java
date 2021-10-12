@@ -14,8 +14,10 @@ package com.javaguru.student_jekaterina_ola.lesson_2.level_3.task_9;
      //   ...
        // 8 x 10 = 80
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class MultiplicationTable {
 
     public static void main(String[] args) {

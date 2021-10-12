@@ -1,9 +1,11 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_7;
 //Task_24
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
-
+@CodeReview(approved = true)
 class Car {
     private int speed;
     private int stockPetrol;
