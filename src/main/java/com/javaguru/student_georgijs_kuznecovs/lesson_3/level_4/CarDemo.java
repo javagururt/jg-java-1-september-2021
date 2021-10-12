@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_4;
 
-public class CarDemo {
+class CarDemo {
     public static void main(String[] args) {
         Car myCar = new Car("Nissan");
         String carModel = myCar.getModel();
