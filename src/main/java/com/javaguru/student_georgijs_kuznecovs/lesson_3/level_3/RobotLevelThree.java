@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_3;
 
-public class RobotLevelThree {
+class RobotLevelThree {
     String name;
 
     public RobotLevelThree(String robotName) { this.name = robotName; }

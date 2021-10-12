@@ -1,0 +1,11 @@
+package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_6;
+
+class Circle {
+    double radius;
+    public static final double PI = 3.1415926536;
+
+    double calculateArea(double radius) {
+        double result = PI * radius * radius;
+        return result;
+    }
+}

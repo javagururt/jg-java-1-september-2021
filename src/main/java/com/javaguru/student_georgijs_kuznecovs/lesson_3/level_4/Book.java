@@ -1,6 +1,6 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_4;
 
-public class Book {
+class Book {
     private String title;
 
     Book(String bookTitle) {
