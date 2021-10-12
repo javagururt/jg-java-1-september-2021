@@ -4,6 +4,9 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 public class Robot {
+    public Robot(String robo) {
+    }
+
     public void sayHello() {
         System.out.println("Hello");
     }
