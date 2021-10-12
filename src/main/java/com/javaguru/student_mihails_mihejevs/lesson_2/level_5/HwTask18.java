@@ -1,4 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_5;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Заставьте эту программу работать!
 
@@ -19,7 +22,7 @@ public class hw_task_18 {
     }
 }
 */
-
+@CodeReview(approved = true)
 class SizeMatters {
     public static void main(String[] args) {
     System.out.println("Sorry, I have an errors.");

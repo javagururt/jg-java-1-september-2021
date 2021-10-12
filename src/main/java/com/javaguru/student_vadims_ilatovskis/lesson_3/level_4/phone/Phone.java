@@ -1,5 +1,8 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_3.level_4.phone;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Phone {
 
     private String model;

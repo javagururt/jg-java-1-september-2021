@@ -1,5 +1,9 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_x;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 // super_task_3
+@CodeReview(approved = true)
 public class CorrectDataTypes {
 
     public static void main(String[] args) {

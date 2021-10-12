@@ -4,8 +4,10 @@ package com.javaguru.student_jekaterina_ola.lesson_2.level_3.task_11;
 //        три целых числа и выводит их среднее арифметическое
 //        (складывает все числа и делит на их количество).
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Average {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

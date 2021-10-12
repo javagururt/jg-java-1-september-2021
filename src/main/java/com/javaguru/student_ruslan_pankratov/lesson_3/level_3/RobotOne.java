@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_3;
 
-//Task 11,12,13
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Task 11,12,13
+@CodeReview(approved = true)
 public class RobotOne {
     String name;
 

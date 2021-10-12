@@ -13,6 +13,9 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_2.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Level_6_23 {
     public static void main(String[] args) {
 

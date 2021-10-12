@@ -11,8 +11,10 @@ package com.javaguru.student_mihails_mihejevs.lesson_2.level_1;
 
 // два варианта вывода, один с округлением
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class HwTask2 {
     public static void main (String[] args) {
         System.out.println("Hello!");

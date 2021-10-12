@@ -9,7 +9,11 @@ https://qna.habr.com/q/248892
 /Program Files/java/jdk
  */
 
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 // не понимаю о чём речь. Какую статью прочитать?
+@CodeReviewComment(teacher = "рекомендую попробовать загуглить, как при помощи консоли узнать версию java. Например запрос может быть:" +
+        "how to check java version in cmd")
 public class HwTask12 {
 }
 

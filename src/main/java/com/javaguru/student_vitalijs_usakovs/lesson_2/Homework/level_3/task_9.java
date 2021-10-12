@@ -1,5 +1,8 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_2.Homework.level_3;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
+@CodeReview(approved = true)
 public class task_9{
     public static void main(String[] args){
         System.out.println("Enter number: ");

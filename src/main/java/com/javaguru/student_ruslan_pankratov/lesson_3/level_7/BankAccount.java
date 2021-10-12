@@ -1,5 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_7;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_27
+@CodeReview(approved = true)
 class BankAccount {
 
     private String owner;
@@ -26,7 +30,7 @@ class BankAccount {
         this.money = money;
     }
 }
-
+@CodeReview(approved = true)
 class BankAccountDemo {
 
     public static void main(String[] args) {

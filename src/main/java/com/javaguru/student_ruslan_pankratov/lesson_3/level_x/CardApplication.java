@@ -1,6 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class CardApplication {
 
     public static void main(String[] args) {

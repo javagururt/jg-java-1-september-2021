@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_5;
 
-// Task 18 - 22
+import com.javaguru.teacher.codereview.CodeReview;
 
+// Task 18 - 22
+@CodeReview(approved = true)
 class Dog {
     private final String name;
     private int age;

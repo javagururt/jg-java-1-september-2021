@@ -1,7 +1,9 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_2.Homework.level_1;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class task_2 {
         public static void main(String[] args){
             System.out.println("Hi, Please enter your lucky number: ");

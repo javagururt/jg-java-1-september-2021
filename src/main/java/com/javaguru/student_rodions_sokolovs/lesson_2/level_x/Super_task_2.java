@@ -23,6 +23,9 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_2.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Super_task_2 {
     public static void main(String[] args) {
 

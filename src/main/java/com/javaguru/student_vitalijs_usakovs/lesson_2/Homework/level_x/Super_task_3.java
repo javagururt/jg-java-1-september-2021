@@ -20,8 +20,10 @@ public class CorrectDataTypes {
 
  */
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Super_task_3 {
     public static void main(String[] args) {
         System.out.println("Please enter first number (0) : ");

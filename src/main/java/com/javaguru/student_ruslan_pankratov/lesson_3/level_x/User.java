@@ -1,6 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //super_task_1
+@CodeReview(approved = true)
 class User {
     private String login;
     private String password;
