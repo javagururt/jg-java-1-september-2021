@@ -1,6 +1,11 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 //super_task_1
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "нет смысла создавать экземпляр класса UserLoginService в данном случае, так как он не используется.")
 public class UserLoginService {
     public static void main(String[] args) {
         UserLoginService userLoginService = new UserLoginService();

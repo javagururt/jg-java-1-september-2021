@@ -9,6 +9,8 @@ class Book {
 // почему в класе появилось .java?
 // почему в класе появились подклассы, которые я не создавал?
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class Book {
 }

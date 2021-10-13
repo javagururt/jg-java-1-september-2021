@@ -1,7 +1,9 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_x;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Super_task_5 {
     /* Этот код из Task_9 явно можно было написать на много короче.
     Но, я этого не сделал, так как ещё не умею. В интернете нашёл пару решений,

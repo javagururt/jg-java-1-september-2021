@@ -1,11 +1,13 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_1;
 
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task 3
 //Task 4
 //Task 5
 //Task 6
-
+@CodeReview(approved = true)
 public class RobotDemo{
 
 

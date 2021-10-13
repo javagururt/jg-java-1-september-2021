@@ -1,6 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_24
+@CodeReview(approved = true)
 class Wife {
     private int angryPoints = 50;
     private int hungerPoints = 50;

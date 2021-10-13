@@ -1,8 +1,14 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 /*
 Найти ошибку в коде.
 Исправить и запустить программу.
  */
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "если переменная не используется, то ее лучше удалить")
 class BankAccount {
 
     private String ownerFirstName;

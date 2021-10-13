@@ -1,7 +1,12 @@
 package com.javaguru.student_deniss_lohins.lesson_2.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "неточные вычисления")
 public class Task15 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

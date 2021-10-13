@@ -1,6 +1,9 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_4;
 
-public class BankAccount {
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
+class BankAccount {
     private String ownerFirstName;
     private String ownerLastName;
     private int moneyAmount;
