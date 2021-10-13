@@ -8,7 +8,6 @@ public class Circle {
     }
 
     public double calculateArea() {
-        double pi = 3.14;
-        return pi * (radius * radius);
+        return Math.PI * (radius * radius);
     }
 }
