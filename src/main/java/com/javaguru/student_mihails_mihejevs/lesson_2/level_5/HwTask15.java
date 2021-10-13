@@ -1,5 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Команда System.out.println("text"); выводит указанный "text"
 на консоль, и переводит курсор на новую строку.
@@ -12,6 +14,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_2.level_5;
 Напишите программу, которая демонстрирует использование команды
     System.out.print("text");
  */
+@CodeReview(approved = true)
 public class HwTask15 {
 
     public static void main (String[] args) {

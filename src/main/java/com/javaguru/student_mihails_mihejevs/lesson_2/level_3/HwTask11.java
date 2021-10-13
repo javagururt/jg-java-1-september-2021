@@ -6,8 +6,10 @@ package com.javaguru.student_mihails_mihejevs.lesson_2.level_3;
 (складывает все числа и делит на их количество).
  */
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class HwTask11 {
 
     public static void main (String[] args) {

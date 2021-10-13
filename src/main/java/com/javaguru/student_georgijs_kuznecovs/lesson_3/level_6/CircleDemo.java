@@ -1,7 +1,9 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_6;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class CircleDemo {
     public static void main(String[] args) {
         Circle circle = new Circle();

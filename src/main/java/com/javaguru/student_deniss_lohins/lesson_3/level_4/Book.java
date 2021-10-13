@@ -4,6 +4,9 @@ package com.javaguru.student_deniss_lohins.lesson_3.level_4;
         Исправить и запустить программу.
         Менять можно только класс Book.*/
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Book {
 
     private String bookTitle;

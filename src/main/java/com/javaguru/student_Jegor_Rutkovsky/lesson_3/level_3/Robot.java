@@ -1,5 +1,8 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_3.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Robot {
 
     private String name;

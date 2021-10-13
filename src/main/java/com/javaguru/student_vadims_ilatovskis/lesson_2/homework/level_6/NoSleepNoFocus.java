@@ -1,5 +1,9 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_2.homework.level_6;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 // task_24
+@CodeReview(approved = true)
 class NoSleepNoFocus {
     public static void main(String[] args) {
         System.out.println("I wanna coffee");

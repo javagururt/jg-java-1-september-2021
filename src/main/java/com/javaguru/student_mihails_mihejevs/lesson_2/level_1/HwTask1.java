@@ -6,8 +6,10 @@ package com.javaguru.student_mihails_mihejevs.lesson_2.level_1;
 
 // Прошу мои домашки оценивать максимально критично. Спс.
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class HwTask1 {
     public static void main (String[] args) {
         System.out.println("Hello!");

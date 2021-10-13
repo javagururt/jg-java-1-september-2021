@@ -14,8 +14,10 @@ Expected Output :
 8 x 10 = 80
  */
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class HwTask9 {
     public static void main(String[] args) {
         System.out.println("Hello, enter the number: ");

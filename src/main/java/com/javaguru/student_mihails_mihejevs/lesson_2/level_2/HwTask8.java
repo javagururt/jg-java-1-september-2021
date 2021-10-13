@@ -6,8 +6,10 @@ Hello имя пользователя!
  */
 
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class HwTask8 {
     public static void main(String[] args) {
         System.out.println("Hello, Your name is: ");

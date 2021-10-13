@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_6;
 
-import java.text.DecimalFormat;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.text.DecimalFormat;
+@CodeReview(approved = true)
 class Product {
 
     private String productName;
