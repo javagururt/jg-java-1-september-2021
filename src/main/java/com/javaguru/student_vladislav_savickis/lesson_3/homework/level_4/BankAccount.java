@@ -18,6 +18,7 @@ class BankAccount {
     public String getOwnerLastName() {
         return this.lastName;
     }
+
     public int getMoneyAmount() {
         return this.money;
     }
