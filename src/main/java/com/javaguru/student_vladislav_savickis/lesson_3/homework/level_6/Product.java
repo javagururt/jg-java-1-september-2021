@@ -1,6 +1,6 @@
 package com.javaguru.student_vladislav_savickis.lesson_3.homework.level_6;
 
-public class Product {
+class Product {
     private String name;
     private double regularPrice;
     private double discount;
