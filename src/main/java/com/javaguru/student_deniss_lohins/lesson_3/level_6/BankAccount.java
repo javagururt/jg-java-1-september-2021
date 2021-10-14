@@ -12,7 +12,7 @@ class BankAccount {
 
     private String ownerFirstName;
     private String owner;
-    private BigDecimal money;
+    private int money;
 
     public BankAccount(String owner, int moneyAmount) {
         this.owner = owner;
@@ -23,7 +23,7 @@ class BankAccount {
         return this.owner;
     }
 
-    public BigDecimal getMoney() {
+    public int getMoney() {
         return this.money;
     }
 
@@ -34,7 +34,7 @@ class BankAccountDemo {
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount("Viktor", 1000000);
         String ownerFirstName = bankAccount.getOwner();
-        BigDecimal moneyAmount = bankAccount.getMoney();
+        int moneyAmount = bankAccount.getMoney();
         System.out.println("Owner = " + ownerFirstName);
         System.out.println("Money = " + moneyAmount);
     }
