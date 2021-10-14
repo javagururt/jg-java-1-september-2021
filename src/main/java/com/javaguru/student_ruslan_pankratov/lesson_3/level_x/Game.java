@@ -1,6 +1,12 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_x;
-//super_task_2
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+//super_task_2
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "чтобы было более читабельно лучше разбить на маленькие методы, а так же для мейн метода" +
+        "создать отдельный класс")
 class Game {
 
     public static void main(String[] args) {
@@ -25,6 +31,8 @@ class Game {
 
     }
 
+    @CodeReviewComment(teacher =
+    "bonus == true - можно упростить до просто bonus")
     void roll(int pinsKnockedDown) {
         System.out.println("-------------");
         if (frame != 0) {

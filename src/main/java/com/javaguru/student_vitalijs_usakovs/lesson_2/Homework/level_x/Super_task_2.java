@@ -1,5 +1,7 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_2.Homework.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 /* Исправьте ошибки компиляции в данной программе.
@@ -14,6 +16,7 @@ public class SumTwoNumbers {
 		int sum = numberOne + numberTwo;
 		System.out.println("Sum = " + sum);
 */
+@CodeReview(approved = true)
 public class Super_task_2 {
    public static void main(String [] args){
         System.out.println("Please enter first number : ");

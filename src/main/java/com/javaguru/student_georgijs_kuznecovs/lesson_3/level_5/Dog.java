@@ -1,5 +1,8 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_3.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
     String name = "Sharik";
     int age;

@@ -8,8 +8,10 @@ package com.javaguru.student_jekaterina_ola.lesson_3.level_2.task_9;
         обьект Scanner. Загуглите как это можно сделать:
         "как в Java считать строку с консоли". */
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class NameScan {
     public static void main(String[] args) {
 

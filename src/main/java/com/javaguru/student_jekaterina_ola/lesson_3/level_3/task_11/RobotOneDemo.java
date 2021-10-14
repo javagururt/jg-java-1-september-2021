@@ -9,10 +9,10 @@ public class RobotOneDemo {
         robotOne.sayYourName();
         System.out.println();}
 
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         RobotTwo robotTwo = new RobotTwo();
         robotTwo.sayHello();
         robotTwo.sayYourName();
         System.out.println();
-    }
+    }*/
 }

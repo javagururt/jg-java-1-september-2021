@@ -1,5 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 /*
@@ -14,6 +16,7 @@ Expected Output
 Perimeter is = 47.12388980384689
 Area is = 176.71458676442586
  */
+@CodeReview(approved = true)
 public class HwTask10 {
         public static void main(String[] args) {
             System.out.println("Radius is = ");
