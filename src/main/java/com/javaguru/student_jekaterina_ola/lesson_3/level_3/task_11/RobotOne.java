@@ -13,17 +13,14 @@ class Robot {
  */
 
 public class RobotOne {
-    private String name;
+    String name;
 
-    public RobotOne(String robotOneName) {
-        name = robotOneName;
+    RobotOne(String name) {
+        this.name = name;
     }
 
     public void sayHello() {
         System.out.println("Say Hello");
     }
-
-    public void sayYourName() {
-        System.out.println("My name is + name");
+    public void sayYourName() { System.out.println("My name is " + name);}
     }
-}
