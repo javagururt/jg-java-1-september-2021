@@ -2,7 +2,7 @@ package com.javaguru.student_ruslan_pankratov.lesson_6.level_5;
 
 import java.util.Arrays;
 
-//Task_22-26
+//Task_19-23
 class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest ticTacToeTest = new TicTacToeTest();
