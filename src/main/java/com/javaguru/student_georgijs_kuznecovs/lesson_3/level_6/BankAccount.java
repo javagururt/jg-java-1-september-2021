@@ -6,16 +6,16 @@ import com.javaguru.teacher.codereview.CodeReview;
 class BankAccount {
 
     private String owner;
-    public int money;
+    private int money;     // если поле private - его все равно можно задать в конструкторе?
 
     public BankAccount(String owner, int money) {
-        this.owner = owner;
+        this.owner = owner;         //присваиваем значение
         this.money = money;
     }
 
     public String getOwner() {
         return this.owner;
-    }
+    }   //метод
 
     public int getMoney() {
         return this.money;
@@ -27,6 +27,7 @@ class BankAccountDemo {
 
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount("Viktor", 1000000);
+
         String ownerFirstName = bankAccount.getOwner();
         int moneyAmount = bankAccount.getMoney();
         System.out.println("Owner = " + ownerFirstName);
