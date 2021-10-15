@@ -1,6 +1,5 @@
-package com.javaguru.student_ruslan_pankratov.lesson_6.level_1;
+package com.javaguru.student_ruslan_pankratov.lesson_6.level_2;
 
-//Task_4
 class WhileDefinition4 {
 
     public static void main(String[] args) {
@@ -13,4 +12,3 @@ class WhileDefinition4 {
     }
 
 }
-

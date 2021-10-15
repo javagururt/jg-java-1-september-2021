@@ -31,7 +31,7 @@ class User {
             this.enteredUserName = enteredUserName;
             this.enteredPassword = enteredPassword;
             if (enteredUserName == userName) {
-            }else if (enteredPassword == password){
+            }if (enteredPassword == password){
                   acessPermitted = true;
                   System.out.println(acessPermitted);
                   wrongPasswordCounter = 15;

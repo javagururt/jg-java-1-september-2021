@@ -2,7 +2,7 @@ package com.javaguru.student_ruslan_pankratov.lesson_6.level_5;
 
 import java.util.Scanner;
 
-//Task 22-super_Task
+//Task 19-super_Task
 class TicTacToe {
 
     public static void main(String[] args) {

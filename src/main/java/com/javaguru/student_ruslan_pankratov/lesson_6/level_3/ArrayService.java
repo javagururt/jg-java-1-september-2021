@@ -1,24 +1,23 @@
 package com.javaguru.student_ruslan_pankratov.lesson_6.level_3;
 
-//Task_12-17
+//Task_9-17
 class ArrayService {
 
 
     boolean contains(int[] arr, int numberToSearch) {
-        boolean indicator = false;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == numberToSearch) {
-                indicator = true;
+                return true;
             }
         }
-        return indicator;
+        return false;
     }
 
     int countOccurrences(int[] arr, int numberToSearch) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == numberToSearch) {
-                count ++;
+                count++;
             }
         }
         return count;
@@ -67,7 +66,6 @@ class ArrayService {
     }
 
     void sort(int[] arr) {
-
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = i + 1; j < arr.length; j++) {
@@ -79,11 +77,6 @@ class ArrayService {
                     arr[j] = a;
                 }
             }
-
-
         }
-
     }
-
-
 }

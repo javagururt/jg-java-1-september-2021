@@ -1,11 +1,17 @@
 package com.javaguru.student_ruslan_pankratov.lesson_6.level_4;
 
-//Task_21
+//Task_18
 class TwoDimensionalArray {
     public static void main(String[] args) {
         TwoDimensionalArray twoDimensionalArray = new TwoDimensionalArray();
         int[][] arr = new int[10][10];
         twoDimensionalArray.method(arr);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println(" ");
+        }
 
     }
 
@@ -19,7 +25,7 @@ class TwoDimensionalArray {
     void random(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
-                arr[i][j] = (int) (Math.random() * 100);
+                arr[i][j] = (int) (Math.random() * 100 + 10);
             }
         }
     }
