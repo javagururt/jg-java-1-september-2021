@@ -7,7 +7,6 @@ public class Dog {
     int dogAge;
     String dogName;
     String dogColour;
-    String newColour;
     public Dog(String dogName, int dogAge, String dogColour){
         this.dogName = dogName;
         this.dogAge = dogAge;

@@ -8,13 +8,13 @@ import java.math.BigDecimal;
         на консоль владельца банковского счёта и количество денег.
         Менять можно только класс BankAccount.
 */
-class BankAccount {
+/*class BankAccount {
 
     private String ownerFirstName;
     private String owner;
     private BigDecimal money;
 
-    public BankAccount(String owner, int moneyAmount) {
+    public BankAccount(String owner, BigDecimal moneyAmount) {
         this.owner = owner;
         this.money = moneyAmount;
     }
@@ -39,5 +39,6 @@ class BankAccountDemo {
         System.out.println("Money = " + moneyAmount);
     }
 
-}
+}*/
+
 

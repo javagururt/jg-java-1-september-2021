@@ -8,10 +8,7 @@ import com.javaguru.teacher.codereview.CodeReviewComment;
 @CodeReviewComment(teacher = "если переменная не используется то ее лучше удалить")
 public class RobotDemo {
     public static void main(String[] args) {
-        Robot myRobot1 = new Robot(); // создайте экземпляр класса Robot вызвав конструктор класса
-        // сохраните ссылку (указатель) на только, что созданный
-        // виртуальный обьект класса Robot в переменную,
-        // она нам понадобиться для дальнейшего использования.
+
         Robot robot1 = new Robot("ROBO");
         robot1.sayHello();
         robot1.sayYourName();
