@@ -1,8 +1,8 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_4.level_2;
 
 import java.util.Scanner;
-
-class Task_6 {
+//Task_6
+class SmallestNumberApp {
     public static void main(String[] args) {
         System.out.println("Please enter first integer number and press 'Enter'");
         Scanner scanner = new Scanner(System.in);
