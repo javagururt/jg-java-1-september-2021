@@ -9,11 +9,12 @@ class Task_3 {
         int number = scanner.nextInt();
 
         if (number == 1){System.out.println("Its Monday");}
-        if (number == 2){System.out.println("Its Tuesday");}
-        if (number == 3){System.out.println("Its Wednesday");}
-        if (number == 4){System.out.println("Its Thursday");}
-        if (number == 5){System.out.println("Its Friday");}
-        if (number == 6){System.out.println("Its Saturday");}
-        if (number == 7){System.out.println("Its Sunday");}
+        else if (number == 2){System.out.println("Its Tuesday");}
+        else if (number == 3){System.out.println("Its Wednesday");}
+        else if (number == 4){System.out.println("Its Thursday");}
+        else if (number == 5){System.out.println("Its Friday");}
+        else if (number == 6){System.out.println("Its Saturday");}
+        else if (number == 7){System.out.println("Its Sunday");}
+        else {System.out.println("You entered wrong number");}
     }
 }

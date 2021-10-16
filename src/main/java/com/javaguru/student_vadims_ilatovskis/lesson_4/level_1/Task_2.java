@@ -11,7 +11,7 @@ class Task_2 {
         if (number >= 0){
             System.out.println("Your number is: " + number);
         }
-        if (number < 0){
+        else if(number < 0){
             System.out.println("Your number is : " + number);
         }
 
