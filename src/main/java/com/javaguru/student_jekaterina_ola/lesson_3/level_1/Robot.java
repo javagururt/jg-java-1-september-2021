@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
 public class Robot {
-    public Robot(String robo) {
+    public Robot() {
     }
 
     public void sayHello() {
