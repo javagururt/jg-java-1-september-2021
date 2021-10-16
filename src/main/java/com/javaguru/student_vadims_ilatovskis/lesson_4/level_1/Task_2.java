@@ -8,11 +8,14 @@ class Task_2 {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        if (number >= 0){
-            System.out.println("Your number is: " + number);
+        if (number > 0){
+            System.out.println("Your number is positive number");
         }
         else if(number < 0){
-            System.out.println("Your number is : " + number);
+            System.out.println("Your number is negative number");
+        }
+        else if (number ==0){
+            System.out.println("Your number is zero");
         }
 
     }
