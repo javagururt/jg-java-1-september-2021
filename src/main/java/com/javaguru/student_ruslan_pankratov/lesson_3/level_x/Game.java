@@ -36,7 +36,7 @@ class Game {
     void roll(int pinsKnockedDown) {
         System.out.println("-------------");
         if (frame != 0) {
-            if (bonus == true) {
+            if (bonus) {
                 bonus = false;
                 System.out.println("Бонусные очки = " + pinsKnockedDown);
                 spare = spare + pinsKnockedDown;
