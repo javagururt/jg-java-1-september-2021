@@ -2,7 +2,7 @@ package com.javaguru.student_mihails_mihejevs.lesson_4.level_2;
 
 import java.util.Scanner;
 
-public class HwTask5 {
+public class HwTask6 {
     public static void main (String[] args) {
         System.out.println("Hello!");
         System.out.println("Please enter two whole number.");
@@ -11,11 +11,12 @@ public class HwTask5 {
         int firstNumber = input.nextInt();
         System.out.println("Please enter second number: ");
         int secondNumber = input.nextInt();
+        System.out.println();
 
-            if (firstNumber > secondNumber) {
-                System.out.println("More: " + firstNumber);
-            } else {
-                System.out.println("More: " + secondNumber);
-            }
+        if (firstNumber < secondNumber) {
+            System.out.println("Fewer: " + firstNumber);
+        } else {
+            System.out.println("Fewer: " + secondNumber);
+        }
     }
 }
