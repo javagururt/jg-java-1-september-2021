@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 
     public BankAccount(String owner, BigDecimal moneyAmount) {
         this.owner = owner;
-        this.money = moneyAmount;
+//        this.money = moneyAmount;
     }
 
     public String getOwner() {
