@@ -1,8 +1,8 @@
-package com.javaguru.student_mihails_mihejevs.lesson_4.level_2;
+package com.javaguru.student_mihails_mihejevs.lesson_4.level_2_intern;
 
 import java.util.Scanner;
 
-public class HwTask7 {
+public class HwTask6 {
     public static void main (String[] args) {
         System.out.println("Hello!");
         System.out.println("Please enter two whole number.");
@@ -11,12 +11,12 @@ public class HwTask7 {
         int firstNumber = input.nextInt();
         System.out.println("Please enter second number: ");
         int secondNumber = input.nextInt();
+        System.out.println();
 
-        if (firstNumber == secondNumber) {
-            System.out.println("\"Numbers are equals\"");
+        if (firstNumber < secondNumber) {
+            System.out.println("Fewer: " + firstNumber);
         } else {
-            System.out.println("\"Numbers are different\"");
+            System.out.println("Fewer: " + secondNumber);
         }
     }
 }
-
