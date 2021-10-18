@@ -1,9 +1,12 @@
 package com.javaguru.student_vadim_babchenok.lesson4_home.task_6;
 
 import java.util.Scanner;
+/*
 
+*/
 /*Написать программу, которая запрашивает у пользователя
-        два целых числа и выводит на консоль наименьшее из них.*/
+        два целых числа и выводит на консоль наименьшее из них.*//*
+
 public class SmallerValue {
     public static void main(String[] args) {
         System.out.println("Необходимо ввести два числа. Из двух чисел будет указано меньшее!");
@@ -17,8 +20,9 @@ public class SmallerValue {
             System.out.println ("число " + numberTwo + " меньше чем число "+ number);}
         else
         {
-            System.out.println("Числа равны");
-            }
+            System.out.println("Числа ровны");
+        }
         }
     }
-
+}
+*/
