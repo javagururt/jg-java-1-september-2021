@@ -4,10 +4,11 @@ class FizzBuzzTraining {
 
     public static void main(String[] args) {
         int number = 11;
-        String expectedResult = "11";
+        String expectedResult = "" + number;
         String answer = "" + number;
+        boolean equals = expectedResult.equals(answer);
         System.out.println(answer);
-        System.out.println( expectedResult == answer);
+        System.out.println(equals);
 
     }
 }
