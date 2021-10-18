@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_6.task_26;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_6.Task_26;
 
 // Наименование (String name)
 // Стандартная цена (double regularPrice)
