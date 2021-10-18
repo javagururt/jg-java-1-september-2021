@@ -58,9 +58,9 @@ class FizzBuzzTest {
     public void returnNumber(){
         FizzBuzz victim = new FizzBuzz();
         int number = 11;
-        //String expectedResult = String.valueOf(number);
+        String expectedResult = "" + number;
         String testResult = victim.detect(number);
-        if(testResult == String.valueOf(number)){
+        if(expectedResult.equals(testResult)){
             System.out.println("Number output test = OK");
         }else{
             System.err.println("Number output test = FAIL");
