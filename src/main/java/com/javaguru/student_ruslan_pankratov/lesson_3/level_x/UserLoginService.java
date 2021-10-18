@@ -8,7 +8,6 @@ import com.javaguru.teacher.codereview.CodeReviewComment;
 @CodeReviewComment(teacher = "нет смысла создавать экземпляр класса UserLoginService в данном случае, так как он не используется.")
 public class UserLoginService {
     public static void main(String[] args) {
-        UserLoginService userLoginService = new UserLoginService();
         User user = new User("Rik", "Been123");
         user.login(user, "12312");
         user.login(user, "Been123");
