@@ -1,9 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_2.level_1;
 
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
-
+@CodeReview(approved = true)
 public class task1 {
     public static void main(String[] args) {
         System.out.print("Hello! Enter first number: ");

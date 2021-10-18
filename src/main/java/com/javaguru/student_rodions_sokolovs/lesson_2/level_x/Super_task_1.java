@@ -13,24 +13,25 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_2.level_x;
 
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReviewComment(teacher = "лучше создавать классы в отельных java-файлах. Не нужно делать такую сложную структуру из вложенных классов")
 public class Super_task_1 {
-    class Task1{
+    class Book {
+    }
 
-        class Book{
+    class BankAccount {
+    }
 
-        }
-        class Bankaccount{
-            class Login_Service{
+    class SystemUnit {
+    }
 
-            }
-            class SystemUnit{
-                class Book {
-                    class BankTransaction{
+    class LoginService {
+    }
 
-                    }
+    class BankTranscation {
+    }
 
-                }
-            }
-        }
+    class Task_1 {
     }
 }

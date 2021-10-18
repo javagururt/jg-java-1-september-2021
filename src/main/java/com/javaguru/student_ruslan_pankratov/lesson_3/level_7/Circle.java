@@ -1,5 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_3.level_7;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_25
+@CodeReview(approved = true)
 class Circle {
     double radius;
     double calculateArea(double radius){
