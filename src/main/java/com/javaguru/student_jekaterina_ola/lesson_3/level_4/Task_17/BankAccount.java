@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_4.task_17;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_4.Task_17;
 
 /*Найти ошибку в коде.
         Исправить и запустить программу.

@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_6.task_25;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_6.Task_25;
 
         //Свойства: радиус (double radius),
         //Методы: расчет площади (double calculateArea()).

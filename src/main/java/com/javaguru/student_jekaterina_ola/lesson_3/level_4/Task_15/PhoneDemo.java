@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_4.task_15;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_4.Task_15;
 
 class PhoneDemo {
 
