@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_6.task_28;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_6.Task_28;
 
 public class Computer {
     private String manufacturer;
