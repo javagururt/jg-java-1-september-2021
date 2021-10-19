@@ -4,6 +4,7 @@ package com.javaguru.student_jekaterina_ola.lesson_4.level_1_intern.Task_1;
 //        целое число и выводит на консоль
 //        положительное оно или отрицательное.
 
+// task1-2
 
 import java.util.Scanner;
 
