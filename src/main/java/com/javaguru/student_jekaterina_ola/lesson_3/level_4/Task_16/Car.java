@@ -1,23 +1,21 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_4.task_15;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_4.Task_16;
 
 /*Найти ошибку в коде.
         Исправить и запустить программу.
-        Менять можно только класс Phone.
+        Менять можно только класс Car.
 */
 
-class Phone {
+class Car {
 
     private String model;
 
-    public Phone(String newModel) {
+    public Car(String newModel) {
         this.model = newModel;
     }
 
-    public String getModel() {
+    public String getModel(){
         return this.model;
     }
 
 }
-
-
 

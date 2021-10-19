@@ -1,10 +1,8 @@
-package com.javaguru.student_jekaterina_ola.lesson_3.level_6.task_24;
+package com.javaguru.student_jekaterina_ola.lesson_3.level_6.Task_24;
 
 // марка
 // стоимость
 // мощность
-
-import java.util.Scanner;
 
 public class Radio {
     private String brand;
