@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_4_intern;
+package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_4;
 
 class CalculatorTest {
     public static void main(String[] args) {

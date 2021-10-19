@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_5_middle;
+package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_5;
 
 class LightColorDetector {
     public String detect(int wavelength) {
