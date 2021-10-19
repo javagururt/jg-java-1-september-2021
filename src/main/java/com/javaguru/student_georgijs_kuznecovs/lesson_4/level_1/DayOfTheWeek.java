@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_1_intern;
+package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_1;
 
 import java.util.Scanner;
 

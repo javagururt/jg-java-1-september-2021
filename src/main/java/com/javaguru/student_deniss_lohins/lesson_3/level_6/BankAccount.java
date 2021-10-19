@@ -7,7 +7,7 @@ import java.math.BigDecimal;
         Исправить и запустить программу так, что бы она выводила
         на консоль владельца банковского счёта и количество денег.
         Менять можно только класс BankAccount.
-*/
+
 /*class BankAccount {
 
     private String ownerFirstName;

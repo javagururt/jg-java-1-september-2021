@@ -1,4 +1,4 @@
-package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_6_middle;
+package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_6;
 
 class StockTest {
     public static void main(String[] args) {
