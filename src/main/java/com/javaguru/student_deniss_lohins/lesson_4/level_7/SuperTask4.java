@@ -15,7 +15,9 @@ package com.javaguru.student_deniss_lohins.lesson_4.level_7;
         в программировании. Найдите способ использовать одну
         инстанцию класса LightColorDetector для всех тестов.*/
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class LightColorDetector {
 
     public String detect(int wavelength) {

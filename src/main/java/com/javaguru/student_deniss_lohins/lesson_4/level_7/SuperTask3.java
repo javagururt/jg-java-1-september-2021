@@ -1,5 +1,7 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*Дан класс Calculator и его тест CalculatorTest.
         Найдите способ упростить тесты в CalculatorTest.
 
@@ -9,7 +11,7 @@ package com.javaguru.student_deniss_lohins.lesson_4.level_7;
 
         Подсказка: вынесите в отдельный метод проверку
         результата и замените её вызовом метода в каждом тесте.*/
-
+@CodeReview(approved = true)
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;

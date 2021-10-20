@@ -1,5 +1,8 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetector {
     public String detect(int wavelength) {
 
