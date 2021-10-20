@@ -10,7 +10,7 @@ public class EvenUneven {
         if(inputNumber % 2 == 0) {
             System.out.println("Number is even.");
         }
-        else if (inputNumber % 2 == 1) {
+        else {
             System.out.println("Number is uneven.");
         }
     }
