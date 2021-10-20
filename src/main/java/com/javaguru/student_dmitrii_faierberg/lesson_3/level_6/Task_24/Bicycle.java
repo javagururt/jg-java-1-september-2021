@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_3.level_6.Task_24;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Bicycle {
     int transmission = 1;
     boolean areBreakesOn = false;

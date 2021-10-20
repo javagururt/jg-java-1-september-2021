@@ -1,9 +1,13 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_7;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 // Реализуйте следующие требования:
 // - если переданное число делится на три возвращайте "Fizz"
 // - если переданное число делится на пять возвращайте "Buzz"
 // - если переданное число делится на три и на пять возвращайте "FizzBuzz"
 // - иначе возвращайте само число в виде строки (подсказка: return "" +  number)
+@CodeReview(approved = true)
 class FizzBuzz {
 
     public String detect(int number) {
