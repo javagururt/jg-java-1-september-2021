@@ -13,5 +13,5 @@ class NumberService {
     int maxOfTernary(int firstNumber, int secondNumber) {
         return firstNumber > secondNumber ? firstNumber : secondNumber;
     }
-
 }
+
