@@ -12,26 +12,15 @@ public class LargestOfThree {
         System.out.println("Please enter second int number:");
         int thirdNumber = input.nextInt();
 
-        if (firstNumber == secondNumber || secondNumber == thirdNumber || firstNumber == thirdNumber) {
-            if (firstNumber > secondNumber || firstNumber > thirdNumber) {
-                System.out.println("Number " + firstNumber + " is largest");
-            } else if (secondNumber > firstNumber || secondNumber > thirdNumber) {
-                System.out.println("Number " + secondNumber + " is largest");
-            } else if (thirdNumber > secondNumber || thirdNumber > firstNumber) {
-                System.out.println("Number " + thirdNumber + " is largest");
-            } else {
-                System.out.println("Numbers are equal");
-            }
+        int result;
+
+        if (firstNumber < secondNumber) {
+            result = secondNumber;
+        } else if (secondNumber < thirdNumber) {
+            result = thirdNumber;
         } else {
-            if (firstNumber > secondNumber && firstNumber > thirdNumber) {
-                System.out.println("Number " + firstNumber + " is largest");
-            } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
-                System.out.println("Number " + secondNumber + " is largest");
-            } else if (thirdNumber > secondNumber && thirdNumber > firstNumber) {
-                System.out.println("Number " + thirdNumber + " is largest");
-            } else {
-                System.out.println("Numbers are equal");
-            }
+            result = firstNumber;
         }
+        System.out.println("Number " + result + " is largest");
     }
 }
