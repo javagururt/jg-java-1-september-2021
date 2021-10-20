@@ -1,22 +1,22 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_6;
 
-import java.math.BigDecimal;
+
 
 /*
         Найти логическую ошибку в коде.
         Исправить и запустить программу так, что бы она выводила
         на консоль владельца банковского счёта и количество денег.
         Менять можно только класс BankAccount.
-
-/*class BankAccount {
+*/
+class BankAccount {
 
     private String ownerFirstName;
     private String owner;
     private int money;
 
-    public BankAccount(String owner, BigDecimal moneyAmount) {
+    public BankAccount(String owner, int moneyAmount) {
         this.owner = owner;
-//        this.money = moneyAmount;
+        this.money = moneyAmount;
     }
 
     public String getOwner() {
@@ -39,6 +39,6 @@ class BankAccountDemo {
         System.out.println("Money = " + moneyAmount);
     }
 
-}*/
+}
 
 
