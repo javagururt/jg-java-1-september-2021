@@ -1,5 +1,7 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_4.level_5_middle;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 380 ... 449 - Фиолетовый ("Violet")
 450 ... 494 - Синий ("Blue")
@@ -9,7 +11,7 @@ package com.javaguru.student_dmitrii_faierberg.lesson_4.level_5_middle;
 620 ... 750 - Красный ("Red")
 Вне диапазонов - невидимый спектр ("Invisible Light")
  */
-
+@CodeReview(approved = true)
 class LightColorDetector {
 
     public String detect(int wavelength) {

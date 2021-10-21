@@ -7,7 +7,7 @@ public class Snake {
     private String snakeSpecies;
     private Boolean isVenomous;
     private int snakeLength;
-    String lengthValue = "";
+    //String lengthValue = "";
 
     public Snake(String snakeName, String snakeSpecies, Boolean isVenomous, int snakeLength) {
         this.isVenomous = isVenomous;
@@ -17,11 +17,11 @@ public class Snake {
     }
 
     public void getCharacteristics() {
-        moreThatOneMeter();
+        //moreThatOneMeter();
         String firstLetter = snakeSpecies.substring(0, 1);
         String[] vocals = {"A", "E", "I", "O", "U", "Y", "a", "e", "i", "o", "u", "y"};
         boolean isVocal = Arrays.stream(vocals).anyMatch(firstLetter::equals);
-        if (isVocal == true) {
+        if (isVocal) {
             System.out.println("This is an " + snakeSpecies + ".");
         } else {
             System.out.println("This is a " + snakeSpecies + ".");
@@ -29,16 +29,15 @@ public class Snake {
         //System.out.println("This is " + snakeSpecies + ".");
         System.out.println("Its name is " + snakeName + ".");
         if (snakeLength == 0) {
-            System.out.println("It is very small yet");
+            System.out.println("It is very small yet.");
         } else {
-            System.out.println("It is " + snakeLength + lengthValue + " long.");
+            System.out.println("It is " + snakeLength + moreThatOneMeter() + " long.");
         }
-        if (isVenomous == true) {
+        if (isVenomous) {
             System.out.println(snakeName + " is venomous. Be careful!");
         } else {
             System.out.println(snakeName + " is not venomous. But you must be careful with snakes.");
         }
-        System.out.println();
 
     }
 
@@ -50,7 +49,7 @@ public class Snake {
         String firstLetter = snakeSpecies.substring(0, 1);
         String[] vocals = {"A", "E", "I", "O", "U", "Y", "a", "e", "i", "o", "u", "y"};
         boolean isVocal = Arrays.stream(vocals).anyMatch(firstLetter::equals);
-        if (isVocal == true) {
+        if (isVocal) {
             System.out.println("This is an " + snakeSpecies + ".");
         } else {
             System.out.println("This is a " + snakeSpecies + ".");
@@ -60,7 +59,7 @@ public class Snake {
 
 
     public void printIsVenomous() {
-        if (isVenomous == true) {
+        if (isVenomous) {
             System.out.println("It is venomous.");
         } else {
             System.out.println("It is not venomous.");
@@ -68,24 +67,27 @@ public class Snake {
     }
 
     public void printSnakeLength() {
-        moreThatOneMeter();
+       // moreThatOneMeter();
         if (snakeLength == 0) {
             System.out.println("It is very small yet");
         } else {
-            System.out.println("It is " + snakeLength + lengthValue + " long.");
+            System.out.println("It is " + snakeLength + moreThatOneMeter() + " long.");
         }
     }
-    public void moreThatOneMeter() {
+    public String moreThatOneMeter() {
+        String lengthValue = "";
         if (snakeLength > 1) {
             lengthValue = " meters";
+            return lengthValue;
         } else {
             lengthValue = " meter";
+            return lengthValue;
         }
     }
     public void lengthAfterYear(){
         snakeLength++;
-        moreThatOneMeter();
-        System.out.println("After one year " + snakeName + " will be " + snakeLength + lengthValue + " long.");
+        //moreThatOneMeter();
+        System.out.println("After one year " + snakeName + " will be " + snakeLength + moreThatOneMeter() + " long.");
 
     }
 }

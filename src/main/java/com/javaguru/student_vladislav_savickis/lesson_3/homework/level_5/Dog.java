@@ -17,12 +17,6 @@ class Dog {
         System.out.println("Dog color: " + color);
     }
 
-    /*public void happyBirthday() {
-        age=age+1;
-        System.out.println("Dog name: " + name);
-        System.out.println("Dog age: " + this.age);
-    }*/
-
     public void changeColor(String newColor) {
         color=newColor;
         System.out.println("Dog name: " + name);

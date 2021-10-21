@@ -1,6 +1,7 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_6;
 
-import java.math.BigDecimal;
+
+import com.javaguru.teacher.codereview.CodeReview;
 
 /*
         Найти логическую ошибку в коде.
@@ -8,15 +9,16 @@ import java.math.BigDecimal;
         на консоль владельца банковского счёта и количество денег.
         Менять можно только класс BankAccount.
 */
-/*class BankAccount {
+@CodeReview(approved = true)
+class BankAccount {
 
     private String ownerFirstName;
     private String owner;
     private int money;
 
-    public BankAccount(String owner, BigDecimal moneyAmount) {
+    public BankAccount(String owner, int moneyAmount) {
         this.owner = owner;
-//        this.money = moneyAmount;
+        this.money = moneyAmount;
     }
 
     public String getOwner() {
@@ -39,6 +41,6 @@ class BankAccountDemo {
         System.out.println("Money = " + moneyAmount);
     }
 
-}*/
+}
 
 

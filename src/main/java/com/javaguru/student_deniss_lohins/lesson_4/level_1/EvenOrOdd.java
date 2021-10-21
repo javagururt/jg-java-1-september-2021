@@ -1,5 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(teacher = "Если переменная не используется, то зачем она?" +
+        "Если метод isEven то результат должен быть true/false")
 class EvenOrOdd {
 
     int number;

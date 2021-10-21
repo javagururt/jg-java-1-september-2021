@@ -1,5 +1,12 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(teacher = "нужно удалить переменные которые не используются." +
+        "менять состояние класса не нужно." +
+        "Лучше сделать приватные методы и работать с ними. Иначе сложно читается код")
 class User {
 
     String userName;
