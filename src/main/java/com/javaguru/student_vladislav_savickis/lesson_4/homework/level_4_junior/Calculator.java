@@ -33,17 +33,44 @@ class Calculator {
     }
 
     public int maxOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
-        int result;
+        int result = 0;
 
-        if (firstNumber < secondNumber) {
-            result = secondNumber;
-            return result;
-        } else if (secondNumber < thirdNumber) {
-            result = thirdNumber;
-            return result;
-        } else {
+        if (firstNumber == secondNumber) {
+            if (firstNumber > thirdNumber) {
+                System.out.println("First and second numbers are larger than third");
+                result = firstNumber;
+                return result;
+            }
+        }
+        if (firstNumber == thirdNumber) {
+            if (firstNumber > secondNumber) {
+                System.out.println("First and third numbers are larger than second");
+                result = firstNumber;
+                return result;
+            }
+        }
+        if(secondNumber == thirdNumber) {
+            if (secondNumber > firstNumber) {
+                System.out.println("Second and third numbers are larger than first");
+                result = secondNumber;
+                return result;
+            }
+        }
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
             result = firstNumber;
             return result;
         }
+        if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+            result = secondNumber;
+            return result;
+        }
+        if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
+            result = thirdNumber;
+            return result;
+        }
+        if (firstNumber == secondNumber && firstNumber == thirdNumber) {
+            System.out.println("Numbers are equal");
+        }
+        return result;
     }
 }

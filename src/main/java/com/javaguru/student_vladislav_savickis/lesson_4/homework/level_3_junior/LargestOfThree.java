@@ -14,13 +14,41 @@ public class LargestOfThree {
 
         int result;
 
-        if (firstNumber < secondNumber) {
-            result = secondNumber;
-        } else if (secondNumber < thirdNumber) {
-            result = thirdNumber;
-        } else {
-            result = firstNumber;
+        if (firstNumber == secondNumber) {
+            if (firstNumber > thirdNumber) {
+                System.out.println("First and second numbers are larger than third");
+                result = firstNumber;
+                System.out.println("Number " + result + " is largest");
+            }
         }
-        System.out.println("Number " + result + " is largest");
+        if (firstNumber == thirdNumber) {
+            if (firstNumber > secondNumber) {
+                System.out.println("First and third numbers are larger than second");
+                result = firstNumber;
+                System.out.println("Number " + result + " is largest");
+            }
+        }
+        if(secondNumber == thirdNumber) {
+            if (secondNumber > firstNumber) {
+                System.out.println("Second and third numbers are larger than first");
+                result = secondNumber;
+                System.out.println("Number " + result + " is largest");
+            }
+        }
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            result = firstNumber;
+            System.out.println("Number " + result + " is largest");
+        }
+        if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+            result = secondNumber;
+            System.out.println("Number " + result + " is largest");
+        }
+        if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
+            result = thirdNumber;
+            System.out.println("Number " + result + " is largest");
+        }
+        if (firstNumber == secondNumber && firstNumber == thirdNumber) {
+            System.out.println("Numbers are equal");
+        }
     }
 }

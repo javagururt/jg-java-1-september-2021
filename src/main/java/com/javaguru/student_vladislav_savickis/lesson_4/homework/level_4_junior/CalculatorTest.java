@@ -94,9 +94,9 @@ class CalculatorTest {
     }
 
     public void maxOfThreeNumbersTest() {
-        int firstNumber = 8;
-        int secondNumber = 8;
-        int thirdNumber = 11;
+        int firstNumber = 10;
+        int secondNumber = 16;
+        int thirdNumber = 20;
         Calculator calculator = new Calculator();
         int victim = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         if (victim == 10) {
@@ -105,12 +105,12 @@ class CalculatorTest {
         else {
             System.err.println("First number is larger than second and third test = FAIL");
         }
-        if (victim == 5) {
+        if (victim == 16) {
             System.out.println("Second number is larger than first and third test = OK");
         } else {
             System.err.println("Second number is larger than first and third test = FAIL");
         }
-        if (victim == 11) {
+        if (victim == 20) {
             System.out.println("Third number is larger than first and second test = OK");
         } else {
             System.err.println("Third number is larger than first and second test = FAIL");
