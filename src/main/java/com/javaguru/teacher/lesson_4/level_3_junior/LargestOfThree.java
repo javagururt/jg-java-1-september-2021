@@ -1,4 +1,4 @@
-package com.javaguru.student_vladislav_savickis.lesson_4.homework.level_3_junior;
+package com.javaguru.teacher.lesson_4.level_3_junior;
 
 import java.util.Scanner;
 
