@@ -15,13 +15,13 @@ class EvenOrOdd {
         return resultOfCalculation;
     }
 
-    int isEven(int number){
+    boolean isEven(int number){
         if (dividing(number) == 0){
             System.out.println("Number is even");
-            return 2;
+            return true;
         }else{
             System.out.println("Number is odd");
-            return 1;
+            return false;
         }
     }
 }
