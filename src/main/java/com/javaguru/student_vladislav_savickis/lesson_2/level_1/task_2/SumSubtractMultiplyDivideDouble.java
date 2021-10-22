@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
-public class SumSubtractMultiplyDivideDouble {
+class SumSubtractMultiplyDivideDouble {
     public static void main(String[] args) {
         System.out.println("Good day, sir! Now you will solve double equations. Please enter first number: ");
         Scanner input = new Scanner(System.in);

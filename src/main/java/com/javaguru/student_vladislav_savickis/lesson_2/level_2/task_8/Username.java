@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
-public class Username {
+class Username {
     public static void main(String[] args) {
         System.out.println("Hoi! Please enter your username: ");
         Scanner scanner = new Scanner(System.in);
