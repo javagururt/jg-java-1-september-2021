@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class ArrayUserLengthRandomValue {
     public static void main(String[] args) {
         ArrayUserLengthRandomValue runner = new ArrayUserLengthRandomValue();

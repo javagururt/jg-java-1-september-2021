@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_6.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
     public static void main(String[] args) {
         TwoDimensionalArrayTest twoDimensionalArrayTest = new TwoDimensionalArrayTest();

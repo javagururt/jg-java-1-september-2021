@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_5.level_5;
 
-import java.util.Arrays;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

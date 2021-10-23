@@ -1,5 +1,7 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_3.Homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 /*
 Тема: создание класса Dog.
@@ -11,6 +13,7 @@ import java.util.Scanner;
 при выполнении этой команды на консоль должно выводиться кличка собаки три раза.
 Создать отдельный класс DogDemo, объявить в нём main() метод и продемонстрировать использование класса собака (Dog).
  */
+@CodeReview(approved = true)
 class Dog {
     String name;
     String bark;

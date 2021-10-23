@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_4.homework.level_3_junior;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class LargestOfThree {
     public static void main(String[] args) {
         System.out.println("Hi! Please enter first int number:");

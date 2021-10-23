@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_5.level_4;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class ArrayRandomSizeRandomValuePrintLargest {
     public static void main(String[] args) {
         ArrayRandomSizeRandomValuePrintLargest runner = new ArrayRandomSizeRandomValuePrintLargest();

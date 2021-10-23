@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_5.level_1;
 
 
-//Найдите ошибку в программе и исправить её:
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Найдите ошибку в программе и исправить её:
+@CodeReview(approved = true)
 class ArrayDefinition1 {
 
     public static void main(String[] args) {
