@@ -1,7 +1,10 @@
 package com.javaguru.student_nikita_simans.homework.lesson_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class ThreeNumbersCompare {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
