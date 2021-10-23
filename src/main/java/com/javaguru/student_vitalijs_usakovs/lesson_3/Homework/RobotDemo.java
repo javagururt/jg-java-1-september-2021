@@ -2,8 +2,6 @@ package com.javaguru.student_vitalijs_usakovs.lesson_3.Homework;
 
 class RobotDemo {
     public static void main(String[] args) {
-    /*Robot myRobot = new Robot("Vitalijs");
-    myRobot = myRobot; */
 
     Robot robot1 = new Robot("ROBO");
     robot1.sayHello();
