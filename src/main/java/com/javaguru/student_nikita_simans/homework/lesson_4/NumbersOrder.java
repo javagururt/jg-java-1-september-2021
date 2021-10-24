@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_4;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class NumbersOrder {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

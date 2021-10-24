@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_4.level_3_junior;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class MaxOfThreeNumbersApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

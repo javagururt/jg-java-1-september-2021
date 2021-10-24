@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
-public class PSCircle {
+class PSCircle {
     public static void main(String[] args) {
         double Pi = 3.14;
             System.out.println("Bonjour! Please enter double number: ");

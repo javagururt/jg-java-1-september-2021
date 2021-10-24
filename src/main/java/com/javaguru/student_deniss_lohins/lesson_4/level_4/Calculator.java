@@ -1,5 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Нет необходимости возвращать -9999 в случае поиска наибольшего")
 class Calculator {
 
     public int sum(int firstNumber, int secondNumber) {

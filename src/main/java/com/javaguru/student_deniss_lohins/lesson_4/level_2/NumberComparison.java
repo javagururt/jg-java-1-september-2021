@@ -1,7 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class NumberComparison {
 
     private int firstNumber;

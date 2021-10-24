@@ -1,9 +1,12 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_3.Homework;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Найти ошибку в коде.
         Исправить и запустить программу.
         Менять можно только класс Car.*/
-
+@CodeReview(approved = true)
 class Car {
 
     private String model;

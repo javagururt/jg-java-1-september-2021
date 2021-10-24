@@ -1,11 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_3;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class WhichNumberAreBigger {
-    private int firstNumber;
-    private int secondNumber;
-    private int thirdNumber;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

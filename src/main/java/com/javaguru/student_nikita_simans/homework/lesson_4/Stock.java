@@ -1,4 +1,7 @@
 package com.javaguru.student_nikita_simans.homework.lesson_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*Свойства:
 - Имя компании
 - Текущая стоимость
@@ -8,6 +11,7 @@ package com.javaguru.student_nikita_simans.homework.lesson_4;
 - Обновить текущую стоимость акции updatePrice()
 - Получить информацию об акции getPriceInformation()
 Company = "GOOG", Current Price = 10, Min Price = 10, Max Price = 10*/
+@CodeReview(approved = true)
 public class Stock {
     private String companyName;
     private int currentPrice;

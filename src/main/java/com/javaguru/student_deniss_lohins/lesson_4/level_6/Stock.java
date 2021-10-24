@@ -1,5 +1,7 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 войства:
 - Имя компании
@@ -16,6 +18,7 @@ package com.javaguru.student_deniss_lohins.lesson_4.level_6;
 Текущая, минимальная и максимальная стоимость
 должны меняться только через метод updatePrice().
  */
+@CodeReview(approved = true)
 class Stock {
     private String name;
     private double price;

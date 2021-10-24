@@ -1,7 +1,12 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_4.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 //task_4
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "можно было использовать просто 'else'.")
 class EvenOddNumber {
     public static void main(String[] args) {
         System.out.println("Hello, please enter integer number and press 'Enter'");

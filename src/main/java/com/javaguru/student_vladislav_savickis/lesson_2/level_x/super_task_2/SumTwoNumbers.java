@@ -3,7 +3,7 @@ package com.javaguru.student_vladislav_savickis.lesson_2.level_x.super_task_2;
 import com.javaguru.teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
-public class SumTwoNumbers {
+class SumTwoNumbers {
     public static void main(String[] args) {
 
         int numberOne = 10;

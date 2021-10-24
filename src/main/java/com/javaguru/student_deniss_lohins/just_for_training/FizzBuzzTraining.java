@@ -1,5 +1,8 @@
 package com.javaguru.student_deniss_lohins.just_for_training;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTraining {
 
     public static void main(String[] args) {

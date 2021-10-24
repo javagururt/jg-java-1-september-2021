@@ -17,6 +17,8 @@ package com.javaguru.student_dmitrii_faierberg.lesson_4.level_6_middle;
 должны меняться только через метод updatePrice().
  */
 
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 class Stock {
     private String name;
     private int currentPrice;
@@ -28,6 +30,7 @@ class Stock {
         this.updatePrice(currentPrice);
     }
     Stock() {}
+    @CodeReviewComment(teacher = "minPrice == 0 && maxPrice == 0 - лишнее")
     public void updatePrice(int newPrice){
         currentPrice = newPrice;
         if (minPrice == 0 && maxPrice == 0){

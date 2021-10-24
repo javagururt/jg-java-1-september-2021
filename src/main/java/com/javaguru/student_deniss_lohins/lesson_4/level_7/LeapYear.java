@@ -1,5 +1,8 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYear {
     int year;
 
