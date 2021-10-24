@@ -14,11 +14,8 @@ class EvenOrOddTest {
         EvenOrOdd victim = new EvenOrOdd();
          int inputNumber = 47390;
 
-         int expected = 2;
 
-         int actual = victim.isEven(inputNumber);
-
-         if (expected == actual){
+         if (victim.isEven(inputNumber)){
              System.out.println("shouldReturnEven: Sucess!");
          }else{
              System.err.println("shouldReturnEven: FAILED!");
@@ -29,14 +26,12 @@ class EvenOrOddTest {
 
         int inputNumber = 456871;
 
-        int expected = 1;
 
-        int actual = victim.isEven(inputNumber);
 
-        if (expected == actual){
-            System.out.println("shouldReturnOdd: Sucess!");
-        }else{
+        if (victim.isEven(inputNumber)){
             System.err.println("shouldReturnOdd: FAILED!");
+        }else{
+            System.out.println("shouldReturnOdd: Sucess!");
         }
     }
 }

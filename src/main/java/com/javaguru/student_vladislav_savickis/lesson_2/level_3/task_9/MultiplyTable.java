@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)
-public class MultiplyTable {
+class MultiplyTable {
     public static void main(String[] args) {
             System.out.println("Bonjour! Please enter int number: ");
             Scanner input = new Scanner(System.in);

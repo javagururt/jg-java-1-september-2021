@@ -1,8 +1,12 @@
 package com.javaguru.student_vladislav_savickis.lesson_4.homework.level_1_intern;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
-public class EvenUneven {
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "нечетные - odd")
+class EvenUneven {
     public static void main(String[] args) {
         System.out.println("Hi! Please enter int number.");
         Scanner input = new Scanner(System.in);

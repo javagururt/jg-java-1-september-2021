@@ -1,5 +1,8 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_3.Homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Book {
 
     private String title;

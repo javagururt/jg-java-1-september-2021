@@ -6,9 +6,7 @@ import java.util.Scanner;
 @CodeReview(approved = true)
 class AscendingOrDescendingOrder {
 
-    private int firstNumber;
-    private int secondNumber;
-    private int thirdNumber;
+
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

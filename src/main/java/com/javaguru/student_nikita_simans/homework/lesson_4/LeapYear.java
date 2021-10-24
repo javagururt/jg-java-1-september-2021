@@ -1,4 +1,7 @@
 package com.javaguru.student_nikita_simans.homework.lesson_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*  // return true - если год високосный
     // return false - если год обычный
     public boolean isLeapYear(int year) {
@@ -8,7 +11,7 @@ package com.javaguru.student_nikita_simans.homework.lesson_4;
         // Если делится на 100, значит это столетие и его следует проверить его делимость на 400.
         // Если год делится на 400, то он високосный.
         // Иначе год обычный.*/
-
+@CodeReview(approved = true)
 public class LeapYear {
    public static void main(String[] args) {
         LeapYear leapYear = new LeapYear();

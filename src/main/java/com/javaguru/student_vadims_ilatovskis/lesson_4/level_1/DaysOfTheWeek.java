@@ -1,7 +1,10 @@
 package com.javaguru.student_vadims_ilatovskis.lesson_4.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 //task_3
+@CodeReview(approved = true)
 class DaysOfTheWeek {
     public static void main(String[] args) {
         System.out.println("Hello, please enter integer number from 1 to 7 and press 'Enter'");

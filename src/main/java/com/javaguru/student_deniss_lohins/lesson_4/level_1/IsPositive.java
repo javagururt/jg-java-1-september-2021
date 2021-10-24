@@ -1,20 +1,16 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_1;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class IsPositive {
-    private int inputNumber;
 
 
-    int isPossitive(int inputNumber){
-    if (inputNumber > 0){  // 1
-        return 1;
-    }else if ( inputNumber < 0){  // -1
-        return -1;
-    }else if (inputNumber == 0){
-        return 0;  // 0
-    }else{
-        return 9;
-    }
+    boolean isPossitive(int inputNumber) {
+        if (inputNumber > 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

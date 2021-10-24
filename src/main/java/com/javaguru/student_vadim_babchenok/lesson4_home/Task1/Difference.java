@@ -1,7 +1,9 @@
 package com.javaguru.student_vadim_babchenok.lesson4_home.Task1;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Difference {
     public static void main(String[] args) {
         System.out.println("Введи любое целое число");

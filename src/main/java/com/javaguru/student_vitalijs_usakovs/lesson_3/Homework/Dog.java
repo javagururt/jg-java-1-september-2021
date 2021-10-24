@@ -1,39 +1,68 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_3.Homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
-/*
-Тема: создание класса Dog.
-Создать класс собака (Dog) и продемонстрировать его работу с ним в программе.
-Бизнес требования:
-- У собаки должна быть кличка.
-- Кличку собаке дают в момент создания и потом ее изменить нельзя.
-- Собака должна уметь выполнять команду голос (voice()),
-при выполнении этой команды на консоль должно выводиться кличка собаки три раза.
-Создать отдельный класс DogDemo, объявить в нём main() метод и продемонстрировать использование класса собака (Dog).
- */
-class Dog {
+
+@CodeReview(approved = true)
+public class Dog {
     String name;
-    String bark;
-    public Dog(String dogName){
+    int age;
+
+    public Dog(String dogName) {
         this.name = dogName;
     }
-    public void dogName(){
-        System.out.println(this.name);
-    }
-    public void dogBark(){
+
+    public void dogName() {
+        System.out.println(this.name);}
+
+    public void dogBark() {
         System.out.println("*" + this.name);
     }
-}
 
-class DogDemo {
+    public void happyBirthday() {
+        System.out.println(this.age);
+    }
+
+
     public static void main(String[] args) {
-    System.out.println("Choose Dog name: ");
+        System.out.println("Dog Age is: ");
         Scanner input = new Scanner(System.in);
-        String nameDog = input.next();
+        int firstAge = input.nextInt();
+        int nextYear = firstAge + 1;
 
+        System.out.println("Enter the Dog name: ");
+        Scanner name = new Scanner(System.in);
+        String nameDog = name.nextLine();
+
+        System.out.println("Write below your dog color : Red, Black or Yellow");
+        Scanner color = new Scanner(System.in);
+        String dogColor = color.nextLine();
+
+        switch (dogColor){
+            case "Red":
+            System.out.println(nameDog + " color is red");
+            break;
+            case "Black":
+                System.out.println(nameDog + " color is black");
+                break;
+            case "Yellow":
+                System.out.println(nameDog + " color is yellow");
+                break;
+            default:
+                System.out.println("Please choose correct Dog Collor from the list");
+        }
+
+        System.out.println("Today is " + nameDog + " birthday.");
+        System.out.println( nameDog + " is " + firstAge + " years old ");
+        System.out.println( "Next year it will be " + nextYear + ".");
+        System.out.println( "And " + nameDog + " will be the same " + dogColor + " color.");
+        System.out.println( "Happy birthday to you " + nameDog);
         Dog myDog = new Dog(nameDog);
         myDog.dogBark();
         myDog.dogBark();
-        myDog.dogBark();
+        myDog.dogBark();}
+
+
+
     }
-}

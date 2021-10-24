@@ -76,15 +76,15 @@ class CalculatorTest {
         int secondNumber = 5;
         Calculator calculator = new Calculator();
         int result = calculator.maxOfTwoNumbers(firstNumber, secondNumber);
-        if (result == 15) {
-            System.out.println("First number is larger than second test = OK");
+        if (result == 10) {
+            System.out.println("First number is larger than second number test = OK");
         } else {
-            System.err.println("First number is larger than second test = FAIL");
+            System.err.println("First number is larger than second test number = FAIL");
         }
-        if (result == 10){
-            System.out.println("Second number is larger than first test = OK");
+        if (result == 11){
+            System.out.println("Second number is larger than first number test = OK");
         } else {
-            System.err.println("Second number is larger than first test = FAIL");
+            System.err.println("Second number is larger than first number test = FAIL");
         }
         if (result == 5) {
             System.out.println("Two numbers are equal test = OK");
@@ -94,31 +94,46 @@ class CalculatorTest {
     }
 
     public void maxOfThreeNumbersTest() {
-        int firstNumber = 8;
-        int secondNumber = 8;
+        int firstNumber = 9;
+        int secondNumber = 11;
         int thirdNumber = 11;
         Calculator calculator = new Calculator();
         int victim = calculator.maxOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         if (victim == 10) {
-            System.out.println("First number is larger than second and third test = OK");
+            System.out.println("First number is larger than second and third number test = OK");
         }
         else {
-            System.err.println("First number is larger than second and third test = FAIL");
-        }
-        if (victim == 5) {
-            System.out.println("Second number is larger than first and third test = OK");
-        } else {
-            System.err.println("Second number is larger than first and third test = FAIL");
-        }
-        if (victim == 11) {
-            System.out.println("Third number is larger than first and second test = OK");
-        } else {
-            System.err.println("Third number is larger than first and second test = FAIL");
+            System.err.println("First number is larger than second and third number test = FAIL");
         }
         if (victim == 8) {
+            System.out.println("Second number is larger than first and third number test = OK");
+        } else {
+            System.err.println("Second number is larger than first and third number test = FAIL");
+        }
+        if (victim == 9) {
+            System.out.println("Third number is larger than first and second number test = OK");
+        } else {
+            System.err.println("Third number is larger than first and second number test = FAIL");
+        }
+        if (victim == 1) {
             System.out.println("Three numbers are equal test = OK");
         } else {
-            System.err.print("Three numbers are equal test = FAIL");
+            System.err.println("Three numbers are equal test = FAIL");
+        }
+        if (victim == 5) {
+            System.out.println("First and second numbers are larger than third number test = OK");
+        } else {
+            System.err.println("First and second numbers are larger than third number test = FAIL");
+        }
+        if (victim == 7) {
+            System.out.println("First and third numbers are larger than second number test = OK");
+        } else {
+            System.err.println("First and third numbers are larger than second number test = FAIL");
+        }
+        if (victim == 11) {
+            System.out.println("Second and third numbers are larger than first number test = OK");
+        } else {
+            System.err.println("Second and third numbers are larger than first number test = FAIL");
         }
     }
 }

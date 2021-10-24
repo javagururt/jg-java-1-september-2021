@@ -1,11 +1,14 @@
 package com.javaguru.student_vadim_babchenok.lesson4_home.task_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 /*Написать программу, которая запрашивает у пользователя
         два целых числа и выводит на консоль:
         - "Numbers are equals" - если числа равны
         - "Numbers are different" - если числа не равны*/
+@CodeReview(approved = true)
 public class NumberAntEqual {
     public static void main(String[] args) {
         System.out.println("Enter two numbers and press start!");

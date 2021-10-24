@@ -1,5 +1,8 @@
 package com.javaguru.student_vladislav_savickis.lesson_4.homework.level_4_junior;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Calculator {
 
     public int sum(int firstNumber, int secondNumber) {
@@ -33,17 +36,31 @@ class Calculator {
     }
 
     public int maxOfThreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
-        int result;
-
-        if (firstNumber < secondNumber) {
-            result = secondNumber;
-            return result;
-        } else if (secondNumber < thirdNumber) {
-            result = thirdNumber;
-            return result;
-        } else {
-            result = firstNumber;
-            return result;
+        if (firstNumber == secondNumber) {
+            if (firstNumber > thirdNumber) {
+                return firstNumber;
+            }
+        }
+        if (firstNumber == thirdNumber) {
+            if (firstNumber > secondNumber) {
+                return  firstNumber;
+            }
+        }
+        if(secondNumber == thirdNumber) {
+            if (secondNumber > firstNumber) {
+                return secondNumber;
+            }
+        }
+        if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            return firstNumber;
+        } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
+            return secondNumber;
+        } else if (thirdNumber > firstNumber && thirdNumber > secondNumber) {
+            return thirdNumber;
+        } else if (firstNumber == secondNumber && firstNumber == thirdNumber) {
+            return firstNumber;
+        }else {
+            return 0;
         }
     }
 }

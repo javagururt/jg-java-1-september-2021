@@ -1,5 +1,7 @@
 package com.javaguru.student_vadim_babchenok.lesson4_home.Task3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 /*Написать программу, которая запрашивает у пользователя
@@ -10,6 +12,7 @@ import java.util.Scanner;
         Вывод: Wednesday
         Ввод: 5
         Вывод: Friday*/
+@CodeReview(approved = true)
 public class TerzaDifferenza {
     public static void main(String[] args) {
         System.out.println("Если вы укажете число от 1 до 7 - будет указан соответствующий день недели! ");

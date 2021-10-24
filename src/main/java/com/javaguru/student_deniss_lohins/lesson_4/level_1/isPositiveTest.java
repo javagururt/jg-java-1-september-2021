@@ -8,7 +8,7 @@ class isPositiveTest {
         //testRunner.shouldReturnError();
         testRunner.shouldReturnPositive();
         testRunner.shouldReturnNegative();
-        testRunner.shouldReturnZerro();
+        testRunner.shouldReturnNegativeZerro();
     }
 
     private void shouldReturnPositive(){
@@ -17,10 +17,7 @@ class isPositiveTest {
 
         int inputNumber = 10;
 
-        int expected = 1;
-
-        int actual = victim.isPossitive(inputNumber);
-        if(expected == actual){
+        if(victim.isPossitive(inputNumber)){
             System.out.println("ShouldReturnPositive:  Sucess");
         }else{
             System.err.println("ShouldReturnPossitive: FAILED");
@@ -32,47 +29,23 @@ class isPositiveTest {
 
         int inputNumber = -3;
 
-        int expected = -1;
-
-        int actual = victim.isPossitive(inputNumber);
-
-        if (expected == actual){
-            System.out.println("shouldReturnNegative: Sucess");
-        }else{
+        if (victim.isPossitive(inputNumber)){
             System.err.println("shouldReturnNegative: FAILED");
+        }else{
+            System.out.println("shouldReturnNegative: Sucess");
         }
     }
 
-   /* private void shouldReturnError(){
-        IsPositive victim = new IsPositive();
 
-        int inputNumber = 99.99;
-
-        int expected = 9;
-
-        int actual = victim.isPossitive(inputNumber);
-
-        if (expected == actual){
-            System.out.println("shouldReturnError: Sucess");
-        }else{
-            System.err.println("shouldReturnError: FAILED");
-        }
-    }  */
-
-    private void shouldReturnZerro(){
+    private void shouldReturnNegativeZerro(){
         IsPositive victim = new IsPositive();
 
         int inputNumber = 0;
 
-        int expected = 0;
-
-        int actual = victim.isPossitive(inputNumber);
-
-        if (expected == actual){
-
-            System.out.println("shouldReturnZerro: Sucess");
+        if (victim.isPossitive(inputNumber)){
+            System.err.println("shouldReturnNegativeZerro: FAILED");
         }else{
-            System.err.println("shouldReturnZerro: FAILED");
+            System.out.println("shouldReturnNegativeZerro: Sucess");
         }
     }
 }
