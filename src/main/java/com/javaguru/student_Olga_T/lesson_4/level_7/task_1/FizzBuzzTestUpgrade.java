@@ -3,7 +3,7 @@ package com.javaguru.student_Olga_T.lesson_4.level_7.task_1;
 class FizzBuzzTestUpgrade {
 
     public static void main(String[] args) {
-        FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();
+        FizzBuzzTestUpgrade fizzBuzzTest = new FizzBuzzTestUpgrade();
         fizzBuzzTest.fizzTest1();
         fizzBuzzTest.buzzTest2();
         fizzBuzzTest.fizzBuzzTest3();
