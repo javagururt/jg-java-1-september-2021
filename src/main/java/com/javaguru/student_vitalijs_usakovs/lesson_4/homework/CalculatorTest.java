@@ -103,4 +103,4 @@ class CalculatorTest {
             System.out.println("First number = Second number > Third number");
         } else {System.out.println("No numbers was entered.");
 */
-        }
+}

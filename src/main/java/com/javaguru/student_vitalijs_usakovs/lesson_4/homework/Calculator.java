@@ -20,11 +20,12 @@ public class Calculator {
 
     //////////////////////////////////////////////////////////////////////
     public boolean isEven(int number1, int number2) {
-        if (number1 >= number2)
+        if (number1 >= number2) {
             return true;
-        else
+        } else {
             return false;
-
+        }
+    }
         //////////////////////////////////////////////////////////////////////
 
         //////////////////////////////////////////////////////////////////////
@@ -46,4 +47,3 @@ public class Calculator {
         return int result;
     }*/
     }
-}
