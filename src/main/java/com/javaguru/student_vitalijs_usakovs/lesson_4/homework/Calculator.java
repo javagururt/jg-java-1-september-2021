@@ -63,17 +63,26 @@ public class Calculator {
             return number1 + number2;
         }
     }
-    //////////////////////////////////////////////////////////////////////////
 
-   /* public int maxOfThreeNumbers(int number1, int number2, int number3) {
-        int number1 >number2 && number3;
-        int number2 >number1 && number3;
-        int number3 >number1 && number2;
-        int number1 = number2 > number3;
-        int number1 = number3 > number2;
-        int number2 = number3 > number1;
-        int number1 = number2 = number3;
-        return int result;*/
+/*    public int maxOfThreeNumbers(int number1, int number2, int number3) {
+        if (number1 > number2 number3) {
+            return number1;
+        } else if (number2 > number1 & number3) {
+            return number2;
+        } else if (number3 > number1 & number2) {
+            return number3;
+        } else if (number1 = number2 > number3) {
+            return number1 & number2;
+        } else if (number1 = number3 > number2) {
+            return number1 & number3;
+        } else if (number2 = number3 > number1) {
+            return number2 & number3;
+        } else {
+            return number1 & number2 & number3;
+        }
+    }
+
+ */
 }
 
 

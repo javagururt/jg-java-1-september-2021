@@ -81,12 +81,27 @@ class CalculatorTest {
             System.out.println("First number is GREATER than the second number");
         } else if (result == calculator.number2) {
             System.out.println("Second number is GREATER than the first number");
-        } else {System.out.println("Numbers are EQUAL");
+        } else {
+            System.out.println("Numbers are EQUAL");
         }
     }
-/*
-    public void maxOfThreeNumbers() {
+
+ /*   public void maxOfThreeNumbers() {
         Calculator calculator = new Calculator();
         int result = calculator.maxOfThreeNumbers(calculator.number1, calculator.number2, calculator.number3);
-        */
+        if (result == calculator.number1) {
+            System.out.println("First number > Second number && Third number");
+        } else if (result == calculator.number2) {
+            System.out.println("Second number > First number && Third number");
+        } else if(result == calculator.number3) {
+            System.out.println("Third number > First number && Second number");
+        } else if (result == calculator.number1 && calculator.number2){
+            System.out.println("First number = Second number > Third number");
+        } else if( result == calculator.number1 && calculator.number3){
+            System.out.println("First number = Third number > Second number");
+        } else if (result = calculator.number2 && calculator.number3){
+            System.out.println("Second number = Third number > First number");
+        } else {System.out.println("All three numbers are EQUAL");
+        }
+    }*/
 }
