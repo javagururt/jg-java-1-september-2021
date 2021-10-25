@@ -3,6 +3,7 @@ package com.javaguru.student_vitalijs_usakovs.lesson_4.homework;
 public class Calculator {
     int number1 = 10;
     int number2 = 5;
+    int number3 = 46;
 
     public int getNumber1() {
         return number1;
@@ -56,21 +57,23 @@ public class Calculator {
     public int maxOfTwoNumbers(int number1, int number2) {
         if (number1 > number2) {
             return number1;
-        } else {
+        } else if (number1 < number2) {
             return number2;
+        } else {
+            return number1 + number2;
         }
     }
     //////////////////////////////////////////////////////////////////////////
 
-  /*  public int maxOfThreeNumbers(int number1, int number2, int number3){
-        int number1 > number2 && number3;
-        int number2 > number1 && number3;
-        int number3 > number1 && number2;
+   /* public int maxOfThreeNumbers(int number1, int number2, int number3) {
+        int number1 >number2 && number3;
+        int number2 >number1 && number3;
+        int number3 >number1 && number2;
         int number1 = number2 > number3;
         int number1 = number3 > number2;
         int number2 = number3 > number1;
-        int number1 =number2 = number3;
-        return int result;
-    }*/
+        int number1 = number2 = number3;
+        return int result;*/
 }
+
 

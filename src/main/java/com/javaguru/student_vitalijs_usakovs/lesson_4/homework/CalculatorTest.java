@@ -55,7 +55,7 @@ class CalculatorTest {
 
     public void isEvenNumber1() {
         Calculator calculator = new Calculator();
-        boolean isTrue = calculator.isEvenNumber1(10);
+        boolean isTrue = calculator.isEvenNumber1(calculator.number1);
         if (isTrue == true) {
             System.out.println("First number is EVEN.");
         } else {
@@ -65,7 +65,7 @@ class CalculatorTest {
 
     public void isEvenNumber2() {
         Calculator calculator = new Calculator();
-        boolean isTrue = calculator.isEvenNumber2(5);
+        boolean isTrue = calculator.isEvenNumber2(calculator.getNumber2());
         if (isTrue == true) {
             System.out.println("Second number is EVEN.");
         } else {
@@ -76,36 +76,17 @@ class CalculatorTest {
 
     public void maxOfTwoNumbers() {
         Calculator calculator = new Calculator();
-        int number1 = calculator.number1;
-        int number2 = calculator.number2;
-        int result = calculator.maxOfTwoNumbers(5, 10);
-        if (result == number1) {
+        int result = calculator.maxOfTwoNumbers(calculator.number1, calculator.number2);
+        if (result == calculator.number1) {
             System.out.println("First number is GREATER than the second number");
-        } else {
-            System.out.println("Second number is GREATER thah the first one");
+        } else if (result == calculator.number2) {
+            System.out.println("Second number is GREATER than the first number");
+        } else {System.out.println("Numbers are EQUAL");
         }
     }
-}
-
-  /*  public void maxOfThreeNumbers(){
-        int number1 = 10;
-        int number2 = 5;
-        int number3 = 2;
+/*
+    public void maxOfThreeNumbers() {
         Calculator calculator = new Calculator();
-        int result = calculator.maxOfThreeNumbers(number1, number2, number3);
-        if (int number1 >= int number2 && int number3){
-            System.out.println("First number is GREATER than second number and third number.");
-        } else if (int number2 >= int number3 && int number2 >= int number1){
-            System.out.println("Second number is GREATER than first number and third number.");
-        } else if (int number3 >= int number1 && int number3 >= int number2){
-            System.out.println("Third number is GREATER than first number and second number.");
-        } else if (int number1 == int number2 && int number1 >= int number3){
-            System.out.println("First number = Second number >Third number");
-        } else if (int number1 == int number3 && int number1 >= int number2){
-            System.out.println("First number = Third number > Second number");
-        } else if (int number2 == int number3 && int number3 >= int number1){
-            System.out.println("Second number = Third number > First number");
-        } else if (int number1 == int number2 && int number2 == int number3){
-            System.out.println("First number = Second number > Third number");
-        } else {System.out.println("No numbers was entered.");
-*/
+        int result = calculator.maxOfThreeNumbers(calculator.number1, calculator.number2, calculator.number3);
+        */
+}
