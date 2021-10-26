@@ -5,9 +5,9 @@ import java.util.Scanner;
 class ArrayWithUserNumbers {
     public static void main(String[] args) {
 
-        System.out.println("Guten Tag! Please fill the array.");
         Scanner userInput = new Scanner(System.in);
         int[] numbers = new int[3];
+        System.out.println("Guten Tag! Please fill the array.");
         for (int i = 0; i < 3; i++ ) {
             System.out.println(i+1 +" number: ");
             numbers[i] = userInput.nextInt();
