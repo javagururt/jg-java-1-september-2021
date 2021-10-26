@@ -1,4 +1,4 @@
-package com.javaguru.student_deniss_lohins.lesson_5.level_4;
+/*package com.javaguru.student_deniss_lohins.lesson_5.level_4;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
@@ -38,3 +38,4 @@ class ArrayRandomSizeRandomValuePrintEven {
         }
     }
 }
+*/
