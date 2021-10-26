@@ -15,7 +15,7 @@ class ArrayRandomSizeRandomValuePrintLargest {
 
     private int[] randomFill() {
         Random randomGenerator = new Random();
-        int arrayLength = randomGenerator.nextInt(0, 50);
+        int arrayLength = randomGenerator.nextInt(50);
         int[] array = new int[arrayLength];
         for (int i = 0; i < array.length; i++) {
             array[i] = randomGenerator.nextInt(100);

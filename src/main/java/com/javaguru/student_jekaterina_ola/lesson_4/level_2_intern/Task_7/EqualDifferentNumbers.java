@@ -17,7 +17,9 @@ public class EqualDifferentNumbers {
         int secondNumber = scanner.nextInt();
 
         if (firstNumber == secondNumber){
-            System.out.println("Equal numbers." );}
-        else {System.out.println("Different numbers." );}
+            System.out.println("Equal numbers." );
+        } else {
+            System.out.println("Different numbers." );
+        }
     }
 }
