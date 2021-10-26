@@ -1,4 +1,4 @@
-package com.javaguru.student_deniss_lohins.lesson_5.level_4;
+/*package com.javaguru.student_deniss_lohins.lesson_5.level_4;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
@@ -39,3 +39,4 @@ class ArrayRandomSizeRandomValuePrintLargest {
         System.out.println("Largest array value is: " + largestValue);
     }
 }
+*/
