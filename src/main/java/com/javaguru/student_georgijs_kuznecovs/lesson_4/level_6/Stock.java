@@ -18,8 +18,7 @@ class Stock {
             this.minPrice = currentPrice;
         }else if (currentPrice > maxPrice) {
             this.maxPrice = currentPrice;
-        } else
-        this.currentPrice = currentPrice;
+        }
     }
 
     String getPriceInformation(){
