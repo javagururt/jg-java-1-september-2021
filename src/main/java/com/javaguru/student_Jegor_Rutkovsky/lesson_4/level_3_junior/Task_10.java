@@ -1,12 +1,6 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_4.level_3_junior;
 //выводит на консоль наибольшее из них.
-//fn, sn, tn
-//0, 20, 20
-//20 0 0
-//0 20 0
-//0 0 20
-//1, 2, 3
-//1, 1, 1
+
 
 
 import java.util.Scanner;
