@@ -1,13 +1,13 @@
-/*package com.javaguru.student_deniss_lohins.lesson_5.level_4;
+package com.javaguru.student_deniss_lohins.lesson_5.level_4;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Random;
 @CodeReview(approved = true)
-class ArrayRandomSizeRandomValuePrintLargest {
+class ArrayRandomSizeRandomValuePrintLargest {/*
     public static void main(String[] args) {
         ArrayRandomSizeRandomValuePrintLargest runner = new ArrayRandomSizeRandomValuePrintLargest();
-        int[] array = runner.randomFill();
+        /*int[] array = runner.randomFill();
         runner.printResults(array);
         runner.printBiggestValue(array);
 
@@ -37,6 +37,5 @@ class ArrayRandomSizeRandomValuePrintLargest {
             }
             }
         System.out.println("Largest array value is: " + largestValue);
-    }
+    }*/
 }
-*/
