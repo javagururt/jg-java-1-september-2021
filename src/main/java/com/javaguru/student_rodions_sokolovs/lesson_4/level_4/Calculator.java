@@ -14,6 +14,9 @@
 //}
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Calculator {
 //Создайте класс Calculator. В этом классе создайте методы
 //для сложения, вычитания, деления и умножения двух целых чисел.

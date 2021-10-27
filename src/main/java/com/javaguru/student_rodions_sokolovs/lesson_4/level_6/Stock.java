@@ -23,6 +23,9 @@
 //        Написать тестовые сценарии для класса Stock в классе StockTest.
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Stock {
     private String name;
     private int price;

@@ -8,8 +8,10 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_3;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_10 {
     public static void main(String[] args) {
         System.out.println("First Number: ");

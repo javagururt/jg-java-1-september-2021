@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Random;
 @CodeReview(approved = true)
-class ArrayRandomSizeRandomValuePrintOdd {/*
+class ArrayRandomSizeRandomValuePrintOdd {
     public static void main(String[] args) {
         ArrayRandomSizeRandomValuePrintOdd runner = new ArrayRandomSizeRandomValuePrintOdd();
         int[] array = runner.randomFill();
@@ -35,5 +35,5 @@ class ArrayRandomSizeRandomValuePrintOdd {/*
                 System.out.println("Array [" + i + "] = " + array[i]);
             }
         }
-    }*/
+    }
 }

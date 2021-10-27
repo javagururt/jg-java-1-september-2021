@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_5;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class ThreeUserDefinedNumbersArray {
     public static void main(String[] args) {
         int[] numbers = new int[3];

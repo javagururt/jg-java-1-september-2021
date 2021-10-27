@@ -8,9 +8,11 @@ Task_30
 - найдите все нечётные числа в массиве и выведите их на консоль.
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayLengthOfAdminNumberOfRandomOdd {
 
     public static void main(String[] args) {

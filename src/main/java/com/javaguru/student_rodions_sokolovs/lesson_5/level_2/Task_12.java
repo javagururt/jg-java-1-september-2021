@@ -4,8 +4,10 @@
 //        - вывести значение каждой ячейки на консоль.
 package com.javaguru.student_rodions_sokolovs.lesson_5.level_2;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class Task_12 {
     public static void main(String[] args) {
         int[] numb = new int[3];

@@ -1,5 +1,7 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -9,6 +11,7 @@ import java.util.Random;
 //- распечатайте на консоль все элементы массива
 //- найдите все нечётные числа в массиве и выведите их на консоль.
 //  Task_30
+@CodeReview(approved = true)
 class OddOfArray {
     public static void main(String[] args) {
         int[] array = new int[5];

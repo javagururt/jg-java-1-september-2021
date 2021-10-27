@@ -6,9 +6,11 @@ package com.javaguru.student_vadim_babchenok.lesson5home.level2.Task_15;
         - увеличить значение каж
         дой ячейки на 2,
         - вывести значение каждой ячейки на консоль.*/
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class IncreaseArray {
     public static void main(String[] args) {
 

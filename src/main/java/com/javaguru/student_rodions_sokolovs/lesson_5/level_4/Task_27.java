@@ -6,9 +6,11 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class Task_27 {
     public static void main(String[] args) {
         System.out.println("Write array: ");

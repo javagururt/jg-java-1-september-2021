@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_4.level_2.tasks_5_7;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class CompareNumbers {
     public static void main(String[] args) {
         Scanner inputUserNumber = new Scanner(System.in);

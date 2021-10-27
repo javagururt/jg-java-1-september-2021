@@ -8,9 +8,11 @@ Task_25
 - распечатайте на консоль все элементы массива.
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class ArrayLengthAndNumberOfUser {
 
     public static void main(String[] args) {

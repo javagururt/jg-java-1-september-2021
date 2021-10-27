@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_5.homework.level_2_intern;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class SumOfArrayWithRandomNumbers {
     public static void main(String[] args) {
         int sumOfArray;

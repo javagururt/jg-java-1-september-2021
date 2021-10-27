@@ -8,8 +8,10 @@ Task_15
  - увеличить значение каждой ячейки на 2,
  - вывести значение каждой ячейки на консоль.
  */
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class ThreeIntegerOfRandomPlusTwo {
 
     public static void main(String[] args) {

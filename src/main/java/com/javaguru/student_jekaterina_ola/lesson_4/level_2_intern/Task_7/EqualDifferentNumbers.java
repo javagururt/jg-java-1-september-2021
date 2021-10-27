@@ -5,8 +5,10 @@ package com.javaguru.student_jekaterina_ola.lesson_4.level_2_intern.Task_7;
         - "Numbers are equals" - если числа равны
         - "Numbers are different" - если числа не равны*/
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class EqualDifferentNumbers {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);

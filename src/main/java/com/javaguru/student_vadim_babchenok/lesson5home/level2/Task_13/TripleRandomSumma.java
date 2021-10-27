@@ -1,11 +1,14 @@
 package com.javaguru.student_vadim_babchenok.lesson5home.level2.Task_13;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 
 /*Написать программу, в которой:
         - создать массив целых чисел длиной 3,
         - заполнить каждую ячейку массива случайным числом,
         - посчитать сумму всех ячеек и вывести ее на консоль.*/
+@CodeReview(approved = true)
 public class TripleRandomSumma {
     public static void main(String[] args) {
         int[] nums = new int[3];

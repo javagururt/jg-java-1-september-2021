@@ -4,7 +4,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Random;
 @CodeReview(approved = true)
-class ArrayRandomSizeRandomValuePrintSmallest {/*
+class ArrayRandomSizeRandomValuePrintSmallest {
 
     public static void main(String[] args) {
         ArrayRandomSizeRandomValuePrintSmallest runner = new ArrayRandomSizeRandomValuePrintSmallest();
@@ -37,5 +37,5 @@ class ArrayRandomSizeRandomValuePrintSmallest {/*
             }
         }
         System.out.println("Smallest array value is: " + smallestValue);
-    }*/
+    }
 }

@@ -1,7 +1,9 @@
 package com.javaguru.student_vladislav_savickis.lesson_5.homework.level_2_intern;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class ArrayWithUserNumbers {
     public static void main(String[] args) {
 

@@ -31,6 +31,9 @@
 
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class LightColorDetector {
 
     public String Light(int firstnumber) {

@@ -5,8 +5,10 @@ package com.javaguru.student_jekaterina_ola.lesson_4.level_3_junior.Task_8;
         - "All numbers are different" if all three numbers are different
         - "Neither all are equal or different" otherwise.*/
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class ThreeNumbersEquals {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);

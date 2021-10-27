@@ -1,5 +1,8 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_4.homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
 
     public static void main(String[] args) {
