@@ -1,7 +1,5 @@
 package com.javaguru.student_vladislav_savickis.lesson_5.homework.level_5_middle;
 
-import java.util.Random;
-
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
