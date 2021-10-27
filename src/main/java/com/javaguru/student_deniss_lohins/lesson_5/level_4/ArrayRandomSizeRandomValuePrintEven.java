@@ -5,7 +5,7 @@ import com.javaguru.teacher.codereview.CodeReview;
 import java.util.Random;
 
 @CodeReview(approved = true)
-class ArrayRandomSizeRandomValuePrintEven {/*
+class ArrayRandomSizeRandomValuePrintEven {
 
     public static void main(String[] args) {
         ArrayRandomSizeRandomValuePrintEven runner = new ArrayRandomSizeRandomValuePrintEven();
@@ -37,6 +37,6 @@ class ArrayRandomSizeRandomValuePrintEven {/*
                 System.out.println("Array [" + i + "] = " + array[i]);
             }
         }
-    }*/
+    }
 }
 
