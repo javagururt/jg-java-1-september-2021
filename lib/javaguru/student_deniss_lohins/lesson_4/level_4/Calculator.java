@@ -1,7 +1,7 @@
 package com.javaguru.student_deniss_lohins.lesson_4.level_4;
 
-import com.javaguru.teacher.codereview.CodeReview;
-import com.javaguru.teacher.codereview.CodeReviewComment;
+import com.javaguru.student_maksims_jagelavics.student_vadim_babchenok.teacher.codereview.CodeReview;
+import com.javaguru.student_maksims_jagelavics.student_vadim_babchenok.teacher.codereview.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(teacher = "Нет необходимости возвращать -9999 в случае поиска наибольшего")
@@ -44,7 +44,7 @@ class Calculator {
     public int maxOfTreeNumbers(int firstNumber, int secondNumber, int thirdNumber) {
         if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
             return firstNumber;
-        } else if (secondNumber > firstNumber && secondNumber >= thirdNumber) {
+        } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
             return secondNumber;
         } else {
             return thirdNumber;
