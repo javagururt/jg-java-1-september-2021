@@ -5,8 +5,10 @@ package com.javaguru.student_jekaterina_ola.lesson_4.level_3_junior.Task_9;
         - "decreasing" if the numbers are in decreasing order,
         - "Neither increasing or decreasing order" otherwise.*/
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class IncreaseDecreaseOrNeither {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

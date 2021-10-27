@@ -6,8 +6,10 @@ Task_12
  - заполнить каждую ячейку массива случайным числом,
  - вывести значение каждой ячейки на консоль.
  */
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class ThreeIntegerOfRandom {
 
     public static void main(String[] args) {

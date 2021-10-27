@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_4.level_4.tasks_11_15;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class CalculatorDemo {
     public static void main(String[] args) {
         System.out.println("Please enter first number: ");

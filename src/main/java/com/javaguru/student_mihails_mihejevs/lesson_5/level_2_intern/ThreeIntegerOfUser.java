@@ -6,8 +6,10 @@ Task_11
  - заполнить каждую ячейку массива числом, запрошенным у пользователя,
  - вывести значение каждой ячейки на консоль.
  */
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class ThreeIntegerOfUser {
 
     public static void main(String[] args) {

@@ -1,8 +1,10 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 import java.util.Arrays;
-
+@CodeReview(approved = true)
 class ArrayFromConsole {
     public static void main(String[] args) {
         System.out.println("Enter array length:");

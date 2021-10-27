@@ -4,6 +4,9 @@
 //10 -> 12 -> 5 -> 7 -> 99 -> 77
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class StockTest {
     public static void main(String[] args) {
         Stock google = new Stock("GOOG",10);

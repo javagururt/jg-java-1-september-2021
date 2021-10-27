@@ -5,8 +5,10 @@
 // - распечатайте на консоль все элементы массива.
 package com.javaguru.student_rodions_sokolovs.lesson_5.level_4;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_25 {
     public static void main(String[] args) {
         System.out.println("Write array: ");

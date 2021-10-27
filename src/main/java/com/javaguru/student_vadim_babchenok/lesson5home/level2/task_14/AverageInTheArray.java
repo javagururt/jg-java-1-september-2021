@@ -1,11 +1,14 @@
 package com.javaguru.student_vadim_babchenok.lesson5home.level2.task_14;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 
 /*Написать программу, в которой:
         - создать массив целых чисел длиной 3,
         - заполнить каждую ячейку массива случайным числом,
         - посчитать среднее значение и вывести его на консоль.*/
+@CodeReview(approved = true)
 public class AverageInTheArray {
     public static void main(String[] args) {
 

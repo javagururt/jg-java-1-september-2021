@@ -1,8 +1,10 @@
 package com.javaguru.student_vladislav_savickis.lesson_5.homework.level_4_junior;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class UserInputArrayLengthRandomValues {
     public static void main(String[] args) {
         int arrayLength;

@@ -1,8 +1,10 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_5.level_4_junior;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class RandArrayWork {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

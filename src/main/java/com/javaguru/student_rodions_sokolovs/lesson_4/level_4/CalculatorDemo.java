@@ -1,7 +1,10 @@
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Создайте класс CalculatorTest и напишите тесты для
 //всех методов класса Calculator из предыдущего задания.
-
+@CodeReview(approved = true)
 class CalculatorDemo {
     public static void main(String[] args) {
         CalculatorDemo calculatorDemo = new CalculatorDemo();

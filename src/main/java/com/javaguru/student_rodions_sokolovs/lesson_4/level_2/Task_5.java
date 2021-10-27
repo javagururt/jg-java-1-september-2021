@@ -4,8 +4,10 @@
 //TASK 5-6-7
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_2;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_5 {
     public static void main(String[] args) {
         System.out.println("Write a first number: ");

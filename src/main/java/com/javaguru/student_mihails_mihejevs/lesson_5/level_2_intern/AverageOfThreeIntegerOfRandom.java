@@ -6,8 +6,10 @@ Task_14
  - заполнить каждую ячейку массива случайным числом,
  - посчитать сумму всех ячеек и вывести ее на консоль.
  */
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class AverageOfThreeIntegerOfRandom {
 
     public static void main(String[] args) {

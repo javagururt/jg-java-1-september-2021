@@ -1,5 +1,7 @@
 package com.javaguru.student_vitalijs_usakovs.lesson_4.homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 /*
@@ -7,6 +9,7 @@ import java.util.Scanner;
 два целых числа и выводит на консоль наибольшее из них.
 Нельзя пользоваться классом Math, можно использовать только if else.
  */
+@CodeReview(approved = true)
 class LargerNumber {
     public static void main(String[] args) {
         System.out.println("Please enter first number : ");

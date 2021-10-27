@@ -1,8 +1,10 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class Task_11 {
     public static void main(String[] args) {
         int[] numbers = new int[3];

@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_4.level_5.task_16;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest test = new LightColorDetectorTest();

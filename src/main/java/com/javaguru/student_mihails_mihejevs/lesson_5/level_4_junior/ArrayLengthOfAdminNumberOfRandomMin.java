@@ -8,9 +8,11 @@ Task_28
 - найдите наименьшее число в массиве и выведите его на консоль.
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayLengthOfAdminNumberOfRandomMin {
 
     public static void main(String[] args) {

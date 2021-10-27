@@ -8,9 +8,11 @@ Task_27
 - найдите наибольшее число в массиве и выведите его на консоль.
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayLengthOfAdminNumberOfRandomMax {
 
     public static void main(String[] args) {

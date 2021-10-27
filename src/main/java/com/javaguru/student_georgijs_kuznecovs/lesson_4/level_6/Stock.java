@@ -1,5 +1,10 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(teacher = "текущая цена не меняется после апдейта")
 class Stock {
     String name;
     int currentPrice;

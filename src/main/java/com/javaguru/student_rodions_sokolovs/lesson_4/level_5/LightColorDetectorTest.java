@@ -7,6 +7,9 @@
 //        Вне д иапазонов - невидимый спектр ("InvisibleLight")
 package com.javaguru.student_rodions_sokolovs.lesson_4.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();

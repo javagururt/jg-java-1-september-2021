@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_4.level_4.tasks_11_15;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Calculator {
     public float numbersAddition(float firstNumber, float secondNumber) {
         return firstNumber + secondNumber;

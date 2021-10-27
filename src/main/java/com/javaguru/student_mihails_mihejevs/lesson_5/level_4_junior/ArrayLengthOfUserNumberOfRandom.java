@@ -7,10 +7,12 @@ Task_26
 - заполните массив случайными числами
 - распечатайте на консоль все элементы массива.
  */
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayLengthOfUserNumberOfRandom {
 
     public static void main(String[] args) {

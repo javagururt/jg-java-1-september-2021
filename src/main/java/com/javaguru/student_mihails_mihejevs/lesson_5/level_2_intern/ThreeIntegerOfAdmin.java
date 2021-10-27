@@ -1,4 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_5.level_2_intern;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Task_10
 Написать программу, в которой:
@@ -7,6 +10,7 @@ Task_10
  - вывести значение каждой ячейки на консоль.
 
  */
+@CodeReview(approved = true)
 public class ThreeIntegerOfAdmin {
     public static void main(String[] args) {
 

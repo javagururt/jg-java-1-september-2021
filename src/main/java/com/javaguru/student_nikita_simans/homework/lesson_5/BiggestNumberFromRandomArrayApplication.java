@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_5;
 
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 public class BiggestNumberFromRandomArrayApplication {
     public static void main(String[] args) {
         BiggestNumberFromRandomArray myArray = new BiggestNumberFromRandomArray();
