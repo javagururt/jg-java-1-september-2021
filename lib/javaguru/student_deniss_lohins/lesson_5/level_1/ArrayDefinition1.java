@@ -1,0 +1,15 @@
+package com.javaguru.student_deniss_lohins.lesson_5.level_1;
+
+
+import com.javaguru.student_maksims_jagelavics.student_vadim_babchenok.teacher.codereview.CodeReview;
+
+//Найдите ошибку в программе и исправить её:
+@CodeReview(approved = true)
+class ArrayDefinition1 {
+
+    public static void main(String[] args) {
+        int[] numbers = new int[5];
+    }
+
+}
+
