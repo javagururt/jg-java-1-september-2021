@@ -13,15 +13,16 @@ public class IncreaseArray {
     public static void main(String[] args) {
 
         int[] nums = new int[3];
-        int sum = 0;
         Random rand = new Random();
 
-        for (int a=0; a<nums.length; a++) {
+        for (int a=0; a<nums.length; a++) { //zapolnaet znachenija massiva
             nums[a] = rand.nextInt(10);
-            sum=nums[a]*2;
-            System.out.println("Значение ячейки равно " + nums[a] + ", а её двойное значение равно " + sum);
+            System.out.println(" значение ячейки равно " + nums[a]);
         }
 
-
+        for (int a=0; a<nums.length; a++) { //kazduju jaicheku * 2
+            nums[a] = nums[a]*2;
+            System.out.println("Удвоенное значение ячейки равно " + nums[a]);
+        }
     }
 }
