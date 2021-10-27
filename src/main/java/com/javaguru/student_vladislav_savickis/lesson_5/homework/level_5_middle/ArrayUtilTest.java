@@ -5,8 +5,9 @@ class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();
         test.shouldCreateArray();
-        //ArrayUtil arrayUtil = new ArrayUtil();
-        //arrayUtil.fillArrayWithRandomNumbers();
+        ArrayUtil arrayUtil = new ArrayUtil();
+        int[] randomTest = new int[9];
+        arrayUtil.fillArrayWithRandomNumbers(randomTest);
     }
 
     public void shouldCreateArray() {
