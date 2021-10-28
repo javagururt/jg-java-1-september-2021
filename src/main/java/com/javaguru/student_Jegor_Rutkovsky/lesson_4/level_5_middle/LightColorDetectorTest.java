@@ -1,6 +1,6 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_4.level_5_middle;
 
-import java.util.Scanner;
+
 
 class LightColorDetectorTest {
     public static void main(String[] args) {

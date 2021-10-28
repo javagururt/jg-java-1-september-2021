@@ -14,16 +14,15 @@ import java.util.Random;
 @CodeReview(approved = true)
 class MinOfArray {
     public static void main(String[] args) {
-        int minOfArray;
         int[] array = new int[5];
         Random random = new Random();
         for (int i=0; i<array.length; i++){
             array[i] = random.nextInt(101);
             }
-        minOfArray = array[0];
-        for (int i=0; i<array.length; i++){
-            if (minOfArray >= array[i]){
-                minOfArray = array[i];
+        int minOfArray = array[0];
+        for (int arr : array){
+            if (minOfArray >= arr){
+                minOfArray = arr;
             }
         }
         System.out.println("Array["+array.length+"]: " + Arrays.toString(array));
