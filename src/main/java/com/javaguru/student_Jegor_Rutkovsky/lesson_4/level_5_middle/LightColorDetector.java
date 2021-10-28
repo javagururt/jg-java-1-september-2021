@@ -21,5 +21,6 @@ class LightColorDetector {
             return "Red";
         }
             else {return "Invisible light";}
+
         }
 }

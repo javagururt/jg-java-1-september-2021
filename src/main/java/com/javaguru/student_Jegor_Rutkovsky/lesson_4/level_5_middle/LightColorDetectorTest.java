@@ -88,4 +88,5 @@ class LightColorDetectorTest {
             System.err.println("Red test failed");
         }
     }
+    
 }
