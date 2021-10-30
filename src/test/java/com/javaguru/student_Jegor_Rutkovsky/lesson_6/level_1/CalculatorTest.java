@@ -15,3 +15,4 @@ public class CalculatorTest {
         assertTrue(victim.isEven(10));
     }
 }
+
