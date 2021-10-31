@@ -4,8 +4,9 @@ import java.util.Random;
 
 class TwoDimensionalArray {
 
-    public void createArray(int columns, int rows) {
+    public int[][] createArray(int columns, int rows) {
         int[][] array = new int[columns][rows];
+        return array;
     }
 
     public void fill2DArrayWithrandomNumbers(int[][] array) {
@@ -17,4 +18,16 @@ class TwoDimensionalArray {
         }
 
     }
+
+    public int sumOf2DArray(int[][] array){
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[0].length; j++) {
+                sum = sum + array[i][j];
+            }
+        }
+        return sum;
+    }
+
+
 }
