@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_5.level_1_intern;
+package com.javaguru.student_jekaterina_ola.lesson_5.level_1_intern.Task_1;
 
 // Найдите ошибку в программе и исправить её:
 
