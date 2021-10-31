@@ -1,5 +1,7 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -9,18 +11,18 @@ import java.util.Random;
 //- распечатайте на консоль все элементы массива
 //- найдите наименьшее число в массиве и выведите его на консоль.
 //  Task_28
+@CodeReview(approved = true)
 class MinOfArray {
     public static void main(String[] args) {
-        int minOfArray;
         int[] array = new int[5];
         Random random = new Random();
         for (int i=0; i<array.length; i++){
             array[i] = random.nextInt(101);
             }
-        minOfArray = array[0];
-        for (int i=0; i<array.length; i++){
-            if (minOfArray >= array[i]){
-                minOfArray = array[i];
+        int minOfArray = array[0];
+        for (int arr : array){
+            if (minOfArray >= arr){
+                minOfArray = arr;
             }
         }
         System.out.println("Array["+array.length+"]: " + Arrays.toString(array));

@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_4.level_6.task_17;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
     public static void main(String[] args) {
         Stock google = new Stock("GOOG", 10);

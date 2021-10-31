@@ -1,5 +1,8 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
     public static void main(String[] args) {
         StockTest testRunner = new StockTest();

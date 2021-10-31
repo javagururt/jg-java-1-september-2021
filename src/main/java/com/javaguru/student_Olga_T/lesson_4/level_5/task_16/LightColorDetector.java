@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_4.level_5.task_16;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetector {
     public String detect(int wavelength) {
         if (wavelength >= 380 && wavelength <= 449) {

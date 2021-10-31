@@ -1,5 +1,7 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -9,6 +11,7 @@ import java.util.Random;
 //- распечатайте на консоль все элементы массива
 //- найдите все чётные числа в массиве и выведите их на консоль.
 // Task_29
+@CodeReview(approved = true)
 class EvenOfArray {
     public static void main(String[] args) {
         int[] array = new int[5];

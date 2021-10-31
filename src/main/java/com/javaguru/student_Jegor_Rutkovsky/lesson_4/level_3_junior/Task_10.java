@@ -3,8 +3,10 @@ package com.javaguru.student_Jegor_Rutkovsky.lesson_4.level_3_junior;
 
 
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

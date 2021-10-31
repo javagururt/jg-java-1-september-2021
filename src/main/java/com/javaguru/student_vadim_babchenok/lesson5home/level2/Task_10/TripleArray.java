@@ -1,8 +1,12 @@
 package com.javaguru.student_vadim_babchenok.lesson5home.level2.Task_10;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*Написать программу, в которой:
         - создать массив целых чисел длиной 3,
         - заполнить каждую ячейку массива любым числом,
         - вывести значение каждой ячейки на консоль.*/
+@CodeReview(approved = true)
 public class TripleArray {
     public static void main(String[] args) {
         int[] nums1;

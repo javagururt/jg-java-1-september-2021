@@ -1,5 +1,10 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_4.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "нет необходимости возвращать что-то из метода updatePrice")
 class Stock {
     String ticker;
     private int currentPrice;

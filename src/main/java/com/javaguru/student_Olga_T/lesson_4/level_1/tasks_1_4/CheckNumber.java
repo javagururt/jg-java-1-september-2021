@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_4.level_1.tasks_1_4;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class CheckNumber {
     public static void main(String[] args) {
 
