@@ -117,7 +117,7 @@ class TicTacToe {
         return arr;
     }
 
-    public Move getNextMove() {
+  private   Move getNextMove() {
         Scanner scanner = new Scanner(System.in);
         int playerOne = scanner.nextInt();
         int playerTwo = scanner.nextInt();
@@ -125,7 +125,7 @@ class TicTacToe {
         return move;
     }
 
-    public void printFieldToConsole(int[][] field) {
+   private void printFieldToConsole(int[][] field) {
 
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field.length; j++) {
@@ -138,7 +138,7 @@ class TicTacToe {
     }
 
 
-    public void play() {
+  private   void play() {
         int[][] field = createField();
         while (true) {
 
