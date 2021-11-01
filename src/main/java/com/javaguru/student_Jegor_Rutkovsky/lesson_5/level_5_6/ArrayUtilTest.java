@@ -17,6 +17,7 @@ class ArrayUtilTest {
     public void shouldPrintArrayToConsole(){
         int[] array = {1, 2, 3};
         ArrayUtil arrayUtil = new ArrayUtil();
+        System.out.print("Should print to console: ");
         arrayUtil.printArrayToConsole(array);
     }
 
