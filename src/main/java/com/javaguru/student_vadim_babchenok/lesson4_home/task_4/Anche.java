@@ -21,3 +21,10 @@ public class Anche {
         }
     }
 }
+/*if (firstNumber < secondNumber && secondNumber < thirdNumber ) {
+        result = "Number " + "increasing";
+        } else if (firstNumber > secondNumber && secondNumber > thirdNumber ) {
+        result = "Number " + "decreasing";
+        } else {
+        result = "Number " + "Neither increasing or decreasing order";
+        }*/
