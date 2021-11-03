@@ -1,6 +1,10 @@
 package com.javaguru.student_vadim_babchenok.lesson5home.lesson3junior.task19;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Найдите логическую ошибку в программе и исправить её:
 //PS: программа должна выводить на консоль числа от 0 до 9.
+@CodeReview(approved = true)
 public class ForLoopDefinition4 {
 
     public static void main(String[] args) {

@@ -1,9 +1,12 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_5_6;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 //Player1 = 0
 //Player2 = 1
 //Empty cell = -1
+@CodeReview(approved = true)
 class TicTacToe {
 
     public static void main(String[] args) {

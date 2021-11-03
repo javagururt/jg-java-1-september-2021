@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_6.level_2;
 
-//Найдите ошибку в программе и исправить её:
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Найдите ошибку в программе и исправить её:
+@CodeReview(approved = true)
 class WhileDefinition1 {
 
     public static void main(String[] args) {

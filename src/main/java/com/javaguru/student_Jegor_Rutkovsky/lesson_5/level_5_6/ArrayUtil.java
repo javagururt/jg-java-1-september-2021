@@ -1,8 +1,11 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 //Task_31 - Task_41
+@CodeReview(approved = true)
 class ArrayUtil {
     public int[] createArray(int arrayLength){
         return new int[arrayLength];

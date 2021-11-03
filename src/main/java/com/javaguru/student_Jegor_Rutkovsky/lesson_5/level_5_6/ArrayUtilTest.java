@@ -1,6 +1,9 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_5.level_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_31 - Task_41
+@CodeReview(approved = true)
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

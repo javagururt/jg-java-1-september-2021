@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_3_junior;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class ArrayUtil {
     public boolean isNumberInArray(int[] array, int number){
         for (int i = 0; i < array.length; i++){

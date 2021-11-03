@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_6.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class TicTacToe {
 
 

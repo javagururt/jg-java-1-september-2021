@@ -1,6 +1,9 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_3_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_9 - Task_14
+@CodeReview(approved = true)
 class ArrayUtilDemo {
     public static void main(String[] args) {
         ArrayUtil arrayUtil = new ArrayUtil();

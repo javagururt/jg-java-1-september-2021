@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_6.level_4;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class TwoDimensionalArray {
 
     public int[][] createArray(int columns, int rows) {

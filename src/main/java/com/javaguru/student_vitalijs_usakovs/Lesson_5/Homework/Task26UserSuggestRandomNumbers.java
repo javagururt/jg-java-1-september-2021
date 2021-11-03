@@ -1,8 +1,10 @@
 package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class Task26UserSuggestRandomNumbers {
     //Task 26
 
