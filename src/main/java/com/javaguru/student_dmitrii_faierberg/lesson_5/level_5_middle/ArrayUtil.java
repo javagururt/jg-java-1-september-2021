@@ -16,4 +16,31 @@ class ArrayUtil {
             array[i] = randomGenerator.nextInt(20);
         }
     }
+
+    public void printArrayToConsole(int[] array) {
+        for (int i = 0; i < array.length; i++){
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public int findMaxNumber(int[] array) {
+        int max = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (max < array[i]){
+                max = array[i];
+            }
+        }
+        return max;
+    }
+
+    public int findMinNumber(int[] array) {
+        int min = 99999999;
+        for (int i = 0; i < array.length; i++) {
+            if (min > array[i]){
+                min = array[i];
+            }
+        }
+        return min;
+    }
 }
