@@ -1,8 +1,10 @@
 package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
 
-import java.util.Arrays;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class Task1ArrayDefinition1 {
 
     public static void main(String[] args) {

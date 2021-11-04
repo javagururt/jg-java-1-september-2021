@@ -1,5 +1,8 @@
 package com.javaguru.student_nikita_simans.homework.lesson_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class WhileDefinition3 {
     public static void main(String[] args) {
         int i = 1;

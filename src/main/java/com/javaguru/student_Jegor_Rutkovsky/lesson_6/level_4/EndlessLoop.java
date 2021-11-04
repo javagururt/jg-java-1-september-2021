@@ -1,6 +1,9 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_15 - Task_17
+@CodeReview(approved = true)
 class EndlessLoop {
     public static void main(String[] args) {
         int a = 6;

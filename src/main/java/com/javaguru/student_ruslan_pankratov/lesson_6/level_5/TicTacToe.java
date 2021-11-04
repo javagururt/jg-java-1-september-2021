@@ -1,8 +1,11 @@
 package com.javaguru.student_ruslan_pankratov.lesson_6.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 //Task 19-super_Task
+@CodeReview(approved = true)
 class TicTacToe {
 
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_6;
 
-import java.util.Arrays;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 public class ArrayUtil {
     public int[] createArray(int arrayLength) {
         int[] newArray = new int[arrayLength];

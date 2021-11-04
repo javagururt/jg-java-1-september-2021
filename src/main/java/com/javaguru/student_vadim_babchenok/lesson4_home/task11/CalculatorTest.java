@@ -1,5 +1,8 @@
 package com.javaguru.student_vadim_babchenok.lesson4_home.task11;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

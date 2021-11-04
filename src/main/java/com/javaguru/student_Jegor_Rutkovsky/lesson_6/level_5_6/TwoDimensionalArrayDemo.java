@@ -1,5 +1,8 @@
 package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class TwoDimensionalArrayDemo {
     public static void main(String[] args) {
         int[][] arr = { {1,-1,3},

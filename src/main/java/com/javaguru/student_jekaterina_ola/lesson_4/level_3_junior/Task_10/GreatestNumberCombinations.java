@@ -8,8 +8,11 @@ package com.javaguru.student_jekaterina_ola.lesson_4.level_3_junior.Task_10;
         Это поможет вам правильно написать программу!
         Нельзя пользоваться классом Math.*/
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class GreatestNumberCombinations {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);

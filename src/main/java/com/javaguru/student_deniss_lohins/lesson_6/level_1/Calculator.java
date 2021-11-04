@@ -1,5 +1,7 @@
 package com.javaguru.student_deniss_lohins.lesson_6.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Упростите метод boolean isEven(int number).
 Код внутри этого метода может быть записан в одну строку.
@@ -7,7 +9,7 @@ package com.javaguru.student_deniss_lohins.lesson_6.level_1;
 Если автоматических тестов нет то напишите их, убедитесь, что они проходят и только тогда меняйте код.
 
  */
-
+@CodeReview(approved = true)
 class Calculator {
     public boolean isEven(int number) {
         return number % 2 == 0;
