@@ -1,4 +1,4 @@
-package com.javaguru.teacher.lesson_7;
+package com.javaguru.teacher.lesson_7.lessoncode;
 
 import org.junit.Test;
 

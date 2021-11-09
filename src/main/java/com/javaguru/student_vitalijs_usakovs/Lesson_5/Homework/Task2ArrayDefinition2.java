@@ -2,7 +2,6 @@ package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 @CodeReview(approved = true)
 class Task2ArrayDefinition2 {

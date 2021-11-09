@@ -58,12 +58,14 @@ public class ArrayUtil
     }
 
     //метод для переворота массива целых чисел
-    public void replaceAllTwo (int[] arr) {
-        int length = arr.length;
-        arr[0]=arr.length;
+    public void replaceAll (int[] arr) {
+        int z;
+        for(int a=0; a<(arr.length/2);a++){
+            z=arr[a];//arr[a]=arr[0]=какая то цифра в индексе ноль на первой итерации
+            arr[a]= arr[arr.length-a-1];//arr[arr.length-a-1]=arr[4]=1 поменяли первое и последнее
+            arr[arr.length-a-1]=z;
 
-        for (int i = 0; i < length; i++) {
-
+            //a++;
         }
     }
 
