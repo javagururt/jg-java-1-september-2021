@@ -1,8 +1,12 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_x;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Напишите программу и продемонстрируйте в ней использование
 однострочного и многострочного коментариев.
  */
+@CodeReview(approved = true)
 public class OneMultiLineComment {
 
     public static void main(String[] args) {

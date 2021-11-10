@@ -1,6 +1,10 @@
 package com.javaguru.student_vadim_babchenok.lesson6Home.level3.task9;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "названия методов должны начинаться с маленькой буквы")
 public class ArrayUtil
 {
     //метод для проверки содержит ли массив целых чисел указанное число.

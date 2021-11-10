@@ -1,9 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_7.level_6;
 
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.lang.*;
 
-
+@CodeReview(approved = true)
 class Palindrome {
 
     boolean isPalindrome(String text) {

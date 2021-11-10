@@ -1,5 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_3.level_x;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(teacher = "сравение пользователя и строки")
 class UserLoginService {
 
     boolean login(User user, String password) {

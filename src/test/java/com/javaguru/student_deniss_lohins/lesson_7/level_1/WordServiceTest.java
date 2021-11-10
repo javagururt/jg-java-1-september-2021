@@ -1,11 +1,13 @@
 package com.javaguru.student_deniss_lohins.lesson_7.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class WordServiceTest {
 
     @Test
