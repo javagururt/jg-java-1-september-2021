@@ -1,5 +1,4 @@
-/*package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_1;
-
+package com.javaguru.student_georgijs_kuznecovs.lesson_6.level_1;
 
 import org.junit.Test;
 
@@ -10,10 +9,10 @@ public class CalculatorTest {
     private Calculator victim;
 
     @Test
-    public void shouldReturnEvenNumber() {
+    public void isEvenTest() {
         victim = new Calculator();
+
         assertTrue(victim.isEven(10));
+
     }
 }
-
-*/
