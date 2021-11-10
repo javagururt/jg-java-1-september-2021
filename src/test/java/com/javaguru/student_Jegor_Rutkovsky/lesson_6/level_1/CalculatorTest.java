@@ -1,4 +1,4 @@
-/*package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_1;
+package com.javaguru.student_Jegor_Rutkovsky.lesson_6.level_1;
 
 
 import org.junit.Test;
@@ -16,4 +16,3 @@ public class CalculatorTest {
     }
 }
 
-*/
