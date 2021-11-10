@@ -1,33 +1,42 @@
 package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
-import java.util.Arrays;
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task32ArrayUtilTest {
 
     public static void main(String[] args) {
         Task32ArrayUtilTest test = new Task32ArrayUtilTest();
-//        test.printArrayWithRandomNumbers();
+        test.createArray();
         test.shouldFindMaxNumber();
         test.shouldFindMinNumber();
     }
 
+    public void createArray() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter Array Length - ");
+        int arrayInput = input.nextInt();
+        Task31ArrayUtil inputLength = new Task31ArrayUtil();
+        inputLength.createArray(arrayInput);
 
-    public void printArrayWithRandomNumbers() {
-//       Task31ArrayUtil print = new Task31ArrayUtil();
-//       int[] array = new int[5];
-//       if (print.printArrayToConsole() == array) ;
-//       return true;
+        int[] inputCreateArray = new int[arrayInput];
+        inputLength.fillArrayWithRandomNumbers(inputCreateArray);
+
+        inputLength.printArrayToConsole(inputCreateArray);
+
+        System.out.println("Max Number are : " + inputLength.findMaxNumber(inputCreateArray));
+
+        System.out.println("Min Number are : " + inputLength.findMinNumber(inputCreateArray));
     }
-
 
     public void shouldFindMaxNumber() {
         Task31ArrayUtil victim = new Task31ArrayUtil();
         int[] array = {12, 23, 46, 92, 88};
         if (victim.findMaxNumber(array) == 92) {
-            System.out.println("ShouldFindMaxNumber - OK!");
+            System.out.println("ShouldFindMaxNumber TEST - OK!");
         } else {
-            System.err.println("ShouldFindMaxNumber - FAILED!");
+            System.err.println("ShouldFindMaxNumber TEST - FAILED!");
         }
     }
 
@@ -35,17 +44,9 @@ class Task32ArrayUtilTest {
         Task31ArrayUtil victim = new Task31ArrayUtil();
         int[] array = {12, 23, 46, 92, 88};
         if (victim.findMinNumber(array) == 12) {
-            System.out.println("ShouldFindMinNumber - OK!");
+            System.out.println("ShouldFindMinNumber TEST - OK!");
         } else {
-            System.err.println("ShouldFindMinNumber - FAILED!");
+            System.err.println("ShouldFindMinNumber TEST - FAILED!");
         }
     }
 }
-
-
-//Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализация метода работает правильно.
-/*    public void shouldFindCorrectExistingNumber() {
-        Task31ArrayUtil victim = new Task31ArrayUtil();
-
-    }
- */

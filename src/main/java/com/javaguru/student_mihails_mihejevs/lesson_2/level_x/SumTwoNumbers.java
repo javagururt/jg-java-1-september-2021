@@ -1,4 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_x;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Исправьте ошибки компиляции в данной программе.
 
@@ -21,6 +24,7 @@ public class SumTwoNumbers {
 	}
 }
  */
+@CodeReview(approved = true)
 public class SumTwoNumbers {
     public static void main(String[] args) {
 

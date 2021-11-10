@@ -1,8 +1,10 @@
 package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-//Ne poluchaetsa zapustitj randomgenerator i vivesti eti chisla na konsolj.
+@CodeReview(approved = true)
 class Task31ArrayUtil {
 
     public int[] createArray(int arrayLength) {
@@ -18,13 +20,12 @@ class Task31ArrayUtil {
     }
 
     public void printArrayToConsole(int[] array) {
-  /*      Random randomGenerator = new Random();
+        Random randomGenerator = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = randomGenerator.nextInt(100);
-            {
 
-  */
-        System.out.println(Arrays.toString(array));
+            System.out.println(array[i]);
+        }
     }
 
     public int findMaxNumber(int[] array) {
@@ -57,5 +58,4 @@ class Task31ArrayUtil {
         }
         return existNumber;
     }
-
 }

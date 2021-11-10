@@ -1,7 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_7.level_5;
 
-import java.math.BigDecimal;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.math.BigDecimal;
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "деление int / int ")
 class PowerCalculator {
 
     public double power(int number, int power) {
