@@ -1,7 +1,9 @@
 package com.javaguru.student_vitalijs_usakovs.Lesson_5.Homework;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task32ArrayUtilTest {
 
     public static void main(String[] args) {

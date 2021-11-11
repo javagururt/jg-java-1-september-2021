@@ -1,4 +1,7 @@
 package com.javaguru.student_mihails_mihejevs.lesson_2.level_x;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
 Исправьте ошибки компиляции в данной программе.
 
@@ -19,6 +22,7 @@ public class CorrectDataTypes {
 
 }
  */
+@CodeReview(approved = true)
 public class CorrectDataTypes {
 
     public static void main(String[] args) {

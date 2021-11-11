@@ -1,9 +1,14 @@
 package com.javaguru.student_deniss_lohins.lesson_7.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "лучше использовать assertEquals")
 public class PowerCalculatorTest {
 
     @Test

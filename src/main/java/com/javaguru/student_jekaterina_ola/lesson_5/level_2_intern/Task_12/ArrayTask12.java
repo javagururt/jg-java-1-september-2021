@@ -6,9 +6,11 @@ package com.javaguru.student_jekaterina_ola.lesson_5.level_2_intern.Task_12;
 //        - вывести значение каждой ячейки на консоль.
 
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayTask12 {
     public static void main(String[] args) {
         int[] numbers = new int[3];
