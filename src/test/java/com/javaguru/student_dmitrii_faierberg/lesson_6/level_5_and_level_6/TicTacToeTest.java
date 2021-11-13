@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class TicTacToeTest {
+public class  TicTacToeTest {
     TicTacToe victim = new TicTacToe();
     @Test
     public void testWinPositionForHorizontalsTrue(){

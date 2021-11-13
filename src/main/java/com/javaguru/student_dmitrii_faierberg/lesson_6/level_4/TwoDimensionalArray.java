@@ -24,7 +24,7 @@ class TwoDimensionalArray {
         }
     }
 
-    public int sumAllTheElementsOfArray(int[][] arr){
+    public  int sumAllTheElementsOfArray(int[][] arr){
         int sum = 0;
         for (int i = 0; i < arr.length; i++){
             for (int j = 0; j < arr[i].length; j++){

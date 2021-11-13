@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class WordServiceTest {
+public class  WordServiceTest {
     WordService victim = new WordService();
 
     @Test

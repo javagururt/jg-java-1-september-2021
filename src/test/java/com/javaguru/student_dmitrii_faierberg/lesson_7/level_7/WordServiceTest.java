@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class WordServiceTest {
     WordService victim = new WordService();
     @Test
-    public void testFindMostFrequentWord() {
+    public void testFindMostFrequentWord () {
         String text = "car dog hot dog fog gold";
         String expected = "dog";
         assertEquals(expected, victim.findMostFrequentWord(text));

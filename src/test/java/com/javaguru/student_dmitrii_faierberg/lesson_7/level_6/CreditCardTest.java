@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CreditCardTest {
+public class  CreditCardTest {
     CreditCard victim = new CreditCard(2456, "3214536422214398");
 
     @Test
