@@ -6,7 +6,7 @@ class ArrayCopy {
         int[] result = new int[numberTo - numberFrom  + 1];
         int resultIndex = 0;
         for(int i = 0; i < in.length; i++){
-            if (i >= numberFrom && i <= number To){
+            if (i >= numberFrom && i <= numberTo){
                 result[resultIndex] = in[i];
                 resultIndex++;
             }
