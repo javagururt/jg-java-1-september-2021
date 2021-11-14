@@ -1,8 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_7.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 //Task_16
-
+@CodeReview(approved = true)
 class RepositoryUser {
 
     static UserEntity[] userEntities;

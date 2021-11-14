@@ -1,8 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_7.level_4;
 //Task_8
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class ArrayOfNumber {
     public static void main(String[] args) {
         ArrayOfNumber array = new ArrayOfNumber();
