@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_5.level_4_junior;
+package com.javaguru.student_jekaterina_ola.lesson_5.level_4_junior.Task_25;
 
 //Напишите программу, в которой:
 //        - запросите у пользователя с консоли длину массива
