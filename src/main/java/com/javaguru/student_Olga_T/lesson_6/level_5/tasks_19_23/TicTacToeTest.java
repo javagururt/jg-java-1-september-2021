@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_6.level_5.tasks_19_23;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest test = new TicTacToeTest();

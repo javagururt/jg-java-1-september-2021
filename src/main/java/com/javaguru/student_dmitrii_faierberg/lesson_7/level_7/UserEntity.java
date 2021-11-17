@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class UserEntity {
     private int id;
     private String name;

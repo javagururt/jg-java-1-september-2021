@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class WordService {
     public String findMostFrequentWord(String text) {
         String[] words = wordsFromString(text);

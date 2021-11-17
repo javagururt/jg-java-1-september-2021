@@ -1,9 +1,11 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class PowerCalculatorTest {
     PowerCalculator victim = new PowerCalculator();
     @Test

@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_6.level_5.tasks_19_23;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class TicTacToe {
     public static void main(String[] args) { // Task 27
 

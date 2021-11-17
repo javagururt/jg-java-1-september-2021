@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_7;
 
-import java.util.ArrayList;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 class UserEntityRepos {
     ArrayList<UserEntity> people = new ArrayList<UserEntity>();
 

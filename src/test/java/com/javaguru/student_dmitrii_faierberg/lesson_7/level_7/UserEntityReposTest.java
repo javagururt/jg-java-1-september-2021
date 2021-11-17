@@ -1,11 +1,12 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
 import com.javaguru.teacher.lesson_3.homework.level_x.solutions.super_task_1.User;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class UserEntityReposTest {
     private UserEntityRepos victim;
 

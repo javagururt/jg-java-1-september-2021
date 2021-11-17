@@ -1,10 +1,12 @@
 package com.javaguru.student_Olga_T.lesson_6.level_5.tasks_19_23;
 // https://vc.ru/dev/141885-poznaem-osnovy-java-i-sozdaem-krestiki-noliki
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
-
+@CodeReview(approved = true)
 class TicTacToePainting extends JComponent {
     public static final int FIELD_EMPTY = 0; //пустое поле
     public static final int FIELD_X = 10; //поле с крестиком

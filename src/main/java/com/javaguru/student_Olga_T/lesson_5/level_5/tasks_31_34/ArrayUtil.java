@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_5.level_5.tasks_31_34;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class ArrayUtil {
     Random random = new Random();
 

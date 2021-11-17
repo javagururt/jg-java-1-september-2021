@@ -1,9 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_8.level_4_and_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class RectangleTest {
 
     @Test

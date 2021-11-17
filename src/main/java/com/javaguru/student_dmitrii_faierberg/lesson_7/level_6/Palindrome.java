@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_6;
 
-import javax.security.auth.callback.CallbackHandler;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import javax.security.auth.callback.CallbackHandler;
+@CodeReview(approved = true)
 class Palindrome {
 
     public boolean isPalindrome(String text){

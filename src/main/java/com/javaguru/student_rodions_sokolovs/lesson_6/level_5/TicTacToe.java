@@ -3,9 +3,10 @@ package com.javaguru.student_rodions_sokolovs.lesson_6.level_5;
 
 
 import com.javaguru.student_rodions_sokolovs.lesson_6.level_6.Move;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class TicTacToe {
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {

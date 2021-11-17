@@ -1,9 +1,11 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_3_junior_and_task14;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class ArrayUtilTest {
     private ArrayUtil victim = new ArrayUtil();
     private int[] array = { 1, 2, 6 ,4, 7, 10, 6, 2, 2};

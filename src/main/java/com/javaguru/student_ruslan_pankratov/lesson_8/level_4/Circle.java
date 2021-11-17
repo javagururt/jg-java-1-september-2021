@@ -1,6 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_8.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_16
+@CodeReview(approved = true)
 class Circle extends Shape {
     public static void main(String[] args) {
         Circle circle = new Circle("Cirle", 60);

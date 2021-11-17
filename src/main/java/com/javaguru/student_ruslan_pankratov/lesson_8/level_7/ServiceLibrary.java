@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_8.level_7;
 
-import java.util.Arrays;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class ServiceLibrary {
     static boolean returned = true;
 

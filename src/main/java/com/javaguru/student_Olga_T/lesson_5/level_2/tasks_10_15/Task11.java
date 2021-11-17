@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_5.level_2.tasks_10_15;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task11 {
     public static void main(String[] args) {
         int[] myArray = new int[3];

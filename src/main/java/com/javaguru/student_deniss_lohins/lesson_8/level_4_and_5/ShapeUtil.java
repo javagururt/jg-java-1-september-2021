@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_8.level_4_and_5;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class ShapeUtil {
     int circleCounter = 1;
     int squareCounter = 1;

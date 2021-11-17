@@ -1,8 +1,10 @@
 package com.javaguru.student_Olga_T.lesson_5.level_4.tasks_25_30;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class Task26 {
     public static void main(String[] args) {
         Random random = new Random();

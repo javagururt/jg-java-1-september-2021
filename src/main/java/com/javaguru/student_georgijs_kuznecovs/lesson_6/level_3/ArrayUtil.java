@@ -1,5 +1,8 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_6.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public boolean findNumber(int number, int[] array){

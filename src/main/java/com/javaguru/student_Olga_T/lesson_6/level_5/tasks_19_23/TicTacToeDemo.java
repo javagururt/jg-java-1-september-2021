@@ -1,9 +1,11 @@
 package com.javaguru.student_Olga_T.lesson_6.level_5.tasks_19_23;
 // https://vc.ru/dev/141885-poznaem-osnovy-java-i-sozdaem-krestiki-noliki
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import javax.swing.*;
 import java.awt.*;
-
+@CodeReview(approved = true)
 class TicTacToeDemo {
     public static void main(String[] args) {
 

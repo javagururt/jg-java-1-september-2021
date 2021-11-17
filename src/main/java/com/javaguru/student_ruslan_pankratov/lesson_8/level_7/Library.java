@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_8.level_7;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Library {
 
     String nameBook;

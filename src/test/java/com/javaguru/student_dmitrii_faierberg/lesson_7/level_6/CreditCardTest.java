@@ -1,10 +1,12 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_6;
 
 import com.javaguru.student_dmitrii_faierberg.lesson_7.level_6.CreditCard;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class  CreditCardTest {
     CreditCard victim = new CreditCard(2456, "3214536422214398");
 

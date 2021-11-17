@@ -1,7 +1,9 @@
 package com.javaguru.student_Olga_T.lesson_5.level_4.tasks_25_30;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class Task27 {
     public static void main(String[] args) {
 

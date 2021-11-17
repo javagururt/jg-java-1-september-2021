@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_7.level_5.task_9;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class PowerCalculator {
 
 

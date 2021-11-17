@@ -8,9 +8,11 @@ package com.javaguru.student_rodions_sokolovs.lesson_6.level_3;
 //Добавьте в класс ArrayUtil метод для замены вхождений указанного числа в массиве целых чисел на другое число.
 //Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализация метода работает правильно.
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Добавьте в класс ArrayUtil метод для переворота массива целых чисел.
 //Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализация метода работает правильно.
-
+@CodeReview(approved = true)
 public class ArrayUtil {
     public boolean Full(int numb, int[] array) {
         boolean result = false;

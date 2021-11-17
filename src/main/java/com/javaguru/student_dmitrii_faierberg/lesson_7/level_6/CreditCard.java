@@ -34,7 +34,9 @@ package com.javaguru.student_dmitrii_faierberg.lesson_7.level_6;
 Все тестовые сценарии должны отрабатывать без ошибок.
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class  CreditCard {
     String cardNumber;
     private int pin;
