@@ -1,5 +1,8 @@
 package com.javaguru.student_georgijs_kuznecovs.lesson_6.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Task_16 {   //16+17
     public static void main (String[] args){
         int count = 0;

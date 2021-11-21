@@ -1,5 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_8.level_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_19
+@CodeReview(approved = true)
 class Triangle extends Shape{
     double side;
 

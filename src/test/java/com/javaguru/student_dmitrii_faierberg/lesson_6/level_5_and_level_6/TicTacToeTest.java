@@ -1,9 +1,11 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_5_and_level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class  TicTacToeTest {
     TicTacToe victim = new TicTacToe();
     @Test

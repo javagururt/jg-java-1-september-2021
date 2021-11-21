@@ -1,11 +1,13 @@
 package com.javaguru.student_rodions_sokolovs.lesson6.level_1.lesson_6.level_3;
 
 import com.javaguru.student_rodions_sokolovs.lesson_6.level_3.ArrayUtil;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+@CodeReview(approved = true)
 public class ArrayUtilTest {
     private ArrayUtil victim;
 

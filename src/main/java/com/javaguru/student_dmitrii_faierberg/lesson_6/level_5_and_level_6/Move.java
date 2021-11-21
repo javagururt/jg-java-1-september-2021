@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_5_and_level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Move {
     private int x;
     private int y;

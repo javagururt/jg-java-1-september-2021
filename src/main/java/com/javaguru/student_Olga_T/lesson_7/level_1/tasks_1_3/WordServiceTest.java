@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_7.level_1.tasks_1_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class WordServiceTest {
     public static void main(String[] args) {
         WordServiceTest test = new WordServiceTest();

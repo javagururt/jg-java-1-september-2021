@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_8.level_1;
 
-//Task_3
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Task_3
+@CodeReview(approved = true)
 class DefaultConstructorV3 {
 
     private String fullName;

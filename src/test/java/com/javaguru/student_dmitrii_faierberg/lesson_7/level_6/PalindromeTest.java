@@ -1,10 +1,12 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class PalindromeTest {
     Palindrome victim = new Palindrome();
     @Test

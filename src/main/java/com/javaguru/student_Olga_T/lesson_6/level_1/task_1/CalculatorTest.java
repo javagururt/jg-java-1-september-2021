@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_6.level_1.task_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

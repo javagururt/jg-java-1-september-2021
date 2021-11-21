@@ -6,8 +6,10 @@ package com.javaguru.student_jekaterina_ola.lesson_5.level_4_junior.Task_25;
 //        - заполните массив числами полученными от пользователя
 //        - распечатайте на консоль все элементы массива.
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_25 {
 
     public static void main(String[] args) {

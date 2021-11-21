@@ -1,8 +1,10 @@
 
 package com.javaguru.student_Olga_T.lesson_5.level_4.tasks_25_30;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class Task25 {
     public static void main(String[] args) {
         Scanner scannerNumber = new Scanner(System.in);

@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_5.level_6.tasks_35_39;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

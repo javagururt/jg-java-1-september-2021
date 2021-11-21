@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_4.level_7.task_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();

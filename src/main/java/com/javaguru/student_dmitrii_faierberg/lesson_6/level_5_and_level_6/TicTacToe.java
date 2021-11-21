@@ -1,7 +1,11 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_5_and_level_6;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Необходимо избавиться от дублирующегося кода")
 class TicTacToe {
     public int[][] createField(){
         int[][] field = new int[3][3];

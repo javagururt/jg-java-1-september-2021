@@ -1,7 +1,11 @@
 package com.javaguru.student_rodions_sokolovs.lesson_6.Level_4;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.util.Random;
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Лучше называть методы с маленькой буквы")
 public class TwoDimensionalArray {
 
     public int[][] Arrayrandom(int c, int a) {

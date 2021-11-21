@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_7.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayCopy {
 
     public int[] copyInRange(int[] in, int numberFrom, int numberTo){

@@ -1,11 +1,13 @@
 package com.javaguru.student_rodions_sokolovs.lesson6.level_1.lesson_6.level_5;
 
 import com.javaguru.student_rodions_sokolovs.lesson_6.level_5.TicTacToe;
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-
+@CodeReview(approved = true)
 public class TicTacToeTest {
     private TicTacToe victim;
 

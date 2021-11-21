@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_6.level_4;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class TwoDimensionalArray {
     public static void main(String[] args) {
         int[][] arr = new int[4][4];

@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_6.Level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_17 {
     public static void main(String[] args) {
         System.out.println("For loop");
