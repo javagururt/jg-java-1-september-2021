@@ -1,6 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_9.level_2;
-//Какой будет результат выполнения следующей программы?
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+//Какой будет результат выполнения следующей программы?
+@CodeReview(approved = true)
 class A {
     public A() {
         System.out.println("Class A Constructor");

@@ -1,12 +1,14 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class FraudDetectorTest {
 
     @Test

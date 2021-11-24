@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_7;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Game {
     public static void main(String[] args) {
         Game game = new Game();

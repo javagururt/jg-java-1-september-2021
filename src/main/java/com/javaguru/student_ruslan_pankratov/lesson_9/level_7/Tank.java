@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Tank {
     private String model;//создаём приватные поля
     private int weight;

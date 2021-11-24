@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_5;
 
-import java.util.List;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class FraudDetector {
 
     Transaction transaction;

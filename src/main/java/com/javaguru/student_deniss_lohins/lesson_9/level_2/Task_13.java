@@ -1,7 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_9.level_2;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*В коде ниже допущена ошибка. Исправьте её.
         Вносить изменения можно только в класс ClassY.*/
-
+@CodeReview(approved = true)
 class ClassX {
     public ClassX(int i) {
         System.out.println(1);

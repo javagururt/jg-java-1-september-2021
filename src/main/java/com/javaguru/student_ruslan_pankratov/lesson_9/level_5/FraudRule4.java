@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FraudRule4 extends FraudRule {
     public FraudRule4(String ruleName) {
         super(ruleName);

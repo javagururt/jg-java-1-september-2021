@@ -1,7 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_9.level_1;
 
-import java.math.BigDecimal;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.math.BigDecimal;
+@CodeReview(approved = false)
+@CodeReviewComment(teacher = "Объекты нужно сравнивать через equals")
 class Safe2 {
     private String password;
     private Double amount;

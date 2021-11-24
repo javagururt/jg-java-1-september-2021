@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_8.level_4_and_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ShapeUtilDemo {
     public static void main(String[] args) {
         Shape circle = ShapeUtil.createRandomCircle();

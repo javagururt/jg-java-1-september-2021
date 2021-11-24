@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_9.level_2;
 
-//Исправьте код класса ProtectedClass так, чтобы он компилировался.
+import com.javaguru.teacher.codereview.CodeReview;
 
+//Исправьте код класса ProtectedClass так, чтобы он компилировался.
+@CodeReview(approved = true)
 class ProtectedClass {
 
     private String title;

@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class SafeVersionTwoTest {
     public static void main(String[] args) {
         SafeVersionTwo safeVersionTwo = new SafeVersionTwo(7777,10000);

@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FraudDetector {
     boolean isFraud(Transaction t) {
 

@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_9.level_1;
 
-import java.math.BigDecimal;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.math.BigDecimal;
+@CodeReview(approved = true)
 class Safe2Demo {
     public static void main(String[] args) {
         Safe2 safe2 = new Safe2("qwertyy", 100.0);

@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_9.level_5;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class FraudDetectionResult {
 
     private boolean fraud;
