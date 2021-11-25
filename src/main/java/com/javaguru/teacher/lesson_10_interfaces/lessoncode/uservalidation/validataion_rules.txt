@@ -1,0 +1,8 @@
+Nickname rules:
+- min length 4;
+- max length - 10;
+- Starts with capital letter
+
+Age rules:
+- min age 18
+- max age 120
