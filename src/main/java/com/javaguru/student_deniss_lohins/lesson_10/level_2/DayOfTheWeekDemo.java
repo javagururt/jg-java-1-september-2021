@@ -4,15 +4,24 @@ import java.util.Scanner;
 
 class DayOfTheWeekDemo {
 
-/*
-    public DayOfTheWeekDemo(DayOfTheWeekDetector method) {
-        DayOfTheWeekDetector runner = new method();
+    private final DayOfTheWeekDetector detector;
+
+    public DayOfTheWeekDemo(DayOfTheWeekDetector implementation) {
+        detector = implementation;
+
     }
 
     void run(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter number: ");
         int day = sc.nextInt();
-        System.out.println("This is " + runner.detectDayname(day));
-    }*/
+        String result = detector.detectDayName(day);
+        System.out.println(result);
+    }
+
+    public static void main(String[] args) {
+        DayOfTheWeekDetector implementation = new DayOfTheWeekDetectorArrayVersionImpl();
+        DayOfTheWeekDemo runner = new DayOfTheWeekDemo(implementation);
+        runner.run();
+    }
 }

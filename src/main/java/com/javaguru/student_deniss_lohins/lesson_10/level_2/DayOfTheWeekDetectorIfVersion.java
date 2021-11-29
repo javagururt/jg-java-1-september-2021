@@ -2,6 +2,7 @@ package com.javaguru.student_deniss_lohins.lesson_10.level_2;
 
 class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector{
     // Try to use switch here!!
+
     @Override
     public String detectDayName(int number) {
         if (number == 1) {
