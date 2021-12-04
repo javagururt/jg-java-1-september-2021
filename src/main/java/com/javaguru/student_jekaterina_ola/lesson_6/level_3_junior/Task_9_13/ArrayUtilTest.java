@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_6.level_3_junior.Task_9;
+package com.javaguru.student_jekaterina_ola.lesson_6.level_3_junior.Task_9_13;
 
 public class ArrayUtilTest {
     public static void main(String[] args) {

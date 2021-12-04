@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_6.level_3_junior.Task_9;
+package com.javaguru.student_jekaterina_ola.lesson_6.level_3_junior.Task_9_13;
 
 //Дсодержит ли массив целых чисел указанное число.
 //сколько раз содержит массив целых чисел указынное число.
