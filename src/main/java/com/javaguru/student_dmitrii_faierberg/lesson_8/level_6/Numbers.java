@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_8.level_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Numbers {
     static void printNumbers(String s, int... nums){
         System.out.println("First parameter: " + s);

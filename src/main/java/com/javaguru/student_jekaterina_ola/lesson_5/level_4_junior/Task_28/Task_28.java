@@ -6,9 +6,11 @@ package com.javaguru.student_jekaterina_ola.lesson_5.level_4_junior.Task_28;
 //        - распечатайте на консоль все элементы массива
 //        - найдите наименьшее число в массиве и выведите его на консоль.
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class Task_28 {
     public static void main (String[] args){
         int minOfArray = 0;
