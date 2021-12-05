@@ -5,7 +5,7 @@ package com.javaguru.student_jekaterina_ola.lesson_6.level_3_junior.Task_9_13;
 //метод для замены первого вхождения указанного числа в массиве целых чисел на другое число.
 //метод для замены вхождений указанного числа в массиве целых чисел на другое число.
 //метод для переворота массива целых чисел.
-//        Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализация метода работает правильно.
+//Напишите автоматические тесты в классе ArrayUtilTest доказывающие, что ваша реализация метода работает правильно.
 
 public class ArrayUtil {
 
@@ -41,7 +41,7 @@ public class ArrayUtil {
 
     public int[] replaceAll(int[] arr, int numberToReplace, int newNumber) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == numberToReplace){
+            if (arr[i] == numberToReplace) {
                 arr[i] = newNumber;
                 return arr;
             }
@@ -49,16 +49,17 @@ public class ArrayUtil {
         return arr;
     }
 
-    public int howManyEqualNumbersContainArray(int checkEqualNumbers, int[] array){
+    public int howManyEqualNumbersContainArray(int checkEqualNumbers, int[] array) {
         int equalNumber = 0;
-        for (int i = 0; i < array.length; i++){
-            if (array[i] == checkEqualNumbers){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == checkEqualNumbers) {
                 equalNumber++;
             }
         }
         return equalNumber;
     }
 }
+
 
 
 

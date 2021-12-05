@@ -10,6 +10,7 @@ public class ArrayUtilTest {
         arrayUtilTest.howManyEqualNumbersContainArray();
     }
 
+
     public void shouldContainNumber() {
         ArrayUtil arrayUtil = new ArrayUtil();
         int[] array = arrayUtil.fillArrayWithNumbers();
