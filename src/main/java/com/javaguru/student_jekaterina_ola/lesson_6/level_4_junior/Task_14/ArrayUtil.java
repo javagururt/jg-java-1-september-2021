@@ -3,23 +3,21 @@ package com.javaguru.student_jekaterina_ola.lesson_6.level_4_junior.Task_14;
 //Добавьте в класс ArrayUtil метод для сортировки массива целых чисел.
 
 public class ArrayUtil {
+    public int[] sortBubble(int[] myArr) {
 
-    public int[] sortBubble(int[] myArray){
+        boolean ifArrayIsSorted = false;
+        while (!ifArrayIsSorted) {
+            ifArrayIsSorted = true;
 
-        boolean ifArraySorted = false;
-        while (!ifArraySorted) {
-            ifArraySorted = true;
-
-            for  (int i = 0; i < myArray.length; i++) {
-                if (myArray[i] < myArray [i - 1]) {
-                    int tempBubble = myArray[i - 1];
-                    myArray[i - 1] = myArray[i];
-                    myArray[i] = tempBubble;
-                    ifArraySorted = false;
-
+            for (int i = 1; i < myArr.length; i++) {
+                if (myArr[i] < myArr[i - 1]) {
+                    int tempBubble = myArr[i - 1];
+                    myArr[i - 1] = myArr[i];
+                    myArr[i] = tempBubble;
+                    ifArrayIsSorted = false;
                 }
             }
         }
-        return myArray;
+        return myArr;
     }
 }
