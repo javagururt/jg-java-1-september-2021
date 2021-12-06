@@ -11,12 +11,18 @@ class Book {
         this.bookName = bookName;
     }
 
-    @Override
-    public String toString() {
+
+   /* public String toString() {
         return "Book{" +
                 "author='" + author + '\'' +
                 ", bookName='" + bookName + '\'' +
                 '}';
+    }
+*/
+    @Override
+    public String toString(){
+        return bookName +
+                " [" + author + "]";
     }
 
     public String getBookName() {

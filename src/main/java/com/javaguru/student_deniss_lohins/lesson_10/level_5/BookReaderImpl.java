@@ -1,5 +1,8 @@
 package com.javaguru.student_deniss_lohins.lesson_10.level_5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class BookReaderImpl implements BookReader {
     BookRepository repository;
 
@@ -17,7 +20,7 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean removeBook(Book book) {
-        if (repository.remove(book)){
+        if (repository.remove(book)) {
             return true;
         }
         return false;
@@ -25,7 +28,14 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public String[] content() {
-        return new String[0];
+        return repository.content();
     }
+
+    @Override
+    public List<Book> findByAuthor(String author) {
+        return repository.fingByAuthor(author);
+    }
+
+
 
 }
