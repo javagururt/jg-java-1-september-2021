@@ -2,10 +2,12 @@ package com.javaguru.student_ruslan_pankratov.lesson_11.level_1;
 
 //Task_1-2
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class RealizationList {
     public static void main(String[] args) {
         List list = new ArrayList();//хранит в себе массив списка, при увеличении размера создаёт новый массив, что накладно

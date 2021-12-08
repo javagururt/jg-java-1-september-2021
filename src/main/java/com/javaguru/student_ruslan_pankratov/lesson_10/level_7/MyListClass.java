@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_7;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class MyListClass implements MyList{
     MyList[] myListClass = new MyListClass[0];
 

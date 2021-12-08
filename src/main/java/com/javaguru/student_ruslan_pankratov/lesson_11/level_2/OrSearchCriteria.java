@@ -1,5 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_11.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "статику лучше не юзать в этом случае. Тем более поля не используются")
 class OrSearchCriteria extends SearchCriteriaSuper implements SearchCriteria {
 
     private static int countElement;

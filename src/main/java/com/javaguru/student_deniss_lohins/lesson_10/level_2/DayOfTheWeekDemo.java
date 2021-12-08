@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_10.level_2;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class DayOfTheWeekDemo {
 
     private final DayOfTheWeekDetector detector;

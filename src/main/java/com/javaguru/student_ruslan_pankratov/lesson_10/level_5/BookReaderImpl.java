@@ -2,10 +2,12 @@ package com.javaguru.student_ruslan_pankratov.lesson_10.level_5;
 
 //Task_13-18
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
+@CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
     List<Book> library = new ArrayList<>();
 

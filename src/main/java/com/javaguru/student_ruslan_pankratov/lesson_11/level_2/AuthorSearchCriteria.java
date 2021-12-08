@@ -1,6 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_11.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_16
+@CodeReview(approved = true)
 public class AuthorSearchCriteria extends SearchCriteriaSuper implements SearchCriteria {
 
     private String authorToSearch;

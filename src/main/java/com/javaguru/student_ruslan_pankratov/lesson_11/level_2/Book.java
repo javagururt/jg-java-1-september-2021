@@ -1,8 +1,11 @@
 package com.javaguru.student_ruslan_pankratov.lesson_11.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
 //Task_6
+@CodeReview(approved = true)
 public class Book{
     private Long id;
     private String title;

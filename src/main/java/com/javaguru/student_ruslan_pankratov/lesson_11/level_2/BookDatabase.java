@@ -1,11 +1,14 @@
 package com.javaguru.student_ruslan_pankratov.lesson_11.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
 //Task_6
+@CodeReview(approved = true)
 public interface BookDatabase {
     Long save(Book book);//
 

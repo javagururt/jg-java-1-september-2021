@@ -1,5 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_7.node;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "хорошая работа! :)")
 public class LinkedListMeCreate<E> {
     private Node root = new Node();
     private Node next;

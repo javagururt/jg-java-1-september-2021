@@ -1,8 +1,11 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 //Task_5
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo{
     public static void main(String[] args) {
         run();
