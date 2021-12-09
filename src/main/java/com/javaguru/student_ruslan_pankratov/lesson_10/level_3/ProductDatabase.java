@@ -1,8 +1,10 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_3;
 //Task_7
 
-import java.util.Optional;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Optional;
+@CodeReview(approved = true)
 interface ProductDatabase {
 
     void save(Product product);
