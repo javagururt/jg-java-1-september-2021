@@ -48,11 +48,11 @@ class BookDatabaseImpl implements BookDatabase {
     public List<Book> findByAuthor(String author) {
         List<Book> result = new ArrayList<>();
         Iterator<Book> iterator = repository.values().iterator();
-        while (iterator.hasNext()){
-        Book book = iterator.next();
-        if (book.getAuthor().equalsIgnoreCase(author)) {
-            result.add(book);
-        }
+        while (iterator.hasNext()) {
+            Book book = iterator.next();
+            if (book.getAuthor().equalsIgnoreCase(author)) {
+                result.add(book);
+            }
         }
         return result;
     }
@@ -61,7 +61,7 @@ class BookDatabaseImpl implements BookDatabase {
     public List<Book> findByTitle(String title) {
         List<Book> result = new ArrayList<>();
         Iterator<Book> iterator = repository.values().iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             Book book = iterator.next();
             if (book.getTitle().equalsIgnoreCase(title)) {
                 result.add(book);
@@ -99,7 +99,7 @@ class BookDatabaseImpl implements BookDatabase {
 
     @Override
     public List<Book> find(SearchCriteria searchCriteria) {
-        List <Book> result = new ArrayList<>();
+        List<Book> result = new ArrayList<>();
         Iterator<Book> iterator = repository.values().iterator();
         while (iterator.hasNext()) {
             Book book = iterator.next();
@@ -109,12 +109,12 @@ class BookDatabaseImpl implements BookDatabase {
         }
         return result;
     }
-/*
+
     @Override
     public Set<String> findUniqueAuthors() {
-        Set<String> result = new TreeSet<>();
+        // Set<String> result = new TreeSet<>();
 
-
-    }*/
+        return null;
+    }
 
 }
