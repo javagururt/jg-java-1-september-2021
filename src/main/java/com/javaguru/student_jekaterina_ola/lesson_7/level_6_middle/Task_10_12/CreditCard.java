@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10;
+package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10_12;
 
 //Свойства
 //        -Номер карты

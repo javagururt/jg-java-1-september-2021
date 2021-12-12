@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10;
+package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10_12;
 
 //Разработать класс с методом, который копирует числа в заданном диапазоне
 //        из одного массива в другой:
