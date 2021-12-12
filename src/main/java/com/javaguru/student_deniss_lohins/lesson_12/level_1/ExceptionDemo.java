@@ -1,0 +1,10 @@
+package com.javaguru.student_deniss_lohins.lesson_12.level_1;
+
+class ExceptionDemo {
+    public static void main(String[] args) {
+       Exception exception1 = new Exception();
+        Exception exception2 = new Exception("Message");
+        Exception exception3 = new Exception("message", exception2.getCause());
+Exception exception4 = new Exception(exception1.getCause());
+    }
+}
