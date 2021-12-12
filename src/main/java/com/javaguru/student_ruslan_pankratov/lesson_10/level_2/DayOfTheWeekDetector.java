@@ -1,6 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_2;
-//Task_4
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+//Task_4
+@CodeReview(approved = true)
 interface DayOfTheWeekDetector {
 
     String detectDayName(int number);

@@ -1,5 +1,8 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorIfVersionThree implements DayOfTheWeekDetector {
 
     @Override

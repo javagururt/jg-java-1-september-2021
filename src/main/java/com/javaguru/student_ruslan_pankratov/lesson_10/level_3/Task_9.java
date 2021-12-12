@@ -1,5 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_3;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Task_9
+@CodeReview(approved = true)
 public class Task_9 {
 //1)Для чего применяются объекты этого класса?
     //1)Для того, чтобы не вылетали NullPointerException, сам класс является обвёрткой.

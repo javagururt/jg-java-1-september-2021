@@ -1,7 +1,9 @@
 package com.javaguru.student_ruslan_pankratov.lesson_10.level_3;
 
-import java.util.Optional;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Optional;
+@CodeReview(approved = true)
 class InMemoryDatabase implements ProductDatabase {
     Product[] product = new Product[0];
 

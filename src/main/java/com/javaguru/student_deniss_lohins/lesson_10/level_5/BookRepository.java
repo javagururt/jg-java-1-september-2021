@@ -1,10 +1,14 @@
 package com.javaguru.student_deniss_lohins.lesson_10.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "content - не используется.")
 class BookRepository {
 
     private Map<String, Book> repository;
