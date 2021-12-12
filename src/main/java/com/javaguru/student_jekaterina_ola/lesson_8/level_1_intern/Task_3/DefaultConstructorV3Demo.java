@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_8.Task_3;
+package com.javaguru.student_jekaterina_ola.lesson_8.level_1_intern.Task_3;
 
 public class DefaultConstructorV3Demo {
     public static void main (String[] args){
