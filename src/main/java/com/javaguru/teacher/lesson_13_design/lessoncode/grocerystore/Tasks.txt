@@ -1,0 +1,22 @@
+Functional requirements:
+- Save product
+- Get product (all / id)
+- Delete product
+
+Task 1: Implement user interface
+ - Save product UI menu
+ - Get product UI menu
+ - Delete product UI menu
+
+Task 2: Implement Business Logic
+ - Implement save product
+    - add validation
+ - Implement get product
+ - Implement delete product
+
+Task 3: Implement Database (storage)
+ - save
+ - get
+ - delete
+
+
