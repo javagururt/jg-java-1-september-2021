@@ -1,7 +1,9 @@
-package com.javaguru.student_deniss_lohins.lesson_12.level_5;
+package com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.validation_rules;
+
+import com.javaguru.student_deniss_lohins.lesson_12.level_5.Product;
+import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.ValidationException;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /*
 К названию продукта выдвигаются следующие требования:
@@ -10,15 +12,16 @@ import java.util.stream.Collectors;
 - не должно быть длиннее 100 символов
 - должно содержать только английские буквы и цифры, другие символы не допустимы
  */
-class NameValidation {
+class NameValidation implements ValidationForProduct {
     private int minimalLength = 3;
     private int maximalLength = 100;
     private Integer[] acceptableCharsASCII = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57,
             65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84,
             85, 86, 87, 88, 89, 90};
 
-
-    boolean isValid(String name){
+@Override
+    public boolean isValid(Product product) throws ValidationException{
+        String name = product.getName();
         if (isValidSymbols(name)){
             if(isValidMinLength(name)){
                 if(isValidMaxLength(name)){
@@ -36,10 +39,7 @@ class NameValidation {
     }
 
     boolean isValidSymbols(String name) {
-        List<Integer> symbolListASCII = new ArrayList<Integer>(acceptableCharsASCII.length);
-        for (int i : acceptableCharsASCII) {
-            symbolListASCII.add(i);
-        }
+        List<Integer> symbolListASCII = getAcceptableSymbolNumbers();
 
         if (name == null) {
             return false;
@@ -54,6 +54,15 @@ class NameValidation {
         }
         return true;
     }
+
+    private List<Integer> getAcceptableSymbolNumbers() {
+        List<Integer> symbolListASCII = new ArrayList<Integer>(acceptableCharsASCII.length);
+        for (int i : acceptableCharsASCII) {
+            symbolListASCII.add(i);
+        }
+        return symbolListASCII;
+    }
+
     boolean isValidMinLength(String name){
         if(name.length() < minimalLength){
             return false;

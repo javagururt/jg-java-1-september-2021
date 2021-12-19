@@ -2,7 +2,7 @@ package com.javaguru.student_deniss_lohins.lesson_12.level_5;
 
 import java.util.Objects;
 
-class Product {
+public class Product {
     private String name;
     private double price;
     private String description;
