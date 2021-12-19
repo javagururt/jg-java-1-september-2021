@@ -1,5 +1,6 @@
 package com.javaguru.student_jekaterina_ola.lesson_9.level_2_intern.Task_12;
 
+//класс наследования. родительский класс ничего не знает о своих детях
 
 class A {
     public A() { System.out.println("Class A Constructor"); }
