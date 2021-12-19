@@ -1,4 +1,4 @@
-package com.javaguru.student_jekaterina_ola.lesson_10.Task_3;
+package com.javaguru.student_jekaterina_ola.lesson_10.lesson_1_intern.Task_3;
 
 public class MyList {
 
