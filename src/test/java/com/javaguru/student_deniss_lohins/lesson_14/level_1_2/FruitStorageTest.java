@@ -44,7 +44,7 @@ public class FruitStorageTest {
         FruitStorage victim = new FruitStorage();
         List<Apple> repository = victim.getAllApples();
         int result = victim.getAppleByWeight(repository, 100).size();
-        assertEquals(5, result);
+        assertEquals(4, result);
     }
 
     @Test
