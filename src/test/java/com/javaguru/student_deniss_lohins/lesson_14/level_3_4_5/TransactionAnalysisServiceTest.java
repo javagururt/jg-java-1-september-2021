@@ -2,7 +2,9 @@ package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.Assert.*;
 
@@ -140,5 +142,47 @@ public class TransactionAnalysisServiceTest {
     public void isThereAnyTradersFromCambridge() {
         boolean result = new TransactionAnalysisService().isAnyTradersFromSpecificCity(new TransactionTestData().getTransactions(), "CambridGE");
         assertTrue(result);
+    }
+
+    @Test
+    public void findHighestValue(){
+        Optional<Transaction> interimResult = new TransactionAnalysisService().highestValue(new TransactionTestData().getTransactions());
+        boolean result = interimResult.isPresent();
+        System.out.println(interimResult);
+        assertTrue(result);
+    }
+
+    @Test
+    public void notFindHighestValue(){
+        List<Transaction> emptyList = new ArrayList<>();
+        boolean result = new TransactionAnalysisService().highestValue(emptyList).isPresent();
+        assertFalse(result);
+    }
+
+    @Test
+    public void findLowestValue(){
+        Optional<Transaction> interimResult = new TransactionAnalysisService().lowestValue(new TransactionTestData().getTransactions());
+        boolean result = interimResult.isPresent();
+        System.out.println(interimResult);
+        assertTrue(result);
+    }
+
+    @Test
+    public void notFindLowestValue(){
+        List<Transaction> emptyList = new ArrayList<>();
+        boolean result = new TransactionAnalysisService().lowestValue(emptyList).isPresent();
+        assertFalse(result);
+    }
+
+    @Test
+    public void collectTradersNamesIncreasingOrder(){
+        String result = new TransactionAnalysisService().tradersNamesIncreasingOrder(new TransactionTestData().getTransactions());
+        System.out.println(result);
+    }
+
+    @Test
+    public void collectTradersCityIncreasingOrder(){
+        String result = new TransactionAnalysisService().tradersCityIncreasingOrder(new TransactionTestData().getTransactions());
+        System.out.println(result);
     }
 }

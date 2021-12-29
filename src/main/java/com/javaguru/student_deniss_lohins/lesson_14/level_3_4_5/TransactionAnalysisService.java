@@ -127,4 +127,35 @@ class TransactionAnalysisService {
         return transactionList.stream()
                 .anyMatch(transaction -> transaction.getTrader().getCity().equalsIgnoreCase(cityTocheck));
     }
+
+    public Optional<Transaction> highestValue(List<Transaction> transactionList){
+        return transactionList.stream()
+                .sorted(Comparator.comparingInt(Transaction::getValue)
+                        .reversed())
+                .findFirst();
+    }
+
+    public Optional<Transaction> lowestValue(List<Transaction> transactionList){
+        return transactionList.stream()
+                .sorted(Comparator.comparingInt(Transaction::getValue))
+                .findFirst();
+    }
+
+    public String tradersNamesIncreasingOrder(List<Transaction> transactionList){
+        return transactionList.stream()
+                .map(Transaction::getTrader)
+                .map(Trader::getName)
+                .sorted()
+                .distinct()
+                .collect(Collectors.joining(", "));
+    }
+
+    public String tradersCityIncreasingOrder(List<Transaction> transactionList){
+        return transactionList.stream()
+                .map(Transaction::getTrader)
+                .map(Trader::getCity)
+                .sorted()
+                .distinct()
+                .collect(Collectors.joining(", "));
+    }
 }
