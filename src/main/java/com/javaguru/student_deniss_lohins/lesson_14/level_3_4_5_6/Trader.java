@@ -1,4 +1,4 @@
-package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5;
+package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6;
 
 class Trader {
     private String name;
