@@ -1,4 +1,4 @@
-package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5;
+package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -126,5 +126,36 @@ class TransactionAnalysisService {
     public boolean isAnyTradersFromSpecificCity(List<Transaction> transactionList, String cityTocheck) {
         return transactionList.stream()
                 .anyMatch(transaction -> transaction.getTrader().getCity().equalsIgnoreCase(cityTocheck));
+    }
+
+    public Optional<Transaction> highestValue(List<Transaction> transactionList){
+        return transactionList.stream()
+                .sorted(Comparator.comparingInt(Transaction::getValue)
+                        .reversed())
+                .findFirst();
+    }
+
+    public Optional<Transaction> lowestValue(List<Transaction> transactionList){
+        return transactionList.stream()
+                .sorted(Comparator.comparingInt(Transaction::getValue))
+                .findFirst();
+    }
+
+    public String tradersNamesIncreasingOrder(List<Transaction> transactionList){
+        return transactionList.stream()
+                .map(Transaction::getTrader)
+                .map(Trader::getName)
+                .sorted()
+                .distinct()
+                .collect(Collectors.joining(", "));
+    }
+
+    public String tradersCityIncreasingOrder(List<Transaction> transactionList){
+        return transactionList.stream()
+                .map(Transaction::getTrader)
+                .map(Trader::getCity)
+                .sorted()
+                .distinct()
+                .collect(Collectors.joining(", "));
     }
 }

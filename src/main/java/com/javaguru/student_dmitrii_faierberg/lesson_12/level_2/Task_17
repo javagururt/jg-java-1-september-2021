@@ -1,0 +1,9 @@
+Почему класс AccessDeniedException в нашем случае
+лучше наследовать от Exception, а не от RuntimeException?
+
+AccessDeniedException in our case should be checked explicitly, which makes it as checked exception, while
+RuntimeException is unchecked.
+
+class AccessDeniedException extends Exception {
+
+}
