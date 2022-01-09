@@ -1,6 +1,6 @@
 package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6;
 
-class Trader {
+public class Trader {
     private String name;
     private String city;
 
