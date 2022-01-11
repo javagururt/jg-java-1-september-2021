@@ -15,7 +15,8 @@ public class FruitStorageTest {
         int result = victim.getApplesByColour(repository, "green").size();
         assertEquals(3, result);
     }
-@Test
+
+    @Test
     public void getRedApples() {
         FruitStorage victim = new FruitStorage();
         List<Apple> repository = victim.getAllApples();
@@ -40,7 +41,7 @@ public class FruitStorageTest {
     }
 
     @Test
-    public void getApplesGreater100Grams(){
+    public void getApplesGreater100Grams() {
         FruitStorage victim = new FruitStorage();
         List<Apple> repository = victim.getAllApples();
         int result = victim.getAppleByWeight(repository, 100).size();
@@ -48,7 +49,7 @@ public class FruitStorageTest {
     }
 
     @Test
-    public void getApplesGreater150Grams(){
+    public void getApplesGreater150Grams() {
         FruitStorage victim = new FruitStorage();
         List<Apple> repository = victim.getAllApples();
         int result = victim.getAppleByWeight(repository, 150).size();
@@ -56,9 +57,34 @@ public class FruitStorageTest {
     }
 
     @Test
-    public void findGreenApples(){
+    public void findGreenApples() {
         FruitStorage victim = new FruitStorage();
         List<Apple> repository = victim.getAllApples();
+        int result = victim.findApples(repository, new isGreen()).size();
+        assertEquals(3, result);
+    }
 
+    @Test
+    public void findHeavyApples() {
+        FruitStorage victim = new FruitStorage();
+        List<Apple> repository = victim.getAllApples();
+        int result = victim.findApples(repository, new isHeavy()).size();
+        assertEquals(4, result);
+    }
+
+    @Test
+    public void findRedApples() {
+        FruitStorage victim = new FruitStorage();
+        List<Apple> repository = victim.getAllApples();
+        int result = victim.findApples(repository, new isRed()).size();
+        assertEquals(3, result);
+    }
+
+    @Test
+    public void findGreenAndHeavyApples() {
+        FruitStorage victim = new FruitStorage();
+        List<Apple> repository = victim.getAllApples();
+        int result = victim.findApples(repository, new isGreenAndHeavy()).size();
+        assertEquals(1, result);
     }
 }
