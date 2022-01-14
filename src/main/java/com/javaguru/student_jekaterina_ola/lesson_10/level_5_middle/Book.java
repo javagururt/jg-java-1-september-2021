@@ -15,7 +15,7 @@ public class Book {
     public String getAuthor() {return author;}
 
     public boolean getRead() {return read;}
-    public boolean setRead(boolean cond) {this.read = cond;}
+//    public boolean setRead(boolean cond) {this.read = cond;}
 
     public boolean equals(Book book) {return title.equals(book.title) && author.equals(book.author);}
 
