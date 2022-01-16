@@ -1,0 +1,18 @@
+Найдите в интернете информацию про класс java.util.Optional.
+
+Для чего применяются объекты этого класса?
+избежания NullPointerException в ситуациях, когда вы не можете или не хотите использовать Optional
+
+Какие два состояния могут быть у объектов этого класса?
+true/false
+
+
+Как создаются экземпляры данного класса?
+Optional<User> user = Optional.of(repository.findById(userId));
+
+Как можно проверить в каком состоянии находится экземпляр данного класса?
+Optional<User> optionalUser = repository.findById(userId);
+User user = optionalUser.isPresent() ? optionalUser.get() : new User();
+
+Как можно получить объект, который находится внутри Optional?
+String a = name.get()
