@@ -13,6 +13,12 @@ class MarsRoversControlApp {
         this.yPletauSize = yPletauSize;
     }
 
+    public void getAllRovers() {
+        for (int i = 0; i < roverArrayList.size(); i++) {
+            System.out.println(roverArrayList.get(i).getPosition());
+        }
+    }
+
     public boolean addRover(int xPosition, int yPosition, char orientation) {
         MarsRover marsRover = new MarsRover(xPosition, yPosition, orientation);
         marsRover.setxPletauSize(xPletauSize);
@@ -47,14 +53,14 @@ class MarsRoversControlApp {
         victim.setxPletauSize(xPletauSize);
         victim.setyPletauSize(yPletauSize);
         victim.moveRover(moves);
-        if (finalPositionIsEmpty(victim.getxPosition(), victim.getyPosition())){
-            return selectRover(roverNumber).moveRover(moves);
-            }else{
-            return selectRover(roverNumber).getPosition();
+        if (finalPositionIsEmpty(victim.getxPosition(), victim.getyPosition())) {
+            selectRover(roverNumber).moveRover(moves);
         }
-
-
+        return selectRover(roverNumber).getPosition();
     }
 
 
 }
+
+
+
