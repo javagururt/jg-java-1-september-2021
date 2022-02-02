@@ -1,11 +1,13 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-
+@CodeReview(approved = true)
 class ListDemo {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();

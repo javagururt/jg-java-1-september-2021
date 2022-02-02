@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ExceptionDemo {
     public static void main(String args[]) {
         try {

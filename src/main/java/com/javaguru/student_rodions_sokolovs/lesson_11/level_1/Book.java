@@ -1,7 +1,9 @@
 package com.javaguru.student_rodions_sokolovs.lesson_11.level_1;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 public class Book {
 
     private String title;

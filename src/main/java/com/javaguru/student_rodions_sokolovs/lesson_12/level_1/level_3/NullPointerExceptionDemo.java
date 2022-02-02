@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class NullPointerExceptionDemo {
     private static void printLength(String str) {
         System.out.println(str.length());

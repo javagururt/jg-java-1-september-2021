@@ -2,9 +2,10 @@ package com.javaguru.student_deniss_lohins.lesson_12.level_5.validation;
 
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.Product;
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.validation_rules.ValidationForProduct;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.List;
-
+@CodeReview(approved = true)
 public class ValidationService{
     private List<ValidationForProduct> validationRules;
 

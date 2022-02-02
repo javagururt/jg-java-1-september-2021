@@ -1,6 +1,8 @@
 package com.javaguru.student_nikita_simans.homework.lesson_9.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class Safe2Demo {
     public static void main(String[] args) {
         Safe2 safe = new Safe2("password123", 123.0);

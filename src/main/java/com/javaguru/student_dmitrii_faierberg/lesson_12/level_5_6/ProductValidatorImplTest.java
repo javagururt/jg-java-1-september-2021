@@ -16,9 +16,11 @@ package com.javaguru.student_dmitrii_faierberg.lesson_12.level_5_6;
 - RULE-8: должно содержать только английские буквы и цифры, другие символы не допустимы
  */
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class ProductValidatorImplTest {
     ProductTitleValidationRule titleValidationRule = new ProductTitleValidationRule();
     ProductPriceValidationRule priceValidationRule = new ProductPriceValidationRule();

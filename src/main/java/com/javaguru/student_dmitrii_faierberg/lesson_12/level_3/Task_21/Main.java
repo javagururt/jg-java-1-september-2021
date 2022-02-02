@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_12.level_3.Task_21;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Main {
     public static void main(String args[]) {
         try {

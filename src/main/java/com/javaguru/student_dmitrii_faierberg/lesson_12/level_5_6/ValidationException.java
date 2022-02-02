@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_12.level_5_6;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class ValidationException extends Exception{
     String ruleName;
     String description;

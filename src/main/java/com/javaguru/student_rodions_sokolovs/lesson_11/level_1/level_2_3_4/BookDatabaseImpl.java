@@ -1,7 +1,9 @@
 package com.javaguru.student_rodions_sokolovs.lesson_11.level_1.level_2_3_4;
 
-import java.util.*;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 public class BookDatabaseImpl implements BookDatabase {
 
     private Map<Long, Book> repository;

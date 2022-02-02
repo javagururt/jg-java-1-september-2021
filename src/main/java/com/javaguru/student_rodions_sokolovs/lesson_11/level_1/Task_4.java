@@ -1,8 +1,10 @@
 package com.javaguru.student_rodions_sokolovs.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 public class Task_4 {
     public static void main(String[] args) {
         List<Integer> l1 = new ArrayList<>();

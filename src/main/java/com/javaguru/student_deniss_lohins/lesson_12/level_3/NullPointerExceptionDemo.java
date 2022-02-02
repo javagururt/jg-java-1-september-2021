@@ -1,7 +1,9 @@
 package com.javaguru.student_deniss_lohins.lesson_12.level_3;
 
-import java.util.Locale;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Locale;
+@CodeReview(approved = true)
 class NullPointerExceptionDemo {
     public static void main(String[] args) {
         String s = null;

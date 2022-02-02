@@ -1,5 +1,7 @@
 package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10_12;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Написать программу, которая определяет, является ли строка палиндромом.
 //метод возвращает true, если строка является палиндромом,
 //        в противном случае возвращается false.
@@ -7,7 +9,7 @@ package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10_12;
 //        Ограничения:
 //        - Логику проверки необходимо реализовать при помощи массивов;
 //        - Регистр букв (верхний/нижний) при проверке необходимо игнорировать (LeVEl = level);
-
+@CodeReview(approved = true)
 public class Palindrome {
     public boolean isPalindrome(String text){
         String textString = text.replaceAll("\\s+", " ").toLowerCase();

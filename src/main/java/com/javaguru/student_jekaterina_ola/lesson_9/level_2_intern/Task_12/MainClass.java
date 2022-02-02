@@ -1,7 +1,9 @@
 package com.javaguru.student_jekaterina_ola.lesson_9.level_2_intern.Task_12;
 
-//класс наследования. родительский класс ничего не знает о своих детях
+import com.javaguru.teacher.codereview.CodeReview;
 
+//класс наследования. родительский класс ничего не знает о своих детях
+@CodeReview(approved = true)
 class A {
     public A() { System.out.println("Class A Constructor"); }
 }

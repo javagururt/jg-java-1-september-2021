@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_7.Level_1;
 
-import java.util.Arrays;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 public class WordServiceDemo {
     public static void main(String[] args) {
         WordService demo = new WordService();

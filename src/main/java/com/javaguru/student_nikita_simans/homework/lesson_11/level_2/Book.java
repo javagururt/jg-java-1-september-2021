@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_11.level_2;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Book {
     private Long id;
     private String title;

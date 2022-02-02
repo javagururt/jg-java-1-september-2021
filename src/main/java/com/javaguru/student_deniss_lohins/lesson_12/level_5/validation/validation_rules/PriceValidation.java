@@ -2,6 +2,7 @@ package com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.validati
 
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.Product;
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.ValidationException;
+import com.javaguru.teacher.codereview.CodeReview;
 
 /*
 К цене продукта выдвигаются следующие требования:
@@ -9,6 +10,7 @@ import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.Validatio
 - должна содержать только цифры
 - не может быть 0
  */
+@CodeReview(approved = true)
 class PriceValidation implements ValidationForProduct {
 
 

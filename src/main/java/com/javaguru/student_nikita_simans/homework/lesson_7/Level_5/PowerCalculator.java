@@ -1,5 +1,8 @@
 package com.javaguru.student_nikita_simans.homework.lesson_7.Level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PowerCalculator {
     public double power(int number, int power) {
         double result = 1.00;

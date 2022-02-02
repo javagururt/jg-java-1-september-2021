@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class BookListContainsDemo {
 
 

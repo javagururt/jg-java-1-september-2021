@@ -1,8 +1,10 @@
 package com.javaguru.student_nikita_simans.homework.lesson_14.lesson_1_and_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class FruitStorage {
 
     public List<Apple> getAllApples() {

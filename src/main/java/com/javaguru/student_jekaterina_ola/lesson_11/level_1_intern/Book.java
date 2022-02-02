@@ -1,7 +1,9 @@
 package com.javaguru.student_jekaterina_ola.lesson_11.level_1_intern;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 public class Book {
     private String author;
     private String title;

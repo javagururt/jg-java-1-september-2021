@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_15.level_3_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class TennisGame1 implements TennisGame {
     private int m_score1 = 0;
     private int m_score2 = 0;

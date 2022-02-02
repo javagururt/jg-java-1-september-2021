@@ -1,7 +1,9 @@
 package com.javaguru.student_jekaterina_ola.lesson_10.level_5_middle;
 
-import java.util.Optional;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Optional;
+@CodeReview(approved = true)
 public interface BookReader {
     boolean addBook (Book book);
     boolean deleteBook (Book book);

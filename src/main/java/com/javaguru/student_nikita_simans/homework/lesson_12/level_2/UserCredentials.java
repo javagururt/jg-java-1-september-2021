@@ -1,7 +1,9 @@
 package com.javaguru.student_nikita_simans.homework.lesson_12.level_2;
 
-import java.util.List;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class UserCredentials {
     private List<Role> roles;
 

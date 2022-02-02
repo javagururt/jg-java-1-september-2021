@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_12.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class NullPointerExceptionDemo {
     public static void main(String[] args) {
         int[] array = null;

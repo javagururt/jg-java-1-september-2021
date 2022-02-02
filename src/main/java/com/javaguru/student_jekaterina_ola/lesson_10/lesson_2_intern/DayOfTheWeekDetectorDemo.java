@@ -5,8 +5,10 @@ package com.javaguru.student_jekaterina_ola.lesson_10.lesson_2_intern;
 //        - с помощью одной из имплементаций интерфейса DayOfTheWeekDetector найти название дня недели;
 //        - вывести на консоль найденное название.
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorDemo {
     public static void main (String[] args) {
         run();}

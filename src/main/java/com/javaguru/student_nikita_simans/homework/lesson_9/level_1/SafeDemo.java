@@ -1,5 +1,8 @@
 package com.javaguru.student_nikita_simans.homework.lesson_9.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class SafeDemo {
     public static void main(String[] args) {
         Safe safe = new Safe("admin123", 2310);

@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.*;
 import java.util.stream.Collectors;
-
+@CodeReview(approved = true)
 class TransactionAnalysisService {
 
     public List<Transaction> findByYTear(List<Transaction> transactionList, int year) {

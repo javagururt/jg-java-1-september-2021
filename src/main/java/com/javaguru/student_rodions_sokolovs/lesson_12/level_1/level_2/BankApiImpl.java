@@ -1,8 +1,10 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 public class BankApiImpl implements BankApi {
     private List<BankClient> clients;
 

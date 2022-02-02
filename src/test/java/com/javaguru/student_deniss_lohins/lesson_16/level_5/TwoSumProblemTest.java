@@ -1,5 +1,6 @@
 package com.javaguru.student_deniss_lohins.lesson_16.level_5;
 
+import com.javaguru.student_ruslan_pankratov.lesson_15.level_6.level_5.TwoSumProblem;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

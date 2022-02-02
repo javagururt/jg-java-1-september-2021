@@ -1,4 +1,7 @@
 package com.javaguru.student_rodions_sokolovs.lesson_8.level_3;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
 /*
  Напишите ответы на вопросы тут.
 
@@ -8,5 +11,6 @@ package com.javaguru.student_rodions_sokolovs.lesson_8.level_3;
  Можно ли создать экземпляр абстрактного класса в момент выполнения программы?
  нет
 */
+@CodeReview(approved = true)
 public class AbstractClass {
 }

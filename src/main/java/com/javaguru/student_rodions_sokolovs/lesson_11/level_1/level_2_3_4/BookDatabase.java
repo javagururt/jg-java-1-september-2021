@@ -1,9 +1,11 @@
 package com.javaguru.student_rodions_sokolovs.lesson_11.level_1.level_2_3_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
-
+@CodeReview(approved = true)
 public interface BookDatabase {
     Long save(Book book);
 

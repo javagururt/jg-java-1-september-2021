@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_15.level_2;
 
-import java.util.List;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class QuadraticEq {
     public String calc(double a, double b, double c) {
         double discriminant = b * b - 4 * a * c;

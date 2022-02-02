@@ -1,5 +1,8 @@
 package com.javaguru.student_jekaterina_ola.lesson_7.level_5_middle.Task_8;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PowerCalculatorTest {
     public static void main (String[] args){
         PowerCalculatorTest test = new PowerCalculatorTest();

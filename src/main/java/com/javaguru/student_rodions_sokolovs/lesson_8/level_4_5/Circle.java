@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_8.level_4_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Circle extends Shape {
 
     private double radius;

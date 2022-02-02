@@ -1,7 +1,9 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1.level_2;
 
-import java.util.List;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 public class UserCredentials {
 
     public List<Role> getRoles() {

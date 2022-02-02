@@ -2,10 +2,12 @@ package com.javaguru.student_jekaterina_ola.lesson_10.lesson_1_intern.Task_2;
 
 // с override не получилось, сделала через импорт
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Random;
-
+@CodeReview(approved = true)
 public class ArrayUtilImpl implements ArrayUtil {
     public int[] createArray(int arrayLength) {
         return new int[arrayLength];
