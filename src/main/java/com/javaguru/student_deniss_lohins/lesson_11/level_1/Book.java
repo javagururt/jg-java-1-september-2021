@@ -1,7 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Book {
     private String title;
     private String author;

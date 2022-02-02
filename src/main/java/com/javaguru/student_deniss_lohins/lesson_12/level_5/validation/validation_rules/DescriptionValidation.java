@@ -3,6 +3,7 @@ package com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.validati
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.Product;
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.ValidationException;
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.ValidationService;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.Locale;
 - не должно быть длиннее 2000 символов
 - должно содержать только английские буквы и цифры, другие символы не допустимы
  */
+@CodeReview(approved = true)
 class DescriptionValidation implements ValidationForProduct{
     private int maxLength = 2000;
     private Integer[] acceptableCharsASCII = {48, 49, 50, 51, 52, 53, 54, 55, 56, 57,

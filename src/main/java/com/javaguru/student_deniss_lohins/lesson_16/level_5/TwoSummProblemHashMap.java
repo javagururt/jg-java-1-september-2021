@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_16.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.HashMap;
 import java.util.Map;
-
+@CodeReview(approved = true)
 class TwoSummProblemHashMap {
 
     public String findSumOfTwo(int[] array, int number){

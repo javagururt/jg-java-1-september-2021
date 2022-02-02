@@ -1,9 +1,11 @@
 package com.javaguru.student_jekaterina_ola.lesson_11.level_2_intern;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 class BookDatabaseImpl implements BookDatabase {
     List<Book> books = new ArrayList<>();
 

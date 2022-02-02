@@ -1,4 +1,8 @@
 package com.javaguru.student_deniss_lohins.lesson_15.level_3_4;
+
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class TennisGame3 implements TennisGame {
 //36 lines of code at begining
     private int player2Points;

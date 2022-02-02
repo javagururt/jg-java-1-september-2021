@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_9.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class SafeV2 {
     public int password;
     public int money;

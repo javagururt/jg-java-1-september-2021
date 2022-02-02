@@ -1,5 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_16.level_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "array/number можно удалить")
 class TwoSumProblem {
 
     private int[] array;

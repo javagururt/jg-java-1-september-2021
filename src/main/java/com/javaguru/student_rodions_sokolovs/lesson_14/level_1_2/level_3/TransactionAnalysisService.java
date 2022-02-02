@@ -1,9 +1,11 @@
 package com.javaguru.student_rodions_sokolovs.lesson_14.level_1_2.level_3;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
-
+@CodeReview(approved = true)
 public class TransactionAnalysisService {
     public List<Transaction> findYears(List<Transaction> transactionList, int year) {
         List<Transaction> results = transactionList.stream()

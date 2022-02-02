@@ -1,5 +1,8 @@
 package com.javaguru.student_deniss_lohins.lesson_12.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
  enum Role {
 
      CAN_SEARCH_CLIENTS  // эта роль должна быть у клиента, для того

@@ -1,8 +1,10 @@
 package com.javaguru.student_nikita_simans.homework.lesson_11.level_2;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 public interface BookDatabase {
     Long save(Book book);
 

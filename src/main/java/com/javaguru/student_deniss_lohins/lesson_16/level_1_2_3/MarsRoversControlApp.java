@@ -1,7 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_16.level_1_2_3;
 
-import java.util.ArrayList;
+import com.javaguru.teacher.codereview.CodeReview;
+import com.javaguru.teacher.codereview.CodeReviewComment;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 class MarsRoversControlApp {
     private int xPletauSize;
     private int yPletauSize;
@@ -13,6 +16,7 @@ class MarsRoversControlApp {
         this.yPletauSize = yPletauSize;
     }
 
+    @CodeReviewComment(teacher = "unused code")
     public void getAllRovers() {
         for (int i = 0; i < roverArrayList.size(); i++) {
             System.out.println(roverArrayList.get(i).getPosition());

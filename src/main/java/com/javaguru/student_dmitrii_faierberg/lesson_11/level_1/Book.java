@@ -1,7 +1,9 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_11.level_1;
 
-import java.util.Objects;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Book {
     private String title;
     private String author;

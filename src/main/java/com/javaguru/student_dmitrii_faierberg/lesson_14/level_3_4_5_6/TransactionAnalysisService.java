@@ -1,10 +1,12 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_14.level_3_4_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
+@CodeReview(approved = true)
 class TransactionAnalysisService {
     public List<Transaction> findTransactionsByYear(List<Transaction> transactions, int year){
         return transactions.stream().filter(t -> t.getYear() == year).collect(Collectors.toList());

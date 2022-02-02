@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class StackOverflowError {
     static int i = 0;
 

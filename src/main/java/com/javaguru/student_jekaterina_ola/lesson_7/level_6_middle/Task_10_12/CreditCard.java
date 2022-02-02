@@ -1,12 +1,14 @@
 package com.javaguru.student_jekaterina_ola.lesson_7.level_6_middle.Task_10_12;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Свойства
 //        -Номер карты
 //        -Пин-код карты
 //        -Баланс
 //        -Кредитный лимит
 //        -Задолженность по кредиту
-
+@CodeReview(approved = true)
 public class CreditCard {
     String cardNumber;
     private int pinCode;

@@ -1,10 +1,12 @@
 package com.javaguru.student_nikita_simans.homework.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-
+@CodeReview(approved = true)
 class task_1 {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();  /*В отличие от обычного массива имеет нефиксированную длину,

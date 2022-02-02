@@ -1,8 +1,10 @@
 package com.javaguru.student_nikita_simans.homework.lesson_11.level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class BookListContainsDemo {
     public static void main(String[] args) {
         List<Book> books = new ArrayList<>();

@@ -1,5 +1,8 @@
 package com.javaguru.student_dmitrii_faierberg.lesson_14.level_3_4_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Transaction {
     private Trader trader;
     private int year;

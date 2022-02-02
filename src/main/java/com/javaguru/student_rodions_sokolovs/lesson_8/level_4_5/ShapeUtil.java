@@ -1,7 +1,9 @@
 package com.javaguru.student_rodions_sokolovs.lesson_8.level_4_5;
 
-import java.util.Random;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class ShapeUtil {
     public Circle createRandomCircle() {
         double random = Math.random() * 100;

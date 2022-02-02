@@ -1,9 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_12.level_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
-
+@CodeReview(approved = true)
 class OutOfMemoryError {
     public static void main(String[] args) {
         List<Book> victim = new ArrayList<>();

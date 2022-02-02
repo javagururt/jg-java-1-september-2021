@@ -1,5 +1,8 @@
 package com.javaguru.student_nikita_simans.homework.lesson_7.Level_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class WordService {
 
     public String findMostFrequentWord(String sample) {

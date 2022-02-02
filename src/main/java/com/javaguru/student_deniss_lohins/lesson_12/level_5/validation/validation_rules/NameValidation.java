@@ -2,6 +2,7 @@ package com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.validati
 
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.Product;
 import com.javaguru.student_deniss_lohins.lesson_12.level_5.validation.ValidationException;
+import com.javaguru.teacher.codereview.CodeReview;
 
 import java.util.*;
 
@@ -12,6 +13,7 @@ import java.util.*;
 - не должно быть длиннее 100 символов
 - должно содержать только английские буквы и цифры, другие символы не допустимы
  */
+@CodeReview(approved = true)
 class NameValidation implements ValidationForProduct {
     private int minimalLength = 3;
     private int maximalLength = 100;

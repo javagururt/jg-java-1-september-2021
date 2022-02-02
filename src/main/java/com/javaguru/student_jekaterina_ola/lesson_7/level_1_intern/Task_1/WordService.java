@@ -1,8 +1,10 @@
 package com.javaguru.student_jekaterina_ola.lesson_7.level_1_intern.Task_1;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 //Hаписать метод, который найдёт слово,
 //        которое в тексте встречается больше всего раз
-
+@CodeReview(approved = true)
 public class WordService {
     public static void main(String[] args) {
         WordService wordService = new WordService();

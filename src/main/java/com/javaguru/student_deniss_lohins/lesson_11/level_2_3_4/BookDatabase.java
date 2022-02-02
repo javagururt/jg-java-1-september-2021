@@ -1,9 +1,11 @@
 package com.javaguru.student_deniss_lohins.lesson_11.level_2_3_4;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;
-
+@CodeReview(approved = true)
 public interface BookDatabase {
     Long save(Book book);
     boolean delete(Long bookId);

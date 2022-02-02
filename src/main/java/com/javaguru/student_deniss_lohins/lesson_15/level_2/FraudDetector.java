@@ -2,6 +2,7 @@ package com.javaguru.student_deniss_lohins.lesson_15.level_2;
 
 
 import com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6.Trader;
+import com.javaguru.teacher.codereview.CodeReview;
 
 /*
 Что вы скажете об этом коде?
@@ -25,6 +26,7 @@ isFraud(), compareTraderName() и compareCity()? Какие из этих мет
 Особенно это касается if else логики. Если можно то как? Предложите свой вариант.
 Напишите тесты и проведите рефакторинг.
  */
+@CodeReview(approved = true)
 class FraudDetector {
     public boolean isFraud(Trader trader) {
         if (isTraderFraud(trader)){

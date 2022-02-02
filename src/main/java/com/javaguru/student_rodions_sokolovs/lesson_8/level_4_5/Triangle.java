@@ -1,5 +1,8 @@
 package com.javaguru.student_rodions_sokolovs.lesson_8.level_4_5;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Triangle extends Shape {
 
     private double firstside;

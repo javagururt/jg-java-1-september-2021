@@ -1,5 +1,8 @@
 package com.javaguru.student_Olga_T.lesson_7.level_6.task_10;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CreditCard {
     private String cardNumber;
     private int securityCode;

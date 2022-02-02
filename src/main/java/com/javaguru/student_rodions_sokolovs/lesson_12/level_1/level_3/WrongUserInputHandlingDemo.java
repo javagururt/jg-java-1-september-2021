@@ -1,7 +1,9 @@
 package com.javaguru.student_rodions_sokolovs.lesson_12.level_1.level_3;
 
-import java.util.Scanner;
+import com.javaguru.teacher.codereview.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class WrongUserInputHandlingDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

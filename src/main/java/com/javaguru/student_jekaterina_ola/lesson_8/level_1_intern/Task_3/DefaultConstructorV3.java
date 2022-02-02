@@ -1,7 +1,9 @@
 package com.javaguru.student_jekaterina_ola.lesson_8.level_1_intern.Task_3;
 
-// создайте get() методы для каждого свойства
+import com.javaguru.teacher.codereview.CodeReview;
 
+// создайте get() методы для каждого свойства
+@CodeReview(approved = true)
 public class DefaultConstructorV3 {
     private String fullName;
     private int age;

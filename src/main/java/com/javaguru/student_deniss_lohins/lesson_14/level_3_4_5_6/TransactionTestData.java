@@ -1,8 +1,10 @@
 package com.javaguru.student_deniss_lohins.lesson_14.level_3_4_5_6;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.List;
-
+@CodeReview(approved = true)
 class TransactionTestData {
     public List<Transaction> getTransactions() {
         Trader raoul = new Trader("Raoul", "Cambridge");
