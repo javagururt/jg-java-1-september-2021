@@ -2,6 +2,8 @@ package com.javaguru.student_ruslan_pankratov.lesson_15.level_6.level_5;
 
 import com.javaguru.teacher.codereview.CodeReview;
 
+import com.javaguru.teacher.codereview.CodeReview;
+
 import java.util.HashMap;
 import java.util.Map;
 @CodeReview(approved = true)
