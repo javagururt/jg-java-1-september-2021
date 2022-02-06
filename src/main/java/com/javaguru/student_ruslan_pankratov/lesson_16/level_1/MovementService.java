@@ -3,7 +3,7 @@ package com.javaguru.student_ruslan_pankratov.lesson_16.level_1;
 import java.util.ArrayList;
 import java.util.List;
 
-import static student_ruslan_pankratov.lesson_16.level_1.Platform.breakFor;
+import static com.javaguru.student_ruslan_pankratov.lesson_16.level_1.Platform.breakFor;
 
 class MovementService {
     private List<MarsRover> rovers;

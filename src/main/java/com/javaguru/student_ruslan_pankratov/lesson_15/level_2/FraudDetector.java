@@ -1,6 +1,7 @@
 package com.javaguru.student_ruslan_pankratov.lesson_15.level_2;
 
-import student_ruslan_pankratov.lesson_14.level_3.Trader;
+
+import com.javaguru.student_ruslan_pankratov.lesson_14.level_3.Trader;
 
 class FraudDetector {
 
